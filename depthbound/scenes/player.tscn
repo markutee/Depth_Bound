@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://oslirmbl01sd"]
 
 [ext_resource type="Texture2D" uid="uid://fs00e35odrb3" path="res://assets/Cute_Fantasy/NPCs (Premade)/Miner_Mike.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://wnlbl5078kqt" path="res://scripts/player.gd" id="1_g2els"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
 atlas = ExtResource("1_4flbx")
@@ -53,19 +54,20 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_b26j0"]
-radius = 4.8485966
+radius = 7.0136986
 
 [node name="Player" type="CharacterBody2D" unique_id=1502523612]
+script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=64304299]
-position = Vector2(8.5, -9.5)
-scale = Vector2(1.140625, 0.984375)
+position = Vector2(30, -25.499998)
+scale = Vector2(1.8125002, 1.4843751)
 sprite_frames = SubResource("SpriteFrames_dw050")
 animation = &"Idle"
 autoplay = "Idle"
-frame_progress = 0.41249496
+frame_progress = 0.3271389
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1483131452]
-position = Vector2(8, -7)
+position = Vector2(29, -23)
 scale = Vector2(1.140625, 0.984375)
 shape = SubResource("CircleShape2D_b26j0")
