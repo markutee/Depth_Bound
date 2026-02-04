@@ -1,7 +1,8 @@
 extends CharacterBody2D
 
 
-const SPEED = 100.0
+const walkSPEED = 100.0
+const runSPEED = 150.0
 
 var last_direction: Vector2 = Vector2.RIGHT
 
@@ -17,8 +18,10 @@ func _physics_process(_delta: float) -> void:
 func process_movement() -> void:
 		# Get the input direction and handle the movement/deceleration.
 	var direction := Input.get_vector("left", "right", "up", "down")
+	var speed = runSPEED if Input.is_action_pressed("sprint") else walkSPEED
+	
 	if direction != Vector2.ZERO:
-		velocity = direction * SPEED
+		velocity = direction * speed
 		last_direction = direction
 	else:
 		velocity = Vector2.ZERO

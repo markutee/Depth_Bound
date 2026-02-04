@@ -298,9 +298,7 @@ script = ExtResource("1_g2els")
 position = Vector2(30, -25.499998)
 scale = Vector2(1.8125002, 1.4843751)
 sprite_frames = SubResource("SpriteFrames_dw050")
-animation = &"run_right"
-frame = 5
-frame_progress = 0.12364844
+animation = &"idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1483131452]
 position = Vector2(29, -23)
