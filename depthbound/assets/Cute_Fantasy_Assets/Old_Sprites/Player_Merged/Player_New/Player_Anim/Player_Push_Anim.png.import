@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4673odwax3mo"
-path="res://.godot/imported/Player_Push_Anim.png-b8f45460b663a3eea328832779ec585b.ctex"
+path="res://.godot/imported/Player_Push_Anim.png-7a31250e1f6a718605a4de02f12a3d13.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Push_Anim.png"
-dest_files=["res://.godot/imported/Player_Push_Anim.png-b8f45460b663a3eea328832779ec585b.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Push_Anim.png"
+dest_files=["res://.godot/imported/Player_Push_Anim.png-7a31250e1f6a718605a4de02f12a3d13.ctex"]
 
 [params]
 

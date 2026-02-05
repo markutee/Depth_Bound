@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vr72pxp8c443"
-path="res://.godot/imported/Rock_10_Water_Anim.png-f293f0fcadecac0df4996294ab6a3d2d.ctex"
+path="res://.godot/imported/Rock_10_Water_Anim.png-3f9bbdc2a9fda2be3258c7b1627fb27b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Water_Rocks/Rock_10_Water_Anim.png"
-dest_files=["res://.godot/imported/Rock_10_Water_Anim.png-f293f0fcadecac0df4996294ab6a3d2d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Water_Rocks/Rock_10_Water_Anim.png"
+dest_files=["res://.godot/imported/Rock_10_Water_Anim.png-3f9bbdc2a9fda2be3258c7b1627fb27b.ctex"]
 
 [params]
 

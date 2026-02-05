@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jhj53cfxykwe"
-path="res://.godot/imported/Split_Log_Benches.png-346edbdb466bb82e2834b86f97030e4d.ctex"
+path="res://.godot/imported/Split_Log_Benches.png-03ff1e5ca120e788d12b9e5f9f3400fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Split_Log_Benches.png"
-dest_files=["res://.godot/imported/Split_Log_Benches.png-346edbdb466bb82e2834b86f97030e4d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Split_Log_Benches.png"
+dest_files=["res://.godot/imported/Split_Log_Benches.png-03ff1e5ca120e788d12b9e5f9f3400fb.ctex"]
 
 [params]
 

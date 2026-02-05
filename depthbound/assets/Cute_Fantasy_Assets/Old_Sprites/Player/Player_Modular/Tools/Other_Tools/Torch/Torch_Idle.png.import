@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3nsprasndiyp"
-path="res://.godot/imported/Torch_Idle.png-d1db4297dd50be3ed44afea23ca0280e.ctex"
+path="res://.godot/imported/Torch_Idle.png-361e8ab498abfc14a565d93d5a4a5697.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Tools/Other_Tools/Torch/Torch_Idle.png"
-dest_files=["res://.godot/imported/Torch_Idle.png-d1db4297dd50be3ed44afea23ca0280e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Tools/Other_Tools/Torch/Torch_Idle.png"
+dest_files=["res://.godot/imported/Torch_Idle.png-361e8ab498abfc14a565d93d5a4a5697.ctex"]
 
 [params]
 

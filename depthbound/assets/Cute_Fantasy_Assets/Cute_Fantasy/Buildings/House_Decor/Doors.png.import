@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0hskqg1l475s"
-path="res://.godot/imported/Doors.png-bf6fd9c6628ff30bedadc60250c4a232.ctex"
+path="res://.godot/imported/Doors.png-4d775788ac4cac64205e6c004948f0a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Doors.png"
-dest_files=["res://.godot/imported/Doors.png-bf6fd9c6628ff30bedadc60250c4a232.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Doors.png"
+dest_files=["res://.godot/imported/Doors.png-4d775788ac4cac64205e6c004948f0a2.ctex"]
 
 [params]
 

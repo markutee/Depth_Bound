@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsjiroi1mxmsf"
-path="res://.godot/imported/Snowman_2_Anim.png-aefefae5a0f80fa4d3a7ba3ce194a039.ctex"
+path="res://.godot/imported/Snowman_2_Anim.png-0555f5fd368f7a151dac9d001969adf7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Christmass/Decorations/Snowman_2_Anim.png"
-dest_files=["res://.godot/imported/Snowman_2_Anim.png-aefefae5a0f80fa4d3a7ba3ce194a039.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Christmass/Decorations/Snowman_2_Anim.png"
+dest_files=["res://.godot/imported/Snowman_2_Anim.png-0555f5fd368f7a151dac9d001969adf7.ctex"]
 
 [params]
 

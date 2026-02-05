@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://i64peiug7qkp"
-path="res://.godot/imported/Shirt_Green_WateringCan.png-b78128741775ddaea6fbc49cc6f1f872.ctex"
+path="res://.godot/imported/Shirt_Green_WateringCan.png-20377d9b085c272d2b1a8484549e1f40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_WateringCan.png"
-dest_files=["res://.godot/imported/Shirt_Green_WateringCan.png-b78128741775ddaea6fbc49cc6f1f872.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_WateringCan.png"
+dest_files=["res://.godot/imported/Shirt_Green_WateringCan.png-20377d9b085c272d2b1a8484549e1f40.ctex"]
 
 [params]
 

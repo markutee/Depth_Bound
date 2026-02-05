@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br1ss84xdl5qt"
-path="res://.godot/imported/Slime_Medium_Green.png-d8691121a92bd25b3b499e397626e383.ctex"
+path="res://.godot/imported/Slime_Medium_Green.png-eefe89330d46c15061a959ec19699c68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Enemies/Slime/Slime_Medium/Slime_Medium_Green.png"
-dest_files=["res://.godot/imported/Slime_Medium_Green.png-d8691121a92bd25b3b499e397626e383.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Enemies/Slime/Slime_Medium/Slime_Medium_Green.png"
+dest_files=["res://.godot/imported/Slime_Medium_Green.png-eefe89330d46c15061a959ec19699c68.ctex"]
 
 [params]
 

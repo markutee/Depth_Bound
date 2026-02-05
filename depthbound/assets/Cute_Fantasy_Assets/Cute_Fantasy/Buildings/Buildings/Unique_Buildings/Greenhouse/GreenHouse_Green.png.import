@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://by4l8t2s37u84"
-path="res://.godot/imported/GreenHouse_Green.png-b26d9b5a8e2d0612a54bef7b6705a133.ctex"
+path="res://.godot/imported/GreenHouse_Green.png-d741a7cb2f683516ffac00426f0ad3b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Greenhouse/GreenHouse_Green.png"
-dest_files=["res://.godot/imported/GreenHouse_Green.png-b26d9b5a8e2d0612a54bef7b6705a133.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Greenhouse/GreenHouse_Green.png"
+dest_files=["res://.godot/imported/GreenHouse_Green.png-d741a7cb2f683516ffac00426f0ad3b5.ctex"]
 
 [params]
 

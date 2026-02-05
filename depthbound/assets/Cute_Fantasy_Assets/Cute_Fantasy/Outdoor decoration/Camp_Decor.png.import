@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpwv6t7x5hau5"
-path="res://.godot/imported/Camp_Decor.png-29b2da6f9d874d7a767b545f581af349.ctex"
+path="res://.godot/imported/Camp_Decor.png-0f23caf978f220d0ac7cf5ea40096310.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Camp_Decor.png"
-dest_files=["res://.godot/imported/Camp_Decor.png-29b2da6f9d874d7a767b545f581af349.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Camp_Decor.png"
+dest_files=["res://.godot/imported/Camp_Decor.png-0f23caf978f220d0ac7cf5ea40096310.ctex"]
 
 [params]
 

@@ -1,11 +1,22 @@
 [gd_scene format=3 uid="uid://c11brqy7honkf"]
 
 [ext_resource type="PackedScene" uid="uid://oslirmbl01sd" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://jc1reoinmmki" path="res://scenes/rock.tscn" id="2_yqjtg"]
 
 [node name="Game" type="Node2D" unique_id=1064699759]
 
+[node name="Rock" parent="." unique_id=1219277682 instance=ExtResource("2_yqjtg")]
+position = Vector2(31, -10)
+
+[node name="Rock2" parent="." unique_id=365748370 instance=ExtResource("2_yqjtg")]
+position = Vector2(31, 11)
+
+[node name="Rock3" parent="." unique_id=1239899151 instance=ExtResource("2_yqjtg")]
+position = Vector2(31, -28)
+
 [node name="Player" parent="." unique_id=1502523612 instance=ExtResource("1_uwrxv")]
-position = Vector2(-32, -4)
+z_index = 5
+position = Vector2(-44, 1)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1543537689]
 position = Vector2(29, -22)

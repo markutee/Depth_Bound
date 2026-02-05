@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bib83ejxcfcnc"
-path="res://.godot/imported/Flowers_2_Anim.png-56af229fe2a9d2af6df0e7bc17aaeed0.ctex"
+path="res://.godot/imported/Flowers_2_Anim.png-f6622e3895135e34dbb997612a0daeb0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Flower_Animations/Not_Potted/Flowers_2_Anim.png"
-dest_files=["res://.godot/imported/Flowers_2_Anim.png-56af229fe2a9d2af6df0e7bc17aaeed0.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Flower_Animations/Not_Potted/Flowers_2_Anim.png"
+dest_files=["res://.godot/imported/Flowers_2_Anim.png-f6622e3895135e34dbb997612a0daeb0.ctex"]
 
 [params]
 

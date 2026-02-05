@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8s8l4gnqwqmc"
-path="res://.godot/imported/Desert_Obelisk_1.png-f0f7926116b963a189540d4805b05a9e.ctex"
+path="res://.godot/imported/Desert_Obelisk_1.png-3663c843ddc039fdae6f821001f347cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Temple/Desert_Obelisk_1.png"
-dest_files=["res://.godot/imported/Desert_Obelisk_1.png-f0f7926116b963a189540d4805b05a9e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Temple/Desert_Obelisk_1.png"
+dest_files=["res://.godot/imported/Desert_Obelisk_1.png-3663c843ddc039fdae6f821001f347cf.ctex"]
 
 [params]
 

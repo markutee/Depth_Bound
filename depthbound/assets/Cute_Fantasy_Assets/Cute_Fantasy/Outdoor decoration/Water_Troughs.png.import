@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bohlndq4hhlcw"
-path="res://.godot/imported/Water_Troughs.png-5f64e5964aafa682e939f213bda4964e.ctex"
+path="res://.godot/imported/Water_Troughs.png-82626facbd97de37edff9976c6642b99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Water_Troughs.png"
-dest_files=["res://.godot/imported/Water_Troughs.png-5f64e5964aafa682e939f213bda4964e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Water_Troughs.png"
+dest_files=["res://.godot/imported/Water_Troughs.png-82626facbd97de37edff9976c6642b99.ctex"]
 
 [params]
 

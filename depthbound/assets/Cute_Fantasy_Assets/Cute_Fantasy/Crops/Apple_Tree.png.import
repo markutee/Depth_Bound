@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://060ohtx22cb2"
-path="res://.godot/imported/Apple_Tree.png-70603fe8d7988f9f4ed58e58c03e58a9.ctex"
+path="res://.godot/imported/Apple_Tree.png-a9a3943d4f3cf339a4d79c66261c40ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Crops/Apple_Tree.png"
-dest_files=["res://.godot/imported/Apple_Tree.png-70603fe8d7988f9f4ed58e58c03e58a9.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Crops/Apple_Tree.png"
+dest_files=["res://.godot/imported/Apple_Tree.png-a9a3943d4f3cf339a4d79c66261c40ad.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjdoocrd5mxbw"
-path="res://.godot/imported/Coop_Red_Red.png-bd0df9da0356af47aa1a5070d5f18bc2.ctex"
+path="res://.godot/imported/Coop_Red_Red.png-c5a05cf48ac7e5db4a9e67554432fb3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Coop/Coop_Red_Red.png"
-dest_files=["res://.godot/imported/Coop_Red_Red.png-bd0df9da0356af47aa1a5070d5f18bc2.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Coop/Coop_Red_Red.png"
+dest_files=["res://.godot/imported/Coop_Red_Red.png-c5a05cf48ac7e5db4a9e67554432fb3a.ctex"]
 
 [params]
 

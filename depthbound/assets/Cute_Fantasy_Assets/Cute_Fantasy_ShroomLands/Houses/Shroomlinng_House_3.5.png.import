@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqhfc01uxiaht"
-path="res://.godot/imported/Shroomlinng_House_3.5.png-feec0396fe5752f161e95f89fb1d4019.ctex"
+path="res://.godot/imported/Shroomlinng_House_3.5.png-bed8bc5137d31be465e11bcfe1fa97bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_ShroomLands/Houses/Shroomlinng_House_3.5.png"
-dest_files=["res://.godot/imported/Shroomlinng_House_3.5.png-feec0396fe5752f161e95f89fb1d4019.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Houses/Shroomlinng_House_3.5.png"
+dest_files=["res://.godot/imported/Shroomlinng_House_3.5.png-bed8bc5137d31be465e11bcfe1fa97bb.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clavktthon4qg"
-path="res://.godot/imported/House_1_Wood_Red_Red.png-3f4f6090d8467e41b24dcbe6246ae60c.ctex"
+path="res://.godot/imported/House_1_Wood_Red_Red.png-2856362767b45f7b78c5c0107e54cbac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Houses/Wood/House_1_Wood_Red_Red.png"
-dest_files=["res://.godot/imported/House_1_Wood_Red_Red.png-3f4f6090d8467e41b24dcbe6246ae60c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Houses/Wood/House_1_Wood_Red_Red.png"
+dest_files=["res://.godot/imported/House_1_Wood_Red_Red.png-2856362767b45f7b78c5c0107e54cbac.ctex"]
 
 [params]
 

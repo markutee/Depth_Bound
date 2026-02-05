@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmylec7geyvoh"
-path="res://.godot/imported/Book_UI.png-6f52196a23a0efee74e2b2bc709b3690.ctex"
+path="res://.godot/imported/Book_UI.png-c335d8f5ab1db14447d5b744915ff2ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_UI/UI/Book_UI.png"
-dest_files=["res://.godot/imported/Book_UI.png-6f52196a23a0efee74e2b2bc709b3690.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_UI/UI/Book_UI.png"
+dest_files=["res://.godot/imported/Book_UI.png-c335d8f5ab1db14447d5b744915ff2ce.ctex"]
 
 [params]
 

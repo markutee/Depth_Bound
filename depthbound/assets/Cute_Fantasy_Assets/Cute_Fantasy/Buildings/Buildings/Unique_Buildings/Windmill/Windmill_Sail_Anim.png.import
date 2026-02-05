@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://13lvgc5g6ufs"
-path="res://.godot/imported/Windmill_Sail_Anim.png-43b30ec88e2334ccf992518338dcb82d.ctex"
+path="res://.godot/imported/Windmill_Sail_Anim.png-af337408687280ec707bc84d5695b30a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Windmill/Windmill_Sail_Anim.png"
-dest_files=["res://.godot/imported/Windmill_Sail_Anim.png-43b30ec88e2334ccf992518338dcb82d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Windmill/Windmill_Sail_Anim.png"
+dest_files=["res://.godot/imported/Windmill_Sail_Anim.png-af337408687280ec707bc84d5695b30a.ctex"]
 
 [params]
 

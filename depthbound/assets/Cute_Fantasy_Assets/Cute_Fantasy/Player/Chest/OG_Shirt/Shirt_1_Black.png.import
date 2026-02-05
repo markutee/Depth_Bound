@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chtff8y6aays2"
-path="res://.godot/imported/Shirt_1_Black.png-5e0a8dcf9220318fd92d0fd8637901f7.ctex"
+path="res://.godot/imported/Shirt_1_Black.png-f8120aaf9bf7eb0e0567f445034d0743.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Chest/OG_Shirt/Shirt_1_Black.png"
-dest_files=["res://.godot/imported/Shirt_1_Black.png-5e0a8dcf9220318fd92d0fd8637901f7.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Chest/OG_Shirt/Shirt_1_Black.png"
+dest_files=["res://.godot/imported/Shirt_1_Black.png-f8120aaf9bf7eb0e0567f445034d0743.ctex"]
 
 [params]
 

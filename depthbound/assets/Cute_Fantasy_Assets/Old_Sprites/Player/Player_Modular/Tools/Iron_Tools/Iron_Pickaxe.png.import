@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2mdyb5xvcbls"
-path="res://.godot/imported/Iron_Pickaxe.png-44689778469587f06a056218ea573e7a.ctex"
+path="res://.godot/imported/Iron_Pickaxe.png-87a5037c6fbdfb60397356eb7e894ba6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Tools/Iron_Tools/Iron_Pickaxe.png"
-dest_files=["res://.godot/imported/Iron_Pickaxe.png-44689778469587f06a056218ea573e7a.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Tools/Iron_Tools/Iron_Pickaxe.png"
+dest_files=["res://.godot/imported/Iron_Pickaxe.png-87a5037c6fbdfb60397356eb7e894ba6.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl1r3m71gac5y"
-path="res://.godot/imported/Palisade_Gate_Anim.png-3b8920c8684584fbb68b02d1ae21ee73.ctex"
+path="res://.godot/imported/Palisade_Gate_Anim.png-536a835fe0db34e7f49e689ce6cfa6af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Palisade_Gate_Anim.png"
-dest_files=["res://.godot/imported/Palisade_Gate_Anim.png-3b8920c8684584fbb68b02d1ae21ee73.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Palisade_Gate_Anim.png"
+dest_files=["res://.godot/imported/Palisade_Gate_Anim.png-536a835fe0db34e7f49e689ce6cfa6af.ctex"]
 
 [params]
 

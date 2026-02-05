@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4wcu83klhrft"
-path="res://.godot/imported/Player_Bow_Anim..png-be736de41f53a646feee80c5ee5bf2e1.ctex"
+path="res://.godot/imported/Player_Bow_Anim..png-47421a6956475a3a2bd0c7503d0254c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Bow_Anim..png"
-dest_files=["res://.godot/imported/Player_Bow_Anim..png-be736de41f53a646feee80c5ee5bf2e1.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Bow_Anim..png"
+dest_files=["res://.godot/imported/Player_Bow_Anim..png-47421a6956475a3a2bd0c7503d0254c2.ctex"]
 
 [params]
 

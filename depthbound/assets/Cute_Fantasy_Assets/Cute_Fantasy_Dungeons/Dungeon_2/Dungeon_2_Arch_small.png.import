@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqgb5wxcsxc6t"
-path="res://.godot/imported/Dungeon_2_Arch_small.png-3c3dd5a1ddc24c1e490b4b8b0658a99c.ctex"
+path="res://.godot/imported/Dungeon_2_Arch_small.png-e40ddee1792bbcf387e400f226716210.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_2/Dungeon_2_Arch_small.png"
-dest_files=["res://.godot/imported/Dungeon_2_Arch_small.png-3c3dd5a1ddc24c1e490b4b8b0658a99c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_2/Dungeon_2_Arch_small.png"
+dest_files=["res://.godot/imported/Dungeon_2_Arch_small.png-e40ddee1792bbcf387e400f226716210.ctex"]
 
 [params]
 

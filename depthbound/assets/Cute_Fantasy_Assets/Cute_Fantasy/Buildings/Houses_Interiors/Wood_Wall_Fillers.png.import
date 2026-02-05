@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ebmlbvrlp01s"
-path="res://.godot/imported/Wood_Wall_Fillers.png-cbf684539f1771478c833061bf931f9b.ctex"
+path="res://.godot/imported/Wood_Wall_Fillers.png-85013bb0ce9cd13c181ddf2a06df4c19.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Houses_Interiors/Wood_Wall_Fillers.png"
-dest_files=["res://.godot/imported/Wood_Wall_Fillers.png-cbf684539f1771478c833061bf931f9b.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Houses_Interiors/Wood_Wall_Fillers.png"
+dest_files=["res://.godot/imported/Wood_Wall_Fillers.png-85013bb0ce9cd13c181ddf2a06df4c19.ctex"]
 
 [params]
 

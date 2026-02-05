@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddpr808i0o8af"
-path="res://.godot/imported/Shoes_Brown_Running.png-4bebfb9295634f8102c3b656d3b77404.ctex"
+path="res://.godot/imported/Shoes_Brown_Running.png-34a1ca5bb7067ea2a58075c83db840d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Running.png"
-dest_files=["res://.godot/imported/Shoes_Brown_Running.png-4bebfb9295634f8102c3b656d3b77404.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Running.png"
+dest_files=["res://.godot/imported/Shoes_Brown_Running.png-34a1ca5bb7067ea2a58075c83db840d9.ctex"]
 
 [params]
 

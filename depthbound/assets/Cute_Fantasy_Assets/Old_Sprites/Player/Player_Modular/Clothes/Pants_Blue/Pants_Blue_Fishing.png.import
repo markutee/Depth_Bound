@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1raimjofd3w0"
-path="res://.godot/imported/Pants_Blue_Fishing.png-cbce0e3a35baf6ae6eef075ce89c3e85.ctex"
+path="res://.godot/imported/Pants_Blue_Fishing.png-a23c862711a3476493f1bbe39ce8b70d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Fishing.png"
-dest_files=["res://.godot/imported/Pants_Blue_Fishing.png-cbce0e3a35baf6ae6eef075ce89c3e85.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Fishing.png"
+dest_files=["res://.godot/imported/Pants_Blue_Fishing.png-a23c862711a3476493f1bbe39ce8b70d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hpqbgfcpk3el"
-path="res://.godot/imported/Pants_1_Red.png-d7ee70bc95e2fb2f5ef4a1e6b8e4c834.ctex"
+path="res://.godot/imported/Pants_1_Red.png-5d1081c3a0ac9fefd3a6877a38ff76fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Legs/OG_Pants/Pants_1_Red.png"
-dest_files=["res://.godot/imported/Pants_1_Red.png-d7ee70bc95e2fb2f5ef4a1e6b8e4c834.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Legs/OG_Pants/Pants_1_Red.png"
+dest_files=["res://.godot/imported/Pants_1_Red.png-5d1081c3a0ac9fefd3a6877a38ff76fa.ctex"]
 
 [params]
 

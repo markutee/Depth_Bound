@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wlwav2bcxe7v"
-path="res://.godot/imported/Ores.png-6e0f2b8ae24fa4f2d740c3d72deca010.ctex"
+path="res://.godot/imported/Ores.png-8b59604f7e67acc6b4b3120def1b6f4a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Ores.png"
-dest_files=["res://.godot/imported/Ores.png-6e0f2b8ae24fa4f2d740c3d72deca010.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Ores.png"
+dest_files=["res://.godot/imported/Ores.png-8b59604f7e67acc6b4b3120def1b6f4a.ctex"]
 
 [params]
 

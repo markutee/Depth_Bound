@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1qdbsf37u8vw"
-path="res://.godot/imported/Dead_tree.png-df108b1f4e0acfe460fcb4a4cb0acd11.ctex"
+path="res://.godot/imported/Dead_tree.png-a3ee67b9e7cad36b96578892a71a3944.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Dead_tree.png"
-dest_files=["res://.godot/imported/Dead_tree.png-df108b1f4e0acfe460fcb4a4cb0acd11.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Dead_tree.png"
+dest_files=["res://.godot/imported/Dead_tree.png-a3ee67b9e7cad36b96578892a71a3944.ctex"]
 
 [params]
 

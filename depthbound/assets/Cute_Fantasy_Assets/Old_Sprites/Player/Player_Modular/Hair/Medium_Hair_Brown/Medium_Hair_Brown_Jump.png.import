@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drg0rxdvtxdry"
-path="res://.godot/imported/Medium_Hair_Brown_Jump.png-7d8e89ad9ff0b9f8ccd92571d4bd3966.ctex"
+path="res://.godot/imported/Medium_Hair_Brown_Jump.png-8eb39f992f1ed7620cc0fd14fd057946.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Jump.png"
-dest_files=["res://.godot/imported/Medium_Hair_Brown_Jump.png-7d8e89ad9ff0b9f8ccd92571d4bd3966.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Jump.png"
+dest_files=["res://.godot/imported/Medium_Hair_Brown_Jump.png-8eb39f992f1ed7620cc0fd14fd057946.ctex"]
 
 [params]
 

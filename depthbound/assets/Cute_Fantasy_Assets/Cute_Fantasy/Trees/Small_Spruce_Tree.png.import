@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dueoqmaivmt26"
-path="res://.godot/imported/Small_Spruce_Tree.png-f8a3a0a748a8e36820ca16f79024aef1.ctex"
+path="res://.godot/imported/Small_Spruce_Tree.png-84eeda5f074d7ac6b2f12dd776e73fa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Trees/Small_Spruce_Tree.png"
-dest_files=["res://.godot/imported/Small_Spruce_Tree.png-f8a3a0a748a8e36820ca16f79024aef1.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Trees/Small_Spruce_Tree.png"
+dest_files=["res://.godot/imported/Small_Spruce_Tree.png-84eeda5f074d7ac6b2f12dd776e73fa5.ctex"]
 
 [params]
 

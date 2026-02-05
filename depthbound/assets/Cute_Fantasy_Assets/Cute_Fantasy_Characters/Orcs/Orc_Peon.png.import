@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4uf6cvwifbvm"
-path="res://.godot/imported/Orc_Peon.png-d2b82019bcf6ecdf0baa3f24eb0cb528.ctex"
+path="res://.godot/imported/Orc_Peon.png-39f609a1671ee04fdedb752cc4a5da7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Characters/Orcs/Orc_Peon.png"
-dest_files=["res://.godot/imported/Orc_Peon.png-d2b82019bcf6ecdf0baa3f24eb0cb528.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Characters/Orcs/Orc_Peon.png"
+dest_files=["res://.godot/imported/Orc_Peon.png-39f609a1671ee04fdedb752cc4a5da7a.ctex"]
 
 [params]
 

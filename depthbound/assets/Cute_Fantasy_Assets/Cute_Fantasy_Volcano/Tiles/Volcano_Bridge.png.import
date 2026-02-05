@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv8jouvge4ejm"
-path="res://.godot/imported/Volcano_Bridge.png-750c8b6084324f493ba3c3b555926c0e.ctex"
+path="res://.godot/imported/Volcano_Bridge.png-92d0ffede4e0894a6c6a20a5b9bc837e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Volcano/Tiles/Volcano_Bridge.png"
-dest_files=["res://.godot/imported/Volcano_Bridge.png-750c8b6084324f493ba3c3b555926c0e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Tiles/Volcano_Bridge.png"
+dest_files=["res://.godot/imported/Volcano_Bridge.png-92d0ffede4e0894a6c6a20a5b9bc837e.ctex"]
 
 [params]
 

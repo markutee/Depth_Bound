@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdqpfniufe5dc"
-path="res://.godot/imported/Horse_02.png-6ae1ee0741a3a539eee26ce14e81e9e7.ctex"
+path="res://.godot/imported/Horse_02.png-d08f1de0cf6cf82ee45be571e0aa0df7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Animals/Horse/Horse_02.png"
-dest_files=["res://.godot/imported/Horse_02.png-6ae1ee0741a3a539eee26ce14e81e9e7.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Animals/Horse/Horse_02.png"
+dest_files=["res://.godot/imported/Horse_02.png-d08f1de0cf6cf82ee45be571e0aa0df7.ctex"]
 
 [params]
 

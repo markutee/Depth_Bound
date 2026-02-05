@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dduu304i523cl"
-path="res://.godot/imported/Scarecrow_1_Anim.png-748c2e125af07ec5af63446eb484fd01.ctex"
+path="res://.godot/imported/Scarecrow_1_Anim.png-acccad0248387d90a484df2b1ef55b16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Halloween/Decorations/Scarecrow_1_Anim.png"
-dest_files=["res://.godot/imported/Scarecrow_1_Anim.png-748c2e125af07ec5af63446eb484fd01.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Halloween/Decorations/Scarecrow_1_Anim.png"
+dest_files=["res://.godot/imported/Scarecrow_1_Anim.png-acccad0248387d90a484df2b1ef55b16.ctex"]
 
 [params]
 

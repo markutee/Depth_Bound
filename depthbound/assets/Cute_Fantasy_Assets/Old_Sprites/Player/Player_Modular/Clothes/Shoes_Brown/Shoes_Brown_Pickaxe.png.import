@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fgjp0e4e7c0r"
-path="res://.godot/imported/Shoes_Brown_Pickaxe.png-c7e1ddc813c7acc726901f5d92ab34db.ctex"
+path="res://.godot/imported/Shoes_Brown_Pickaxe.png-22485ccd4c3a862d54bc856e35d4bb90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Pickaxe.png"
-dest_files=["res://.godot/imported/Shoes_Brown_Pickaxe.png-c7e1ddc813c7acc726901f5d92ab34db.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Pickaxe.png"
+dest_files=["res://.godot/imported/Shoes_Brown_Pickaxe.png-22485ccd4c3a862d54bc856e35d4bb90.ctex"]
 
 [params]
 

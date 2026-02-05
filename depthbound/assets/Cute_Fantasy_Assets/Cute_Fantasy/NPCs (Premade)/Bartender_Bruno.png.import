@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3yfiywdcyya8"
-path="res://.godot/imported/Bartender_Bruno.png-dccb0a6b5b5cc68b9da3d1a91fa4e19d.ctex"
+path="res://.godot/imported/Bartender_Bruno.png-5c1e5a88d975b7d89c8a4de14bafbf18.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/NPCs (Premade)/Bartender_Bruno.png"
-dest_files=["res://.godot/imported/Bartender_Bruno.png-dccb0a6b5b5cc68b9da3d1a91fa4e19d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/NPCs (Premade)/Bartender_Bruno.png"
+dest_files=["res://.godot/imported/Bartender_Bruno.png-5c1e5a88d975b7d89c8a4de14bafbf18.ctex"]
 
 [params]
 

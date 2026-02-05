@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bse6hodnrllkg"
-path="res://.godot/imported/Hands_Bare_Jump.png-16045bf03d0fa34de6084eb16e782408.ctex"
+path="res://.godot/imported/Hands_Bare_Jump.png-658cc2e1109d6970ed3249838b0faa9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Jump.png"
-dest_files=["res://.godot/imported/Hands_Bare_Jump.png-16045bf03d0fa34de6084eb16e782408.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Jump.png"
+dest_files=["res://.godot/imported/Hands_Bare_Jump.png-658cc2e1109d6970ed3249838b0faa9a.ctex"]
 
 [params]
 

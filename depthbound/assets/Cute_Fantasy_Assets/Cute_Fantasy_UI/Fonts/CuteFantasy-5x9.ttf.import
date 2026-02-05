@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cosyngbm5jdmq"
-path="res://.godot/imported/CuteFantasy-5x9.ttf-ba096081b749d4afd7a9f2286c3fc343.fontdata"
+path="res://.godot/imported/CuteFantasy-5x9.ttf-925bd3437275ae1a201f4de18774b4f1.fontdata"
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_UI/Fonts/CuteFantasy-5x9.ttf"
-dest_files=["res://.godot/imported/CuteFantasy-5x9.ttf-ba096081b749d4afd7a9f2286c3fc343.fontdata"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_UI/Fonts/CuteFantasy-5x9.ttf"
+dest_files=["res://.godot/imported/CuteFantasy-5x9.ttf-925bd3437275ae1a201f4de18774b4f1.fontdata"]
 
 [params]
 

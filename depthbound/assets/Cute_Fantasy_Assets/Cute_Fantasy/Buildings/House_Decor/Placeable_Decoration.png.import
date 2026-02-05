@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl2gs77le56ky"
-path="res://.godot/imported/Placeable_Decoration.png-6899493ad0da210cbe0dc93135efbaf5.ctex"
+path="res://.godot/imported/Placeable_Decoration.png-e84d0caa92317eab475efcbcb3f57d31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Placeable_Decoration.png"
-dest_files=["res://.godot/imported/Placeable_Decoration.png-6899493ad0da210cbe0dc93135efbaf5.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Placeable_Decoration.png"
+dest_files=["res://.godot/imported/Placeable_Decoration.png-e84d0caa92317eab475efcbcb3f57d31.ctex"]
 
 [params]
 

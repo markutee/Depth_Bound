@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da26yjrxotnet"
-path="res://.godot/imported/Player_Torch_Lantern_Anim.png-88f2a1f949ae57249fe5c0d7b667c185.ctex"
+path="res://.godot/imported/Player_Torch_Lantern_Anim.png-fb3ec1f1201f9865dbeec3f139e63298.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Torch_Lantern_Anim.png"
-dest_files=["res://.godot/imported/Player_Torch_Lantern_Anim.png-88f2a1f949ae57249fe5c0d7b667c185.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Torch_Lantern_Anim.png"
+dest_files=["res://.godot/imported/Player_Torch_Lantern_Anim.png-fb3ec1f1201f9865dbeec3f139e63298.ctex"]
 
 [params]
 

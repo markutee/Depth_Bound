@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r7q2sm13n0k6"
-path="res://.godot/imported/Banners_Anim.png-97c9be57110e1a82edc2e1beee357e39.ctex"
+path="res://.godot/imported/Banners_Anim.png-5e224d84c003804a38901a22bc096833.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Banners_Anim.png"
-dest_files=["res://.godot/imported/Banners_Anim.png-97c9be57110e1a82edc2e1beee357e39.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Banners_Anim.png"
+dest_files=["res://.godot/imported/Banners_Anim.png-5e224d84c003804a38901a22bc096833.ctex"]
 
 [params]
 

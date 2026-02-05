@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyq7p6cthr7e2"
-path="res://.godot/imported/Tables.png-b7e4bbb8f786e17f4726b87b06424b7d.ctex"
+path="res://.godot/imported/Tables.png-8dfb0d3b9267cd06ebbf1194739d930c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Tables.png"
-dest_files=["res://.godot/imported/Tables.png-b7e4bbb8f786e17f4726b87b06424b7d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Tables.png"
+dest_files=["res://.godot/imported/Tables.png-8dfb0d3b9267cd06ebbf1194739d930c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wxmvj4ujc5xq"
-path="res://.godot/imported/Dungeon_1_Gate_Open.png-9229f733fca2bf9d58914347793e7966.ctex"
+path="res://.godot/imported/Dungeon_1_Gate_Open.png-c4008300b92f7374113d6844590ead13.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Gate_Open.png"
-dest_files=["res://.godot/imported/Dungeon_1_Gate_Open.png-9229f733fca2bf9d58914347793e7966.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Gate_Open.png"
+dest_files=["res://.godot/imported/Dungeon_1_Gate_Open.png-c4008300b92f7374113d6844590ead13.ctex"]
 
 [params]
 

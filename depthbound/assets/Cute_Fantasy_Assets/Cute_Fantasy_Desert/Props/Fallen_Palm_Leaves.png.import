@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://55u7ualj7w2x"
-path="res://.godot/imported/Fallen_Palm_Leaves.png-43d59f281b0531d1c032cf280fcd00e2.ctex"
+path="res://.godot/imported/Fallen_Palm_Leaves.png-78ae69b0b1243f0f4583ab9ce11d5e59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Fallen_Palm_Leaves.png"
-dest_files=["res://.godot/imported/Fallen_Palm_Leaves.png-43d59f281b0531d1c032cf280fcd00e2.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Fallen_Palm_Leaves.png"
+dest_files=["res://.godot/imported/Fallen_Palm_Leaves.png-78ae69b0b1243f0f4583ab9ce11d5e59.ctex"]
 
 [params]
 

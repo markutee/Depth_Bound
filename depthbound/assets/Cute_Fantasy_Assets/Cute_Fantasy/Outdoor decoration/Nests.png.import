@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co0bf466gan82"
-path="res://.godot/imported/Nests.png-03b8d6e5180bfb0b0c0c0867e29a44b8.ctex"
+path="res://.godot/imported/Nests.png-bc93856f2e81008e616671e7212e28c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Nests.png"
-dest_files=["res://.godot/imported/Nests.png-03b8d6e5180bfb0b0c0c0867e29a44b8.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Nests.png"
+dest_files=["res://.godot/imported/Nests.png-bc93856f2e81008e616671e7212e28c5.ctex"]
 
 [params]
 

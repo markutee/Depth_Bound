@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8gurlpno77ru"
-path="res://.godot/imported/Barn_Red_Red.png-4c0690a53fa659b5bbe356667e6b35d7.ctex"
+path="res://.godot/imported/Barn_Red_Red.png-cdadb4928ac8c4f31cfa1e1e86bcded2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Barn/Barn_Red_Red.png"
-dest_files=["res://.godot/imported/Barn_Red_Red.png-4c0690a53fa659b5bbe356667e6b35d7.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Barn/Barn_Red_Red.png"
+dest_files=["res://.godot/imported/Barn_Red_Red.png-cdadb4928ac8c4f31cfa1e1e86bcded2.ctex"]
 
 [params]
 

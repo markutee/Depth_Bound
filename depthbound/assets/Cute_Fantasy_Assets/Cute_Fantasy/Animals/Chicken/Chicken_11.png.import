@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs1qcpfla3m0w"
-path="res://.godot/imported/Chicken_11.png-4f2d458e0ba4ab8d0330c9c1e6ac876d.ctex"
+path="res://.godot/imported/Chicken_11.png-90e7f7e036a63bbe353101b8898243ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Animals/Chicken/Chicken_11.png"
-dest_files=["res://.godot/imported/Chicken_11.png-4f2d458e0ba4ab8d0330c9c1e6ac876d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Animals/Chicken/Chicken_11.png"
+dest_files=["res://.godot/imported/Chicken_11.png-90e7f7e036a63bbe353101b8898243ca.ctex"]
 
 [params]
 

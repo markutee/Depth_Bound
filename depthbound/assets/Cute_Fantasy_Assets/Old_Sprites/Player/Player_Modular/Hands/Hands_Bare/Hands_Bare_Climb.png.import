@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bypdd40lvictg"
-path="res://.godot/imported/Hands_Bare_Climb.png-070d6fc2471d2c46642a82e47dec936c.ctex"
+path="res://.godot/imported/Hands_Bare_Climb.png-e89bb0fed6feb83e87fdf51a5830ac2f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Climb.png"
-dest_files=["res://.godot/imported/Hands_Bare_Climb.png-070d6fc2471d2c46642a82e47dec936c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Climb.png"
+dest_files=["res://.godot/imported/Hands_Bare_Climb.png-e89bb0fed6feb83e87fdf51a5830ac2f.ctex"]
 
 [params]
 

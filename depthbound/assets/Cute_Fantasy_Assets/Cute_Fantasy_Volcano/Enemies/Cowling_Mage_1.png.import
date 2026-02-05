@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmfa0ygcsd151"
-path="res://.godot/imported/Cowling_Mage_1.png-8d6ed28ed9769a13e75b417a78c7cdf2.ctex"
+path="res://.godot/imported/Cowling_Mage_1.png-fd0d63428137cb8840459927a22cdace.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Volcano/Enemies/Cowling_Mage_1.png"
-dest_files=["res://.godot/imported/Cowling_Mage_1.png-8d6ed28ed9769a13e75b417a78c7cdf2.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Enemies/Cowling_Mage_1.png"
+dest_files=["res://.godot/imported/Cowling_Mage_1.png-fd0d63428137cb8840459927a22cdace.ctex"]
 
 [params]
 

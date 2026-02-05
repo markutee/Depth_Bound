@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbvpfavu4njjq"
-path="res://.godot/imported/Barn_Green_Black.png-7462a50d6485d5843838752513ba05bd.ctex"
+path="res://.godot/imported/Barn_Green_Black.png-c05560f9ee367b617a5d0306ffc595e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Barn/Barn_Green_Black.png"
-dest_files=["res://.godot/imported/Barn_Green_Black.png-7462a50d6485d5843838752513ba05bd.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Barn/Barn_Green_Black.png"
+dest_files=["res://.godot/imported/Barn_Green_Black.png-c05560f9ee367b617a5d0306ffc595e2.ctex"]
 
 [params]
 

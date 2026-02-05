@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xhnliv8x6t71"
-path="res://.godot/imported/Desert_Beach_Tiles_3.png-cdae73090c7652bc526861c7bf900405.ctex"
+path="res://.godot/imported/Desert_Beach_Tiles_3.png-fd958da0b4548cca93e12339be779982.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Tiles/Desert_Beach_Tiles_3.png"
-dest_files=["res://.godot/imported/Desert_Beach_Tiles_3.png-cdae73090c7652bc526861c7bf900405.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Tiles/Desert_Beach_Tiles_3.png"
+dest_files=["res://.godot/imported/Desert_Beach_Tiles_3.png-fd958da0b4548cca93e12339be779982.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drhdqrfrultqn"
-path="res://.godot/imported/Desert_Water_Foam_Animation.png-04771fa578fbb09baf26d128d6bfe672.ctex"
+path="res://.godot/imported/Desert_Water_Foam_Animation.png-a5f4858dfb12c59bb46e1d8760b59a16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Tiles/Desert_Water_Foam_Animation.png"
-dest_files=["res://.godot/imported/Desert_Water_Foam_Animation.png-04771fa578fbb09baf26d128d6bfe672.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Tiles/Desert_Water_Foam_Animation.png"
+dest_files=["res://.godot/imported/Desert_Water_Foam_Animation.png-a5f4858dfb12c59bb46e1d8760b59a16.ctex"]
 
 [params]
 

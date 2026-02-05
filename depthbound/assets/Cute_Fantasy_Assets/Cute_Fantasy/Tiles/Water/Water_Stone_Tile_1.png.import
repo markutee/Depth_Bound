@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqdji8u50kemp"
-path="res://.godot/imported/Water_Stone_Tile_1.png-b56e090870ab591ce7bd057b5abb3c5a.ctex"
+path="res://.godot/imported/Water_Stone_Tile_1.png-ca6e49f40370fa2b765cdbd1e98ff2f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Water/Water_Stone_Tile_1.png"
-dest_files=["res://.godot/imported/Water_Stone_Tile_1.png-b56e090870ab591ce7bd057b5abb3c5a.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Water/Water_Stone_Tile_1.png"
+dest_files=["res://.godot/imported/Water_Stone_Tile_1.png-ca6e49f40370fa2b765cdbd1e98ff2f2.ctex"]
 
 [params]
 

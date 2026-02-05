@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o1elhuwm680"
-path="res://.godot/imported/Desert_Warrior_Atgier_2.png-3ebeccdfa9979c93c699e946382eee7c.ctex"
+path="res://.godot/imported/Desert_Warrior_Atgier_2.png-fa4ba7fceb7d688dc0024e56917d1bdb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/enemies/Desert_Warrior_Atgier_2.png"
-dest_files=["res://.godot/imported/Desert_Warrior_Atgier_2.png-3ebeccdfa9979c93c699e946382eee7c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/enemies/Desert_Warrior_Atgier_2.png"
+dest_files=["res://.godot/imported/Desert_Warrior_Atgier_2.png-fa4ba7fceb7d688dc0024e56917d1bdb.ctex"]
 
 [params]
 

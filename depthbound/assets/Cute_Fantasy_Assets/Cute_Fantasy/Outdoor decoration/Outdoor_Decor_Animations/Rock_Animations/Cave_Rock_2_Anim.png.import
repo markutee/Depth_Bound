@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmmh4hnpw82k2"
-path="res://.godot/imported/Cave_Rock_2_Anim.png-77c78de6c9ffccde372f2f077f8e564f.ctex"
+path="res://.godot/imported/Cave_Rock_2_Anim.png-14d288a75b52496417a8cda067fd5fe6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Rock_Animations/Cave_Rock_2_Anim.png"
-dest_files=["res://.godot/imported/Cave_Rock_2_Anim.png-77c78de6c9ffccde372f2f077f8e564f.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Rock_Animations/Cave_Rock_2_Anim.png"
+dest_files=["res://.godot/imported/Cave_Rock_2_Anim.png-14d288a75b52496417a8cda067fd5fe6.ctex"]
 
 [params]
 

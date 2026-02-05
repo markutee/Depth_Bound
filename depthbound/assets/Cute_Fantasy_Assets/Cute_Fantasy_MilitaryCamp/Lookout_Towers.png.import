@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1tx8imcjk340"
-path="res://.godot/imported/Lookout_Towers.png-fa5cb0b5586d2c31d1177fe59d8bdbd5.ctex"
+path="res://.godot/imported/Lookout_Towers.png-b21aa4320a81a09e372b66afa7e97caf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Lookout_Towers.png"
-dest_files=["res://.godot/imported/Lookout_Towers.png-fa5cb0b5586d2c31d1177fe59d8bdbd5.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Lookout_Towers.png"
+dest_files=["res://.godot/imported/Lookout_Towers.png-b21aa4320a81a09e372b66afa7e97caf.ctex"]
 
 [params]
 

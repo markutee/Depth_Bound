@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7ru2frskbahk"
-path="res://.godot/imported/Shirt_Green_Jump.png-8ae1e41c9eb571a6c6f374641b6ae130.ctex"
+path="res://.godot/imported/Shirt_Green_Jump.png-0d50749f2f2682f369c614f20d685c22.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Jump.png"
-dest_files=["res://.godot/imported/Shirt_Green_Jump.png-8ae1e41c9eb571a6c6f374641b6ae130.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Jump.png"
+dest_files=["res://.godot/imported/Shirt_Green_Jump.png-0d50749f2f2682f369c614f20d685c22.ctex"]
 
 [params]
 

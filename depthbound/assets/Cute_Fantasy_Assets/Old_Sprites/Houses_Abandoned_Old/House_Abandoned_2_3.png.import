@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2q424v14kyva"
-path="res://.godot/imported/House_Abandoned_2_3.png-94bd4e393877f64eabdf3dfd45316602.ctex"
+path="res://.godot/imported/House_Abandoned_2_3.png-c89d3f0e77323cfd137f033ddf9efa41.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Houses_Abandoned_Old/House_Abandoned_2_3.png"
-dest_files=["res://.godot/imported/House_Abandoned_2_3.png-94bd4e393877f64eabdf3dfd45316602.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Houses_Abandoned_Old/House_Abandoned_2_3.png"
+dest_files=["res://.godot/imported/House_Abandoned_2_3.png-c89d3f0e77323cfd137f033ddf9efa41.ctex"]
 
 [params]
 

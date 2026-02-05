@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvr2cgjpxaips"
-path="res://.godot/imported/Desert_Person_3.png-5201d230923b0f262d4a06d08f63b0c0.ctex"
+path="res://.godot/imported/Desert_Person_3.png-0b19a663b6d0188b8f269297e117ac99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/NPC/Desert_Person_3.png"
-dest_files=["res://.godot/imported/Desert_Person_3.png-5201d230923b0f262d4a06d08f63b0c0.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/NPC/Desert_Person_3.png"
+dest_files=["res://.godot/imported/Desert_Person_3.png-0b19a663b6d0188b8f269297e117ac99.ctex"]
 
 [params]
 

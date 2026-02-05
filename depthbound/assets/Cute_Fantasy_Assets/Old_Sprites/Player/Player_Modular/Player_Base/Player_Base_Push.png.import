@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blv1run4bakrh"
-path="res://.godot/imported/Player_Base_Push.png-c77336359b24804a4cb6e8100538b84d.ctex"
+path="res://.godot/imported/Player_Base_Push.png-3bc60bb6361219db8c3b2713f34e6d3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Player_Base/Player_Base_Push.png"
-dest_files=["res://.godot/imported/Player_Base_Push.png-c77336359b24804a4cb6e8100538b84d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Player_Base/Player_Base_Push.png"
+dest_files=["res://.godot/imported/Player_Base_Push.png-3bc60bb6361219db8c3b2713f34e6d3e.ctex"]
 
 [params]
 

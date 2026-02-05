@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd257wromwuk5"
-path="res://.godot/imported/Player_Attack_OnlyWeapon.png-3234da2d309f22ceefbba403e172436e.ctex"
+path="res://.godot/imported/Player_Attack_OnlyWeapon.png-ec9907ec958671d15e19bb48d5209c32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_Old/Player_Attack_OnlyWeapon.png"
-dest_files=["res://.godot/imported/Player_Attack_OnlyWeapon.png-3234da2d309f22ceefbba403e172436e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_Old/Player_Attack_OnlyWeapon.png"
+dest_files=["res://.godot/imported/Player_Attack_OnlyWeapon.png-ec9907ec958671d15e19bb48d5209c32.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfuypo6ttgr8d"
-path="res://.godot/imported/Pergola.png-6ecd46e0079c765f7bb43bf066f66ebb.ctex"
+path="res://.godot/imported/Pergola.png-f8ad233a515d3e46f33ed8cdf46f4d3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Houses/Pergola.png"
-dest_files=["res://.godot/imported/Pergola.png-6ecd46e0079c765f7bb43bf066f66ebb.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Houses/Pergola.png"
+dest_files=["res://.godot/imported/Pergola.png-f8ad233a515d3e46f33ed8cdf46f4d3a.ctex"]
 
 [params]
 

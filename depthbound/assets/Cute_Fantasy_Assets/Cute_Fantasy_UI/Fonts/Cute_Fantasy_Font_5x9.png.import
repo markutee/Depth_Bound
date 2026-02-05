@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsj1bo4gccwof"
-path="res://.godot/imported/Cute_Fantasy_Font_5x9.png-cd7ef64dc19a23662fe3b71b5b64175d.ctex"
+path="res://.godot/imported/Cute_Fantasy_Font_5x9.png-c31263ff235729637ea33e6843f15289.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_UI/Fonts/Cute_Fantasy_Font_5x9.png"
-dest_files=["res://.godot/imported/Cute_Fantasy_Font_5x9.png-cd7ef64dc19a23662fe3b71b5b64175d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_UI/Fonts/Cute_Fantasy_Font_5x9.png"
+dest_files=["res://.godot/imported/Cute_Fantasy_Font_5x9.png-c31263ff235729637ea33e6843f15289.ctex"]
 
 [params]
 

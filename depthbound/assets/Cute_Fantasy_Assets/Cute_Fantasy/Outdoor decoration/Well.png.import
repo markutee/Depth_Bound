@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://codir2kdun4i1"
-path="res://.godot/imported/Well.png-e35bc5a5e630cecd5206335d35c39cd4.ctex"
+path="res://.godot/imported/Well.png-12867afc3e9b1534d27f5e45dcb881be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Well.png"
-dest_files=["res://.godot/imported/Well.png-e35bc5a5e630cecd5206335d35c39cd4.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Well.png"
+dest_files=["res://.godot/imported/Well.png-12867afc3e9b1534d27f5e45dcb881be.ctex"]
 
 [params]
 

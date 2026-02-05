@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ww35r80375wd"
-path="res://.godot/imported/Farmer_Pants_1_Black.png-ec927e87298a728ff3d4a0836b0f61ee.ctex"
+path="res://.godot/imported/Farmer_Pants_1_Black.png-9097092de0cccef0ec6c9d9cc60d9a08.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Legs/Farmer_Pants/Farmer_Pants_1_Black.png"
-dest_files=["res://.godot/imported/Farmer_Pants_1_Black.png-ec927e87298a728ff3d4a0836b0f61ee.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Legs/Farmer_Pants/Farmer_Pants_1_Black.png"
+dest_files=["res://.godot/imported/Farmer_Pants_1_Black.png-9097092de0cccef0ec6c9d9cc60d9a08.ctex"]
 
 [params]
 

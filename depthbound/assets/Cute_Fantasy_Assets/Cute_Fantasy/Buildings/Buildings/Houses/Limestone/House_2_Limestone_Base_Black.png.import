@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3l2c3xcd335s"
-path="res://.godot/imported/House_2_Limestone_Base_Black.png-ca5c7e945558ecbcee15718d4a5c9e96.ctex"
+path="res://.godot/imported/House_2_Limestone_Base_Black.png-53c2ee20e2a1eebd6e89528f529323cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Houses/Limestone/House_2_Limestone_Base_Black.png"
-dest_files=["res://.godot/imported/House_2_Limestone_Base_Black.png-ca5c7e945558ecbcee15718d4a5c9e96.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Houses/Limestone/House_2_Limestone_Base_Black.png"
+dest_files=["res://.godot/imported/House_2_Limestone_Base_Black.png-53c2ee20e2a1eebd6e89528f529323cf.ctex"]
 
 [params]
 

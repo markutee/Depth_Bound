@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc8c4r5jolk4n"
-path="res://.godot/imported/Pointer_Click_Anim.png-25dd7e2460ae43b0fde5b595e0cca482.ctex"
+path="res://.godot/imported/Pointer_Click_Anim.png-d04f987b95f41e955e6fee4b04cc0fe5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_UI/UI/Pointer_Click_Anim.png"
-dest_files=["res://.godot/imported/Pointer_Click_Anim.png-25dd7e2460ae43b0fde5b595e0cca482.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_UI/UI/Pointer_Click_Anim.png"
+dest_files=["res://.godot/imported/Pointer_Click_Anim.png-d04f987b95f41e955e6fee4b04cc0fe5.ctex"]
 
 [params]
 

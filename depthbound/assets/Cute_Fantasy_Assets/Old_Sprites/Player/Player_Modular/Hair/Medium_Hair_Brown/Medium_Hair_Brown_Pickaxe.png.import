@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byignccv2j8cr"
-path="res://.godot/imported/Medium_Hair_Brown_Pickaxe.png-7fb447f950fec5c8467175236c86244a.ctex"
+path="res://.godot/imported/Medium_Hair_Brown_Pickaxe.png-740a3704ae5f72c59ef357a10e9db2fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Pickaxe.png"
-dest_files=["res://.godot/imported/Medium_Hair_Brown_Pickaxe.png-7fb447f950fec5c8467175236c86244a.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Hair/Medium_Hair_Brown/Medium_Hair_Brown_Pickaxe.png"
+dest_files=["res://.godot/imported/Medium_Hair_Brown_Pickaxe.png-740a3704ae5f72c59ef357a10e9db2fe.ctex"]
 
 [params]
 

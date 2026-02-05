@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqrfbqa8gb66v"
-path="res://.godot/imported/Palisade.png-0ea082f0304c3d40e796139b19f0cf19.ctex"
+path="res://.godot/imported/Palisade.png-5e84072216ae303bc3a7b34402d7b329.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Palisade.png"
-dest_files=["res://.godot/imported/Palisade.png-0ea082f0304c3d40e796139b19f0cf19.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Palisade.png"
+dest_files=["res://.godot/imported/Palisade.png-5e84072216ae303bc3a7b34402d7b329.ctex"]
 
 [params]
 

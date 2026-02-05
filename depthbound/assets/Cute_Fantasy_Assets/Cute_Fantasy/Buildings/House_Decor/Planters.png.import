@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6v015d0oo5p1"
-path="res://.godot/imported/Planters.png-40cd865ef27ab799575662dc0e19b3cc.ctex"
+path="res://.godot/imported/Planters.png-511d345cce7b90c3539cbe2a4e6d4c9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Planters.png"
-dest_files=["res://.godot/imported/Planters.png-40cd865ef27ab799575662dc0e19b3cc.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Planters.png"
+dest_files=["res://.godot/imported/Planters.png-511d345cce7b90c3539cbe2a4e6d4c9e.ctex"]
 
 [params]
 

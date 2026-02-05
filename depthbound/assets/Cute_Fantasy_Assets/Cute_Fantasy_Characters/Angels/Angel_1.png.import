@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5x4565fmav4y"
-path="res://.godot/imported/Angel_1.png-6d97b779efbd5eb68339ad7066f29bd9.ctex"
+path="res://.godot/imported/Angel_1.png-0437985ae9f6ccca08a17a5a6aaa23e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Characters/Angels/Angel_1.png"
-dest_files=["res://.godot/imported/Angel_1.png-6d97b779efbd5eb68339ad7066f29bd9.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Characters/Angels/Angel_1.png"
+dest_files=["res://.godot/imported/Angel_1.png-0437985ae9f6ccca08a17a5a6aaa23e4.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b08d1iokeinyl"
-path="res://.godot/imported/Log_2_Water_Anim.png-2be577a04e1898806f8bec5a3dcfe05e.ctex"
+path="res://.godot/imported/Log_2_Water_Anim.png-b117302dc2bd6a82f3fa8f6b76da44bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Other_Water_Decor/Log_2_Water_Anim.png"
-dest_files=["res://.godot/imported/Log_2_Water_Anim.png-2be577a04e1898806f8bec5a3dcfe05e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Other_Water_Decor/Log_2_Water_Anim.png"
+dest_files=["res://.godot/imported/Log_2_Water_Anim.png-b117302dc2bd6a82f3fa8f6b76da44bf.ctex"]
 
 [params]
 

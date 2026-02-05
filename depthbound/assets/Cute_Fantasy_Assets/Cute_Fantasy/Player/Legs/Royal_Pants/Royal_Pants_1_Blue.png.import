@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cupn4c50oqhgp"
-path="res://.godot/imported/Royal_Pants_1_Blue.png-d332127fc0ab329e621b9a21766db099.ctex"
+path="res://.godot/imported/Royal_Pants_1_Blue.png-ed74a386908ba0a0cc67f7e3a14646e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Legs/Royal_Pants/Royal_Pants_1_Blue.png"
-dest_files=["res://.godot/imported/Royal_Pants_1_Blue.png-d332127fc0ab329e621b9a21766db099.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Legs/Royal_Pants/Royal_Pants_1_Blue.png"
+dest_files=["res://.godot/imported/Royal_Pants_1_Blue.png-ed74a386908ba0a0cc67f7e3a14646e4.ctex"]
 
 [params]
 

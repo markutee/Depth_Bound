@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dt2xnqnmfelam"
-path="res://.godot/imported/Small_Alive_Shroomling.png-b69309d71ccdff2d1d2b972a8bd2d350.ctex"
+path="res://.godot/imported/Small_Alive_Shroomling.png-cc13a00bbaf9d06889620a75310893b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_ShroomLands/Shroomlings/Small_Alive_Shroomling.png"
-dest_files=["res://.godot/imported/Small_Alive_Shroomling.png-b69309d71ccdff2d1d2b972a8bd2d350.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Shroomlings/Small_Alive_Shroomling.png"
+dest_files=["res://.godot/imported/Small_Alive_Shroomling.png-cc13a00bbaf9d06889620a75310893b0.ctex"]
 
 [params]
 

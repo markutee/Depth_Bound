@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dihvt336rxdrl"
-path="res://.godot/imported/Shoes_Brown_Roll.png-7c30e7243ce7b4f46975282c4d750dbc.ctex"
+path="res://.godot/imported/Shoes_Brown_Roll.png-8f2e7e8e659c9033a994f7d6c1f25b87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Roll.png"
-dest_files=["res://.godot/imported/Shoes_Brown_Roll.png-7c30e7243ce7b4f46975282c4d750dbc.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shoes_Brown/Shoes_Brown_Roll.png"
+dest_files=["res://.godot/imported/Shoes_Brown_Roll.png-8f2e7e8e659c9033a994f7d6c1f25b87.ctex"]
 
 [params]
 

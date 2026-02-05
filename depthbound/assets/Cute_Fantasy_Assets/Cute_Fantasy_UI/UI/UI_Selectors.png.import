@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqjkey0fnbcii"
-path="res://.godot/imported/UI_Selectors.png-8dcaa1d7660a0163a09b273cc6b61eec.ctex"
+path="res://.godot/imported/UI_Selectors.png-3ec0f5d8c5409960098f723b589407ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_UI/UI/UI_Selectors.png"
-dest_files=["res://.godot/imported/UI_Selectors.png-8dcaa1d7660a0163a09b273cc6b61eec.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_UI/UI/UI_Selectors.png"
+dest_files=["res://.godot/imported/UI_Selectors.png-3ec0f5d8c5409960098f723b589407ee.ctex"]
 
 [params]
 

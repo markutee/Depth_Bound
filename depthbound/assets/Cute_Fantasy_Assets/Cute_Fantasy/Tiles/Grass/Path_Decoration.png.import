@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcxirr82b2cfr"
-path="res://.godot/imported/Path_Decoration.png-d1c0361fe6dcfd0c3028d323d83e8611.ctex"
+path="res://.godot/imported/Path_Decoration.png-0b1ef0290b07b4b0835e5893b79646bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Grass/Path_Decoration.png"
-dest_files=["res://.godot/imported/Path_Decoration.png-d1c0361fe6dcfd0c3028d323d83e8611.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Grass/Path_Decoration.png"
+dest_files=["res://.godot/imported/Path_Decoration.png-0b1ef0290b07b4b0835e5893b79646bb.ctex"]
 
 [params]
 

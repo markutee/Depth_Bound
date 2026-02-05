@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xjlviucarscv"
-path="res://.godot/imported/Small_Wooden_Bridge.png-15746a8d32741a6bea0f2380a4f0ed29.ctex"
+path="res://.godot/imported/Small_Wooden_Bridge.png-270d97028f8fe2038ecd5091953a43ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Objects/Small_Wooden_Bridge.png"
-dest_files=["res://.godot/imported/Small_Wooden_Bridge.png-15746a8d32741a6bea0f2380a4f0ed29.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Objects/Small_Wooden_Bridge.png"
+dest_files=["res://.godot/imported/Small_Wooden_Bridge.png-270d97028f8fe2038ecd5091953a43ae.ctex"]
 
 [params]
 

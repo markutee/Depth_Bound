@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://frptcmtj844w"
-path="res://.godot/imported/Volcano_Tower.png-b94bf3a9a567483193e26df0a7d82cdc.ctex"
+path="res://.godot/imported/Volcano_Tower.png-9e78ebc01ad344aebfedc2d50c58335d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Volcano/Buildings/Volcano_Tower.png"
-dest_files=["res://.godot/imported/Volcano_Tower.png-b94bf3a9a567483193e26df0a7d82cdc.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Buildings/Volcano_Tower.png"
+dest_files=["res://.godot/imported/Volcano_Tower.png-9e78ebc01ad344aebfedc2d50c58335d.ctex"]
 
 [params]
 

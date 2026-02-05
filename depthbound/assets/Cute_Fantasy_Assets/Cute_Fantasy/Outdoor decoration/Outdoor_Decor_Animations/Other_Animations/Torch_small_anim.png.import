@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdqbwiaxg5nbc"
-path="res://.godot/imported/Torch_small_anim.png-792af1a52d5312af37f3ee0e8a07c54d.ctex"
+path="res://.godot/imported/Torch_small_anim.png-0f72bc1027d5cad6b0aface234df4c1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Other_Animations/Torch_small_anim.png"
-dest_files=["res://.godot/imported/Torch_small_anim.png-792af1a52d5312af37f3ee0e8a07c54d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Other_Animations/Torch_small_anim.png"
+dest_files=["res://.godot/imported/Torch_small_anim.png-0f72bc1027d5cad6b0aface234df4c1c.ctex"]
 
 [params]
 

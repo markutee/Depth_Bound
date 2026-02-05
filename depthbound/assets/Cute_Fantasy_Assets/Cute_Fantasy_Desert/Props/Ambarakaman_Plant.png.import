@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci0kv2rlujbvx"
-path="res://.godot/imported/Ambarakaman_Plant.png-7dfb88faa609a1a9e811bb3ffd6c1340.ctex"
+path="res://.godot/imported/Ambarakaman_Plant.png-a7e3398328158fa3bb7a6192c454ea92.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Ambarakaman_Plant.png"
-dest_files=["res://.godot/imported/Ambarakaman_Plant.png-7dfb88faa609a1a9e811bb3ffd6c1340.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Ambarakaman_Plant.png"
+dest_files=["res://.godot/imported/Ambarakaman_Plant.png-a7e3398328158fa3bb7a6192c454ea92.ctex"]
 
 [params]
 

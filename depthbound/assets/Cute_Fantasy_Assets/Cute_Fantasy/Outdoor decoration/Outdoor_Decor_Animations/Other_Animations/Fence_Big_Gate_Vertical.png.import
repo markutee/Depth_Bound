@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cb648bf7g6opu"
-path="res://.godot/imported/Fence_Big_Gate_Vertical.png-b3754f24d43c1b44f078d784a82224a8.ctex"
+path="res://.godot/imported/Fence_Big_Gate_Vertical.png-fdd3cea0c94104c91491e7f6a4977fb3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Other_Animations/Fence_Big_Gate_Vertical.png"
-dest_files=["res://.godot/imported/Fence_Big_Gate_Vertical.png-b3754f24d43c1b44f078d784a82224a8.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Other_Animations/Fence_Big_Gate_Vertical.png"
+dest_files=["res://.godot/imported/Fence_Big_Gate_Vertical.png-fdd3cea0c94104c91491e7f6a4977fb3.ctex"]
 
 [params]
 

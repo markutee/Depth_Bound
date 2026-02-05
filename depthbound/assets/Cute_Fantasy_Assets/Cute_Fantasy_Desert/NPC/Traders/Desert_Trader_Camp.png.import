@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4fvthpk302i3"
-path="res://.godot/imported/Desert_Trader_Camp.png-f1de00188d59670f25d6a3782ae7dcce.ctex"
+path="res://.godot/imported/Desert_Trader_Camp.png-d078743ba9f97af09278274763dd041e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/NPC/Traders/Desert_Trader_Camp.png"
-dest_files=["res://.godot/imported/Desert_Trader_Camp.png-f1de00188d59670f25d6a3782ae7dcce.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/NPC/Traders/Desert_Trader_Camp.png"
+dest_files=["res://.godot/imported/Desert_Trader_Camp.png-d078743ba9f97af09278274763dd041e.ctex"]
 
 [params]
 

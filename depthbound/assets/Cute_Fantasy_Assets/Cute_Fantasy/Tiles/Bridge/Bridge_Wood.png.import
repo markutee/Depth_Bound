@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcwhmw0oqgp7d"
-path="res://.godot/imported/Bridge_Wood.png-119edf2e38b4567ff75ac76d9a8ecf78.ctex"
+path="res://.godot/imported/Bridge_Wood.png-32641c831670afa4b351b19f687dbd37.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Bridge/Bridge_Wood.png"
-dest_files=["res://.godot/imported/Bridge_Wood.png-119edf2e38b4567ff75ac76d9a8ecf78.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Bridge/Bridge_Wood.png"
+dest_files=["res://.godot/imported/Bridge_Wood.png-32641c831670afa4b351b19f687dbd37.ctex"]
 
 [params]
 

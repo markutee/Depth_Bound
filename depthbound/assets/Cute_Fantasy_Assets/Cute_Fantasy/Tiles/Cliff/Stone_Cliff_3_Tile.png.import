@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo4doapbhna6c"
-path="res://.godot/imported/Stone_Cliff_3_Tile.png-db49f039397ffea68cf93900aea769e5.ctex"
+path="res://.godot/imported/Stone_Cliff_3_Tile.png-f9c1d6e9a7a5440aea534a77f3d996bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Cliff/Stone_Cliff_3_Tile.png"
-dest_files=["res://.godot/imported/Stone_Cliff_3_Tile.png-db49f039397ffea68cf93900aea769e5.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cliff/Stone_Cliff_3_Tile.png"
+dest_files=["res://.godot/imported/Stone_Cliff_3_Tile.png-f9c1d6e9a7a5440aea534a77f3d996bc.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1d2tge02wnju"
-path="res://.godot/imported/Standing_Lamps.png-b97d75598a05216c90eae43ee7eb7469.ctex"
+path="res://.godot/imported/Standing_Lamps.png-0e778218b4bcd95bcb652bdf7d4ea479.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Standing_Lamps.png"
-dest_files=["res://.godot/imported/Standing_Lamps.png-b97d75598a05216c90eae43ee7eb7469.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Standing_Lamps.png"
+dest_files=["res://.godot/imported/Standing_Lamps.png-0e778218b4bcd95bcb652bdf7d4ea479.ctex"]
 
 [params]
 

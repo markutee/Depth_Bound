@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c03fdgfwvkcrs"
-path="res://.godot/imported/Player_Boat_WIP.png-e0b6f568088dc936094bc9eff424c66e.ctex"
+path="res://.godot/imported/Player_Boat_WIP.png-58479241eb5fbc81afcf974b56666ae3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Boat_WIP.png"
-dest_files=["res://.godot/imported/Player_Boat_WIP.png-e0b6f568088dc936094bc9eff424c66e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_New/Player_Anim/Player_Boat_WIP.png"
+dest_files=["res://.godot/imported/Player_Boat_WIP.png-58479241eb5fbc81afcf974b56666ae3.ctex"]
 
 [params]
 

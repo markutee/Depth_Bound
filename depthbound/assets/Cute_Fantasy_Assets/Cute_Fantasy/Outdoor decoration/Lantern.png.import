@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8s7d6qcxdud8"
-path="res://.godot/imported/Lantern.png-0f7da7a75f9a53ba42e7ceb1753f02b5.ctex"
+path="res://.godot/imported/Lantern.png-6aa8bd2b729ec787f9fd87c4be90161a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Lantern.png"
-dest_files=["res://.godot/imported/Lantern.png-0f7da7a75f9a53ba42e7ceb1753f02b5.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Lantern.png"
+dest_files=["res://.godot/imported/Lantern.png-6aa8bd2b729ec787f9fd87c4be90161a.ctex"]
 
 [params]
 

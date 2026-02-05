@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da51qhbwinvq4"
-path="res://.godot/imported/Windows_Single.png-39fe0a6c14e95517952814e314dabeb3.ctex"
+path="res://.godot/imported/Windows_Single.png-4d00a2e3ebd6e8f4216d99d48d6e88d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Windows_Single.png"
-dest_files=["res://.godot/imported/Windows_Single.png-39fe0a6c14e95517952814e314dabeb3.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Windows_Single.png"
+dest_files=["res://.godot/imported/Windows_Single.png-4d00a2e3ebd6e8f4216d99d48d6e88d7.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be7trc2rwnbhd"
-path="res://.godot/imported/Flying_Skull.png-0501b2c8adeeefdadf1c4bbaab5bacbf.ctex"
+path="res://.godot/imported/Flying_Skull.png-33eab3bc45a39023e831081740d305fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Volcano/Enemies/Flying_Skull.png"
-dest_files=["res://.godot/imported/Flying_Skull.png-0501b2c8adeeefdadf1c4bbaab5bacbf.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Enemies/Flying_Skull.png"
+dest_files=["res://.godot/imported/Flying_Skull.png-33eab3bc45a39023e831081740d305fe.ctex"]
 
 [params]
 

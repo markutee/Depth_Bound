@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cernh4p0vv7uk"
-path="res://.godot/imported/Archery_Target.png-681ff6cc252afb6921ac8696ef3860bd.ctex"
+path="res://.godot/imported/Archery_Target.png-c243da5068d12eb862c95f8d62a680d4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Archery_Target.png"
-dest_files=["res://.godot/imported/Archery_Target.png-681ff6cc252afb6921ac8696ef3860bd.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Archery_Target.png"
+dest_files=["res://.godot/imported/Archery_Target.png-c243da5068d12eb862c95f8d62a680d4.ctex"]
 
 [params]
 

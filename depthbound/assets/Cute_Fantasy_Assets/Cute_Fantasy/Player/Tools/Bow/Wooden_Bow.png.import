@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ruk3tbjh5ebr"
-path="res://.godot/imported/Wooden_Bow.png-9eddda70e134dff7cd7f8dbefb5ce46a.ctex"
+path="res://.godot/imported/Wooden_Bow.png-938dfd0a6a86636a9f014bc4e3cdd662.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Tools/Bow/Wooden_Bow.png"
-dest_files=["res://.godot/imported/Wooden_Bow.png-9eddda70e134dff7cd7f8dbefb5ce46a.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Tools/Bow/Wooden_Bow.png"
+dest_files=["res://.godot/imported/Wooden_Bow.png-938dfd0a6a86636a9f014bc4e3cdd662.ctex"]
 
 [params]
 

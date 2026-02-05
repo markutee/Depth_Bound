@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ml82uef1shcx"
-path="res://.godot/imported/Lanter_Posts.png-9c72789e632d1dd568652a697eb6ffd7.ctex"
+path="res://.godot/imported/Lanter_Posts.png-ca1eec2df240457aaeeeb30eeb0ad9e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Lanter_Posts.png"
-dest_files=["res://.godot/imported/Lanter_Posts.png-9c72789e632d1dd568652a697eb6ffd7.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Lanter_Posts.png"
+dest_files=["res://.godot/imported/Lanter_Posts.png-ca1eec2df240457aaeeeb30eeb0ad9e7.ctex"]
 
 [params]
 

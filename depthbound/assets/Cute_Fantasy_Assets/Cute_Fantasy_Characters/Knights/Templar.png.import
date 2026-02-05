@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2crg0hb3imfo"
-path="res://.godot/imported/Templar.png-606087cee1b00543d2e33fbfe7c0158d.ctex"
+path="res://.godot/imported/Templar.png-b11da6abc9dc1c2b6a32d6004a680845.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Characters/Knights/Templar.png"
-dest_files=["res://.godot/imported/Templar.png-606087cee1b00543d2e33fbfe7c0158d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Characters/Knights/Templar.png"
+dest_files=["res://.godot/imported/Templar.png-b11da6abc9dc1c2b6a32d6004a680845.ctex"]
 
 [params]
 

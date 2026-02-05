@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vt04232lg75i"
-path="res://.godot/imported/Rain_Drop_Impact.png-cca3f7ef1c99854eb68995578d5c3253.ctex"
+path="res://.godot/imported/Rain_Drop_Impact.png-3624013c004eef66659b53cf01ae3285.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Weather effects/Rain_Drop_Impact.png"
-dest_files=["res://.godot/imported/Rain_Drop_Impact.png-cca3f7ef1c99854eb68995578d5c3253.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Weather effects/Rain_Drop_Impact.png"
+dest_files=["res://.godot/imported/Rain_Drop_Impact.png-3624013c004eef66659b53cf01ae3285.ctex"]
 
 [params]
 

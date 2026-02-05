@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o7f5utqt8a77"
-path="res://.godot/imported/Frog_03.png-90e4d09096e5a578798c880787ef2c15.ctex"
+path="res://.godot/imported/Frog_03.png-2d346928af0db582f6dd660a27a761c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Animals/Frog/Frog_03.png"
-dest_files=["res://.godot/imported/Frog_03.png-90e4d09096e5a578798c880787ef2c15.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Animals/Frog/Frog_03.png"
+dest_files=["res://.godot/imported/Frog_03.png-2d346928af0db582f6dd660a27a761c5.ctex"]
 
 [params]
 

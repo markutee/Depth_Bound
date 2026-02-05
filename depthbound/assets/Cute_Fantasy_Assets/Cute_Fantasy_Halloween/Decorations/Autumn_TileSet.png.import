@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4o7audyfnlot"
-path="res://.godot/imported/Autumn_TileSet.png-50111c70c93427930292f101c6630807.ctex"
+path="res://.godot/imported/Autumn_TileSet.png-01d08e40e2799b90cb996cceef6c6f1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Halloween/Decorations/Autumn_TileSet.png"
-dest_files=["res://.godot/imported/Autumn_TileSet.png-50111c70c93427930292f101c6630807.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Halloween/Decorations/Autumn_TileSet.png"
+dest_files=["res://.godot/imported/Autumn_TileSet.png-01d08e40e2799b90cb996cceef6c6f1d.ctex"]
 
 [params]
 

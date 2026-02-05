@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgbvevlwo101c"
-path="res://.godot/imported/Church_Black.png-0b0357a5690542edfb515901c0861c63.ctex"
+path="res://.godot/imported/Church_Black.png-fdf51c311d232326731cb6797afdacec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Church/Church_Black.png"
-dest_files=["res://.godot/imported/Church_Black.png-0b0357a5690542edfb515901c0861c63.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Church/Church_Black.png"
+dest_files=["res://.godot/imported/Church_Black.png-fdf51c311d232326731cb6797afdacec.ctex"]
 
 [params]
 

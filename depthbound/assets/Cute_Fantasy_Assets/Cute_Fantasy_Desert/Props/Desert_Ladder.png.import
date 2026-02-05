@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bboj6wbvxkii6"
-path="res://.godot/imported/Desert_Ladder.png-df1bcdc5098651eea8d9154305c1a102.ctex"
+path="res://.godot/imported/Desert_Ladder.png-687b06595ef3b209ae86085a6f75fe93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Desert_Ladder.png"
-dest_files=["res://.godot/imported/Desert_Ladder.png-df1bcdc5098651eea8d9154305c1a102.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Desert_Ladder.png"
+dest_files=["res://.godot/imported/Desert_Ladder.png-687b06595ef3b209ae86085a6f75fe93.ctex"]
 
 [params]
 

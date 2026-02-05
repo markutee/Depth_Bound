@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cl5q6h38xdnxq"
-path="res://.godot/imported/Spiked_Barriers.png-c850a8c2efd62d73fc23902b255b99a1.ctex"
+path="res://.godot/imported/Spiked_Barriers.png-020f7457224ab35d66669e0b50593037.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Spiked_Barriers.png"
-dest_files=["res://.godot/imported/Spiked_Barriers.png-c850a8c2efd62d73fc23902b255b99a1.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Spiked_Barriers.png"
+dest_files=["res://.godot/imported/Spiked_Barriers.png-020f7457224ab35d66669e0b50593037.ctex"]
 
 [params]
 

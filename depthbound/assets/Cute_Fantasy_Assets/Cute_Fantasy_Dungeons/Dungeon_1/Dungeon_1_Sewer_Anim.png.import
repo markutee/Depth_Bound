@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5q8rkv7fwr41"
-path="res://.godot/imported/Dungeon_1_Sewer_Anim.png-901cf0ea7fc5df25e7957579438e01bd.ctex"
+path="res://.godot/imported/Dungeon_1_Sewer_Anim.png-82371017fa457483210a1af1783ec856.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Sewer_Anim.png"
-dest_files=["res://.godot/imported/Dungeon_1_Sewer_Anim.png-901cf0ea7fc5df25e7957579438e01bd.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Sewer_Anim.png"
+dest_files=["res://.godot/imported/Dungeon_1_Sewer_Anim.png-82371017fa457483210a1af1783ec856.ctex"]
 
 [params]
 

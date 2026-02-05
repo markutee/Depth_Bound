@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crpgo6cwejciq"
-path="res://.godot/imported/Food_Icons_NO_Outline.png-5a0adeff866c0609f23b5d8a8ec3a244.ctex"
+path="res://.godot/imported/Food_Icons_NO_Outline.png-c5aa0fff39f3e3b636934dd5ac2718a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Icons/No Outline/Food_Icons_NO_Outline.png"
-dest_files=["res://.godot/imported/Food_Icons_NO_Outline.png-5a0adeff866c0609f23b5d8a8ec3a244.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Icons/No Outline/Food_Icons_NO_Outline.png"
+dest_files=["res://.godot/imported/Food_Icons_NO_Outline.png-c5aa0fff39f3e3b636934dd5ac2718a8.ctex"]
 
 [params]
 

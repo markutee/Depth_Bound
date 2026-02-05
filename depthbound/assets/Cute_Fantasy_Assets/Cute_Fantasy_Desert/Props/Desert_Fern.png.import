@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwy7rbsdprxnq"
-path="res://.godot/imported/Desert_Fern.png-a51a784a026de83e945a1665957969d4.ctex"
+path="res://.godot/imported/Desert_Fern.png-ab31094405188780cc20de0b10f5f80c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Desert_Fern.png"
-dest_files=["res://.godot/imported/Desert_Fern.png-a51a784a026de83e945a1665957969d4.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Desert_Fern.png"
+dest_files=["res://.godot/imported/Desert_Fern.png-ab31094405188780cc20de0b10f5f80c.ctex"]
 
 [params]
 

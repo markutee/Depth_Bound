@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ume4f3ra4eaf"
-path="res://.godot/imported/Blacksmith_House_Black.png-e7253a103adc351e28b8f7c6993b2ef2.ctex"
+path="res://.godot/imported/Blacksmith_House_Black.png-e7245c1bdc9e1e5025452af1f325bfcf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Blacksmith_House/Blacksmith_House_Black.png"
-dest_files=["res://.godot/imported/Blacksmith_House_Black.png-e7253a103adc351e28b8f7c6993b2ef2.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Blacksmith_House/Blacksmith_House_Black.png"
+dest_files=["res://.godot/imported/Blacksmith_House_Black.png-e7245c1bdc9e1e5025452af1f325bfcf.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpy3oviaybqrp"
-path="res://.godot/imported/Shirt_Green_Death.png-db6c7be0776c1c08653e9a7ef097f76f.ctex"
+path="res://.godot/imported/Shirt_Green_Death.png-9f41b12882e3d5245ea7248b8dd53191.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Death.png"
-dest_files=["res://.godot/imported/Shirt_Green_Death.png-db6c7be0776c1c08653e9a7ef097f76f.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Death.png"
+dest_files=["res://.godot/imported/Shirt_Green_Death.png-9f41b12882e3d5245ea7248b8dd53191.ctex"]
 
 [params]
 

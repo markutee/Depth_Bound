@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsvx5y6j4lt76"
-path="res://.godot/imported/Market_Stalls.png-400c324f298dc9c7b7306ed24f48d59c.ctex"
+path="res://.godot/imported/Market_Stalls.png-3b7f840da0057437bb194c296802607c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Stalls/Market_Stalls.png"
-dest_files=["res://.godot/imported/Market_Stalls.png-400c324f298dc9c7b7306ed24f48d59c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Stalls/Market_Stalls.png"
+dest_files=["res://.godot/imported/Market_Stalls.png-3b7f840da0057437bb194c296802607c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2mk3iy7o2xqf"
-path="res://.godot/imported/Spruce_Needle_Particle.png-46ca90b5906cf5f03f9b3433cdbb6ff3.ctex"
+path="res://.godot/imported/Spruce_Needle_Particle.png-893a744c017ab9c7922186af8e640403.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Trees/Spruce_Needle_Particle.png"
-dest_files=["res://.godot/imported/Spruce_Needle_Particle.png-46ca90b5906cf5f03f9b3433cdbb6ff3.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Trees/Spruce_Needle_Particle.png"
+dest_files=["res://.godot/imported/Spruce_Needle_Particle.png-893a744c017ab9c7922186af8e640403.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3hp2syr6s3m"
-path="res://.godot/imported/Hands_Bare_Horse.png-e8807883bfce0b1892bf9a0e0bd03b16.ctex"
+path="res://.godot/imported/Hands_Bare_Horse.png-91afe35103ba563da2f203c1c33b1387.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Horse.png"
-dest_files=["res://.godot/imported/Hands_Bare_Horse.png-e8807883bfce0b1892bf9a0e0bd03b16.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Horse.png"
+dest_files=["res://.godot/imported/Hands_Bare_Horse.png-91afe35103ba563da2f203c1c33b1387.ctex"]
 
 [params]
 

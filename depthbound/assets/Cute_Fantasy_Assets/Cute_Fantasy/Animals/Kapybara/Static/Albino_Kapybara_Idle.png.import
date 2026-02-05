@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c78tgnqf70clv"
-path="res://.godot/imported/Albino_Kapybara_Idle.png-d4f5be206e14185212de4bc856a6bc9b.ctex"
+path="res://.godot/imported/Albino_Kapybara_Idle.png-0df5a016c8e424732cb8208ca96b3577.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Animals/Kapybara/Static/Albino_Kapybara_Idle.png"
-dest_files=["res://.godot/imported/Albino_Kapybara_Idle.png-d4f5be206e14185212de4bc856a6bc9b.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Animals/Kapybara/Static/Albino_Kapybara_Idle.png"
+dest_files=["res://.godot/imported/Albino_Kapybara_Idle.png-0df5a016c8e424732cb8208ca96b3577.ctex"]
 
 [params]
 

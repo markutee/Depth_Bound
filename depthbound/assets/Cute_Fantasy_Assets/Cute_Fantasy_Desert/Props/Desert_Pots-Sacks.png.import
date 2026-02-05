@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o3unn6uhusmp"
-path="res://.godot/imported/Desert_Pots-Sacks.png-bae876c406c22f264e743056cd6767c9.ctex"
+path="res://.godot/imported/Desert_Pots-Sacks.png-886f7eb02a2e70461ee6f3d680798e4c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Desert_Pots-Sacks.png"
-dest_files=["res://.godot/imported/Desert_Pots-Sacks.png-bae876c406c22f264e743056cd6767c9.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Desert_Pots-Sacks.png"
+dest_files=["res://.godot/imported/Desert_Pots-Sacks.png-886f7eb02a2e70461ee6f3d680798e4c.ctex"]
 
 [params]
 

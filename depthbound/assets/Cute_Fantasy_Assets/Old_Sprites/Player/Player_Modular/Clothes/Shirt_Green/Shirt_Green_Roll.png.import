@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba7sxgc7l7m3g"
-path="res://.godot/imported/Shirt_Green_Roll.png-23e3a01bb52687df99670e0e3ce75d03.ctex"
+path="res://.godot/imported/Shirt_Green_Roll.png-51e639e3a4d321dabf4b401787c4439e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Roll.png"
-dest_files=["res://.godot/imported/Shirt_Green_Roll.png-23e3a01bb52687df99670e0e3ce75d03.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Roll.png"
+dest_files=["res://.godot/imported/Shirt_Green_Roll.png-51e639e3a4d321dabf4b401787c4439e.ctex"]
 
 [params]
 

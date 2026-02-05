@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vxgw0ta6j2j6"
-path="res://.godot/imported/Desert_Cliff_Waterfall_3.png-d8cfd77b31530a9f04ba2064de90c8f2.ctex"
+path="res://.godot/imported/Desert_Cliff_Waterfall_3.png-77f7a87f61a23842015559d064bc2d7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Tiles/Desert_Cliff_Waterfall_3.png"
-dest_files=["res://.godot/imported/Desert_Cliff_Waterfall_3.png-d8cfd77b31530a9f04ba2064de90c8f2.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Tiles/Desert_Cliff_Waterfall_3.png"
+dest_files=["res://.godot/imported/Desert_Cliff_Waterfall_3.png-77f7a87f61a23842015559d064bc2d7f.ctex"]
 
 [params]
 

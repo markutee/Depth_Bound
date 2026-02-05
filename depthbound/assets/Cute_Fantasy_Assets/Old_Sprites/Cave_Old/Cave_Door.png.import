@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dltsfel3b66ol"
-path="res://.godot/imported/Cave_Door.png-688682e85119e3fe35008220e97f3761.ctex"
+path="res://.godot/imported/Cave_Door.png-671fa2f13cafdb3af9a6f9862a779179.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Cave_Old/Cave_Door.png"
-dest_files=["res://.godot/imported/Cave_Door.png-688682e85119e3fe35008220e97f3761.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Cave_Old/Cave_Door.png"
+dest_files=["res://.godot/imported/Cave_Door.png-671fa2f13cafdb3af9a6f9862a779179.ctex"]
 
 [params]
 

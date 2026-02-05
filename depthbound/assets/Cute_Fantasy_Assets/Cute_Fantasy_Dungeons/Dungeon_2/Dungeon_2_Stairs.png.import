@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhhgr67lddyof"
-path="res://.godot/imported/Dungeon_2_Stairs.png-923e3c63635fcc6d614ab91d738216ab.ctex"
+path="res://.godot/imported/Dungeon_2_Stairs.png-c897b05bcaeff855ad1f9f7726ae0d4d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_2/Dungeon_2_Stairs.png"
-dest_files=["res://.godot/imported/Dungeon_2_Stairs.png-923e3c63635fcc6d614ab91d738216ab.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_2/Dungeon_2_Stairs.png"
+dest_files=["res://.godot/imported/Dungeon_2_Stairs.png-c897b05bcaeff855ad1f9f7726ae0d4d.ctex"]
 
 [params]
 

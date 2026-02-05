@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xmhpwu7mtru0"
-path="res://.godot/imported/Player_Attack_NoWeapon.png-f85fdd1d14139c2c66e3732c6a576366.ctex"
+path="res://.godot/imported/Player_Attack_NoWeapon.png-9dbb6200309facabec93112073e5c451.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_Old/Player_Attack_NoWeapon.png"
-dest_files=["res://.godot/imported/Player_Attack_NoWeapon.png-f85fdd1d14139c2c66e3732c6a576366.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_Old/Player_Attack_NoWeapon.png"
+dest_files=["res://.godot/imported/Player_Attack_NoWeapon.png-9dbb6200309facabec93112073e5c451.ctex"]
 
 [params]
 

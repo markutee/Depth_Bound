@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccgi2e6kwugi0"
-path="res://.godot/imported/Pants_Blue_Attack.png-91779ef47ac7be6d75c41eaf5cd018ac.ctex"
+path="res://.godot/imported/Pants_Blue_Attack.png-1366a3c09286d01dc7abafcb332144bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Attack.png"
-dest_files=["res://.godot/imported/Pants_Blue_Attack.png-91779ef47ac7be6d75c41eaf5cd018ac.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Attack.png"
+dest_files=["res://.godot/imported/Pants_Blue_Attack.png-1366a3c09286d01dc7abafcb332144bb.ctex"]
 
 [params]
 

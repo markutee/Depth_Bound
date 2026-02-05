@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjlsi6ufiqvkf"
-path="res://.godot/imported/Cave_Support_2.png-c4a8f416acc192a9583a91f7d783c372.ctex"
+path="res://.godot/imported/Cave_Support_2.png-f1af83c29cf356c29b207c8c46290571.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Cave/Cave_Support_2.png"
-dest_files=["res://.godot/imported/Cave_Support_2.png-c4a8f416acc192a9583a91f7d783c372.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cave/Cave_Support_2.png"
+dest_files=["res://.godot/imported/Cave_Support_2.png-f1af83c29cf356c29b207c8c46290571.ctex"]
 
 [params]
 

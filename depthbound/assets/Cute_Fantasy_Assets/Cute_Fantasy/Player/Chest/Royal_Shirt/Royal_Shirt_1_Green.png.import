@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs1bu7b4bgrlr"
-path="res://.godot/imported/Royal_Shirt_1_Green.png-6624d3f3761a56eff0d0aa3be0e07373.ctex"
+path="res://.godot/imported/Royal_Shirt_1_Green.png-01940f3921030f1fa24c7ddfa694d40e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Chest/Royal_Shirt/Royal_Shirt_1_Green.png"
-dest_files=["res://.godot/imported/Royal_Shirt_1_Green.png-6624d3f3761a56eff0d0aa3be0e07373.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Chest/Royal_Shirt/Royal_Shirt_1_Green.png"
+dest_files=["res://.godot/imported/Royal_Shirt_1_Green.png-01940f3921030f1fa24c7ddfa694d40e.ctex"]
 
 [params]
 

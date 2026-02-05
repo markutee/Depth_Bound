@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btk37d50mqkvu"
-path="res://.godot/imported/Player_Actions.png-ba2c83d30448443d98ce6153f93ba325.ctex"
+path="res://.godot/imported/Player_Actions.png-b5c9ed7d12fd6356f66c4882b0028538.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_Old/Player_Actions.png"
-dest_files=["res://.godot/imported/Player_Actions.png-ba2c83d30448443d98ce6153f93ba325.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_Old/Player_Actions.png"
+dest_files=["res://.godot/imported/Player_Actions.png-b5c9ed7d12fd6356f66c4882b0028538.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1grusr7byrdi"
-path="res://.godot/imported/Volcano_Tiles.png-ae46814023d7ffde777273ace0e01f6c.ctex"
+path="res://.godot/imported/Volcano_Tiles.png-7fd19ef8f8f048e1bcdbb534ca40aedd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Volcano/Tiles/Volcano_Tiles.png"
-dest_files=["res://.godot/imported/Volcano_Tiles.png-ae46814023d7ffde777273ace0e01f6c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Tiles/Volcano_Tiles.png"
+dest_files=["res://.godot/imported/Volcano_Tiles.png-7fd19ef8f8f048e1bcdbb534ca40aedd.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cud2k1hdxcyww"
-path="res://.godot/imported/Drawers.png-2d8787819b39dafce0839c0ce1115e82.ctex"
+path="res://.godot/imported/Drawers.png-efc75c70e79e1bd5d45784d11f48ba5c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Drawers.png"
-dest_files=["res://.godot/imported/Drawers.png-2d8787819b39dafce0839c0ce1115e82.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Drawers.png"
+dest_files=["res://.godot/imported/Drawers.png-efc75c70e79e1bd5d45784d11f48ba5c.ctex"]
 
 [params]
 

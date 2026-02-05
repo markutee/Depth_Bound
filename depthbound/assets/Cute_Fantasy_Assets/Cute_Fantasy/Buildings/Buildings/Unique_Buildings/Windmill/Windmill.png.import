@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd2yfpwdqaj07"
-path="res://.godot/imported/Windmill.png-cbde6ff409df32948198ba018c1aa545.ctex"
+path="res://.godot/imported/Windmill.png-6a0590e82b698be85c2cc9f831c69276.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Windmill/Windmill.png"
-dest_files=["res://.godot/imported/Windmill.png-cbde6ff409df32948198ba018c1aa545.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Windmill/Windmill.png"
+dest_files=["res://.godot/imported/Windmill.png-6a0590e82b698be85c2cc9f831c69276.ctex"]
 
 [params]
 

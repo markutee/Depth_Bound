@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blnvl6y7er5ht"
-path="res://.godot/imported/Pants_Blue_Horse.png-5aeb4e0ca169dc1455d9536a7ec4d3d1.ctex"
+path="res://.godot/imported/Pants_Blue_Horse.png-1f1d63e34c8db93ca97b846b56fbe4ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Horse.png"
-dest_files=["res://.godot/imported/Pants_Blue_Horse.png-5aeb4e0ca169dc1455d9536a7ec4d3d1.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Horse.png"
+dest_files=["res://.godot/imported/Pants_Blue_Horse.png-1f1d63e34c8db93ca97b846b56fbe4ba.ctex"]
 
 [params]
 

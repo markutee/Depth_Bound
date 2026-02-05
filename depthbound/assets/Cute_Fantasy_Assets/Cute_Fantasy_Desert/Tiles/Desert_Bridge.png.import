@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdw8eh3la4ru5"
-path="res://.godot/imported/Desert_Bridge.png-cce32275c24122fc50fb1e10c75cef1a.ctex"
+path="res://.godot/imported/Desert_Bridge.png-ed38c015b55ffcbfd80587ff5781e35b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Tiles/Desert_Bridge.png"
-dest_files=["res://.godot/imported/Desert_Bridge.png-cce32275c24122fc50fb1e10c75cef1a.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Tiles/Desert_Bridge.png"
+dest_files=["res://.godot/imported/Desert_Bridge.png-ed38c015b55ffcbfd80587ff5781e35b.ctex"]
 
 [params]
 

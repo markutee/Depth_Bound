@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn1i1c31qqyo6"
-path="res://.godot/imported/BookShelves.png-3243cd75317974a91d59dc134fb91d77.ctex"
+path="res://.godot/imported/BookShelves.png-ad44a04525b2671b941f0eaae957dfbc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/BookShelves.png"
-dest_files=["res://.godot/imported/BookShelves.png-3243cd75317974a91d59dc134fb91d77.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/BookShelves.png"
+dest_files=["res://.godot/imported/BookShelves.png-ad44a04525b2671b941f0eaae957dfbc.ctex"]
 
 [params]
 

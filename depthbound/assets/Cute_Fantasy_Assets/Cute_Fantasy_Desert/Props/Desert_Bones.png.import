@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ocmcxkt4fh1"
-path="res://.godot/imported/Desert_Bones.png-5ac7e30fd18e7349f815d414684cc1fd.ctex"
+path="res://.godot/imported/Desert_Bones.png-6a6ea8ad97d8496ce2504e229487d93a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Desert_Bones.png"
-dest_files=["res://.godot/imported/Desert_Bones.png-5ac7e30fd18e7349f815d414684cc1fd.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Desert_Bones.png"
+dest_files=["res://.godot/imported/Desert_Bones.png-6a6ea8ad97d8496ce2504e229487d93a.ctex"]
 
 [params]
 

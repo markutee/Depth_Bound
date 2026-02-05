@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcd50wxha26my"
-path="res://.godot/imported/Plate_Helmet_1_Purple.png-7e86247f16ae83eea492ebd944a0c40c.ctex"
+path="res://.godot/imported/Plate_Helmet_1_Purple.png-d9e666fccc20fd04e485899b529e5052.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Head/Plate_Helmet_1/Plate_Helmet_1_Purple.png"
-dest_files=["res://.godot/imported/Plate_Helmet_1_Purple.png-7e86247f16ae83eea492ebd944a0c40c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Head/Plate_Helmet_1/Plate_Helmet_1_Purple.png"
+dest_files=["res://.godot/imported/Plate_Helmet_1_Purple.png-d9e666fccc20fd04e485899b529e5052.ctex"]
 
 [params]
 

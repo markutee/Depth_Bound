@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6o0bfvtet7lj"
-path="res://.godot/imported/Goose_01.png-a7b6effa7f2c94a9540a2139e0914e0c.ctex"
+path="res://.godot/imported/Goose_01.png-ed12a672f42e4e5a147af7eba342ecbf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Animals/Goose/Goose_01.png"
-dest_files=["res://.godot/imported/Goose_01.png-a7b6effa7f2c94a9540a2139e0914e0c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Animals/Goose/Goose_01.png"
+dest_files=["res://.godot/imported/Goose_01.png-ed12a672f42e4e5a147af7eba342ecbf.ctex"]
 
 [params]
 

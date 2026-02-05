@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv78g2pufmkq4"
-path="res://.godot/imported/Floor_Spikes_2.png-731eafaadf7ffe403e885b2bbdb11b33.ctex"
+path="res://.godot/imported/Floor_Spikes_2.png-69ae2ae575accda72f9021e3d16774de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_2/Floor_Spikes_2.png"
-dest_files=["res://.godot/imported/Floor_Spikes_2.png-731eafaadf7ffe403e885b2bbdb11b33.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_2/Floor_Spikes_2.png"
+dest_files=["res://.godot/imported/Floor_Spikes_2.png-69ae2ae575accda72f9021e3d16774de.ctex"]
 
 [params]
 

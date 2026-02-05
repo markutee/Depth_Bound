@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwayubid3cjd0"
-path="res://.godot/imported/Target_Dummys.png-87af0ed8b0726f88001888016ac98e23.ctex"
+path="res://.godot/imported/Target_Dummys.png-f39db72fb4eef4da09860863cf627906.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Target_Dummys.png"
-dest_files=["res://.godot/imported/Target_Dummys.png-87af0ed8b0726f88001888016ac98e23.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Target_Dummys.png"
+dest_files=["res://.godot/imported/Target_Dummys.png-f39db72fb4eef4da09860863cf627906.ctex"]
 
 [params]
 

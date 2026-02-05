@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2jfgexnsfnyq"
-path="res://.godot/imported/Bombschroom.png-137ef6f84d92bd91baf92ec2bb7241f0.ctex"
+path="res://.godot/imported/Bombschroom.png-dc0378753fd2d3220dfb7445d0fbd05a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Enemies/Bombschroom/Bombschroom.png"
-dest_files=["res://.godot/imported/Bombschroom.png-137ef6f84d92bd91baf92ec2bb7241f0.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Enemies/Bombschroom/Bombschroom.png"
+dest_files=["res://.godot/imported/Bombschroom.png-dc0378753fd2d3220dfb7445d0fbd05a.ctex"]
 
 [params]
 

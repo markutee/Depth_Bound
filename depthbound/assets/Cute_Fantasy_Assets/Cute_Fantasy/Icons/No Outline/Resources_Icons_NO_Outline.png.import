@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgcxrnqk6wn6w"
-path="res://.godot/imported/Resources_Icons_NO_Outline.png-24802b988af2523cb74ed2e69c492559.ctex"
+path="res://.godot/imported/Resources_Icons_NO_Outline.png-4e409a36ea51e574e86b12fdbae14c8c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Icons/No Outline/Resources_Icons_NO_Outline.png"
-dest_files=["res://.godot/imported/Resources_Icons_NO_Outline.png-24802b988af2523cb74ed2e69c492559.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Icons/No Outline/Resources_Icons_NO_Outline.png"
+dest_files=["res://.godot/imported/Resources_Icons_NO_Outline.png-4e409a36ea51e574e86b12fdbae14c8c.ctex"]
 
 [params]
 

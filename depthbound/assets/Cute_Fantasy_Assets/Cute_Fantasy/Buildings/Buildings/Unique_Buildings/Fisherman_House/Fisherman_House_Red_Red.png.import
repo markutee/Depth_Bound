@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pinhuofa7ogl"
-path="res://.godot/imported/Fisherman_House_Red_Red.png-9c307348db036b3e40d60e678136cfc4.ctex"
+path="res://.godot/imported/Fisherman_House_Red_Red.png-1009ebc16582d831f2646b6d24b70f9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Fisherman_House/Fisherman_House_Red_Red.png"
-dest_files=["res://.godot/imported/Fisherman_House_Red_Red.png-9c307348db036b3e40d60e678136cfc4.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Fisherman_House/Fisherman_House_Red_Red.png"
+dest_files=["res://.godot/imported/Fisherman_House_Red_Red.png-1009ebc16582d831f2646b6d24b70f9a.ctex"]
 
 [params]
 

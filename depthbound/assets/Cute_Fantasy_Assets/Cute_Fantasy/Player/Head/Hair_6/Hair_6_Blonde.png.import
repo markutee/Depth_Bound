@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cojsvxkrsa0np"
-path="res://.godot/imported/Hair_6_Blonde.png-00556de26234417394e408d9b2d7fc36.ctex"
+path="res://.godot/imported/Hair_6_Blonde.png-38ff410075708454f09c9b425c3d4c68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Head/Hair_6/Hair_6_Blonde.png"
-dest_files=["res://.godot/imported/Hair_6_Blonde.png-00556de26234417394e408d9b2d7fc36.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Head/Hair_6/Hair_6_Blonde.png"
+dest_files=["res://.godot/imported/Hair_6_Blonde.png-38ff410075708454f09c9b425c3d4c68.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n8fn6gu66w3m"
-path="res://.godot/imported/Plate_Legs_Orange.png-7dc2346ad4edc924fc22c1a168c9d9da.ctex"
+path="res://.godot/imported/Plate_Legs_Orange.png-3637540b4900a8ffecdbec403c4e5e04.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Legs/Plate_Legs/Plate_Legs_Orange.png"
-dest_files=["res://.godot/imported/Plate_Legs_Orange.png-7dc2346ad4edc924fc22c1a168c9d9da.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Legs/Plate_Legs/Plate_Legs_Orange.png"
+dest_files=["res://.godot/imported/Plate_Legs_Orange.png-3637540b4900a8ffecdbec403c4e5e04.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6o13e7xyu4nf"
-path="res://.godot/imported/Farmer_Shirt_1_Green.png-ff05c5fb179a1dbce83810a28fc27203.ctex"
+path="res://.godot/imported/Farmer_Shirt_1_Green.png-ab1c635e1bee41142e74d9031c331170.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Chest/Farmer_Shirt/Farmer_Shirt_1_Green.png"
-dest_files=["res://.godot/imported/Farmer_Shirt_1_Green.png-ff05c5fb179a1dbce83810a28fc27203.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Chest/Farmer_Shirt/Farmer_Shirt_1_Green.png"
+dest_files=["res://.godot/imported/Farmer_Shirt_1_Green.png-ab1c635e1bee41142e74d9031c331170.ctex"]
 
 [params]
 

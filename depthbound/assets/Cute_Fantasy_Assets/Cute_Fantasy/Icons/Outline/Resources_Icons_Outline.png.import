@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coykskx8w5ulp"
-path="res://.godot/imported/Resources_Icons_Outline.png-4b01b024973f86bd9c6198de6fc07b43.ctex"
+path="res://.godot/imported/Resources_Icons_Outline.png-860ff245e74a29904961c876053ffe3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Icons/Outline/Resources_Icons_Outline.png"
-dest_files=["res://.godot/imported/Resources_Icons_Outline.png-4b01b024973f86bd9c6198de6fc07b43.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Icons/Outline/Resources_Icons_Outline.png"
+dest_files=["res://.godot/imported/Resources_Icons_Outline.png-860ff245e74a29904961c876053ffe3d.ctex"]
 
 [params]
 

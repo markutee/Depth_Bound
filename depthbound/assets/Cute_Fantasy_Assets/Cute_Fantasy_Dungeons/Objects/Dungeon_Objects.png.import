@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bd4gou58qlexk"
-path="res://.godot/imported/Dungeon_Objects.png-ba6b7ee9e05b20c81c190e042d54e508.ctex"
+path="res://.godot/imported/Dungeon_Objects.png-1aea8ae445206980e55b90df915dc46a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Objects/Dungeon_Objects.png"
-dest_files=["res://.godot/imported/Dungeon_Objects.png-ba6b7ee9e05b20c81c190e042d54e508.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Objects/Dungeon_Objects.png"
+dest_files=["res://.godot/imported/Dungeon_Objects.png-1aea8ae445206980e55b90df915dc46a.ctex"]
 
 [params]
 

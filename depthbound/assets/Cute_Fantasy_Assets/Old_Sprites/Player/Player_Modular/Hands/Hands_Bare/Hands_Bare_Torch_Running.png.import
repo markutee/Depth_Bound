@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdq3redtiqy46"
-path="res://.godot/imported/Hands_Bare_Torch_Running.png-c68f6da1e8481fec9dc20ee56f2b4b17.ctex"
+path="res://.godot/imported/Hands_Bare_Torch_Running.png-6d7e6ea7e05249bc0335489d1ab68226.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Torch_Running.png"
-dest_files=["res://.godot/imported/Hands_Bare_Torch_Running.png-c68f6da1e8481fec9dc20ee56f2b4b17.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Hands/Hands_Bare/Hands_Bare_Torch_Running.png"
+dest_files=["res://.godot/imported/Hands_Bare_Torch_Running.png-6d7e6ea7e05249bc0335489d1ab68226.ctex"]
 
 [params]
 

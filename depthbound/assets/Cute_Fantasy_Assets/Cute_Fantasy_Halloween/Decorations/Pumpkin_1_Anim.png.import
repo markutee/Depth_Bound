@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0d4ks2cbf10p"
-path="res://.godot/imported/Pumpkin_1_Anim.png-cd2c2db002b68517a02dd3db45ee7727.ctex"
+path="res://.godot/imported/Pumpkin_1_Anim.png-f4d73e76c3a969af7edbfe4c4e98f798.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Halloween/Decorations/Pumpkin_1_Anim.png"
-dest_files=["res://.godot/imported/Pumpkin_1_Anim.png-cd2c2db002b68517a02dd3db45ee7727.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Halloween/Decorations/Pumpkin_1_Anim.png"
+dest_files=["res://.godot/imported/Pumpkin_1_Anim.png-f4d73e76c3a969af7edbfe4c4e98f798.ctex"]
 
 [params]
 

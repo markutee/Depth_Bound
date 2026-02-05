@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn5cb8yjlrjq8"
-path="res://.godot/imported/Crossbow_Bolt.png-46bcc8eb931b61cf4eaf65af12c1bdb9.ctex"
+path="res://.godot/imported/Crossbow_Bolt.png-c504fcb42613e77c2b5fbe9ae5991567.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Objects/Crossbow_Bolt.png"
-dest_files=["res://.godot/imported/Crossbow_Bolt.png-46bcc8eb931b61cf4eaf65af12c1bdb9.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Objects/Crossbow_Bolt.png"
+dest_files=["res://.godot/imported/Crossbow_Bolt.png-c504fcb42613e77c2b5fbe9ae5991567.ctex"]
 
 [params]
 

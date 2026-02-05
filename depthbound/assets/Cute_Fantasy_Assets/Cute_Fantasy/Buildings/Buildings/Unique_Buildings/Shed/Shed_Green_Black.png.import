@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6d153ax4ekpe"
-path="res://.godot/imported/Shed_Green_Black.png-d87a8257650e8b752ae1843a22fd3aee.ctex"
+path="res://.godot/imported/Shed_Green_Black.png-24e7c9f970a498dfff397fa305684b7e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Shed/Shed_Green_Black.png"
-dest_files=["res://.godot/imported/Shed_Green_Black.png-d87a8257650e8b752ae1843a22fd3aee.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Shed/Shed_Green_Black.png"
+dest_files=["res://.godot/imported/Shed_Green_Black.png-24e7c9f970a498dfff397fa305684b7e.ctex"]
 
 [params]
 

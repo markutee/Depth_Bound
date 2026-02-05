@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2qijitd6qhgm"
-path="res://.godot/imported/Shirt_Green_Bow.png-0580c84da9c11fc0bab4390fcd517222.ctex"
+path="res://.godot/imported/Shirt_Green_Bow.png-8e8284b516517311339167660972a01f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Bow.png"
-dest_files=["res://.godot/imported/Shirt_Green_Bow.png-0580c84da9c11fc0bab4390fcd517222.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Shirt_Green/Shirt_Green_Bow.png"
+dest_files=["res://.godot/imported/Shirt_Green_Bow.png-8e8284b516517311339167660972a01f.ctex"]
 
 [params]
 

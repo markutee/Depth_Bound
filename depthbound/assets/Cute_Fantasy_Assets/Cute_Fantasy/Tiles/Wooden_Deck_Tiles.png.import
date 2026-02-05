@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duliq50owh5v5"
-path="res://.godot/imported/Wooden_Deck_Tiles.png-02ca03adf80326d63db46d8e25cac3fc.ctex"
+path="res://.godot/imported/Wooden_Deck_Tiles.png-ae64b500626b920b06acb718ccf05fe7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Wooden_Deck_Tiles.png"
-dest_files=["res://.godot/imported/Wooden_Deck_Tiles.png-02ca03adf80326d63db46d8e25cac3fc.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Wooden_Deck_Tiles.png"
+dest_files=["res://.godot/imported/Wooden_Deck_Tiles.png-ae64b500626b920b06acb718ccf05fe7.ctex"]
 
 [params]
 

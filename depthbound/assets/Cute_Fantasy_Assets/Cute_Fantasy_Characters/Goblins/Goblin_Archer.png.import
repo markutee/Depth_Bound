@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5vw618koatcg"
-path="res://.godot/imported/Goblin_Archer.png-3111cd92012f19463a4411ee6c11e94d.ctex"
+path="res://.godot/imported/Goblin_Archer.png-4d20c287aa9897923fe59a4e3d6ce4c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Characters/Goblins/Goblin_Archer.png"
-dest_files=["res://.godot/imported/Goblin_Archer.png-3111cd92012f19463a4411ee6c11e94d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Characters/Goblins/Goblin_Archer.png"
+dest_files=["res://.godot/imported/Goblin_Archer.png-4d20c287aa9897923fe59a4e3d6ce4c8.ctex"]
 
 [params]
 

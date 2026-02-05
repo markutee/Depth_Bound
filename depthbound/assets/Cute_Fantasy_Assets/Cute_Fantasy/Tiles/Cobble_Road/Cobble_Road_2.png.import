@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cv64hqj8r8vmu"
-path="res://.godot/imported/Cobble_Road_2.png-6d827a9688c79cfa36cff390d13af9ea.ctex"
+path="res://.godot/imported/Cobble_Road_2.png-91304e77634722262af1bb586e48a8f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Cobble_Road/Cobble_Road_2.png"
-dest_files=["res://.godot/imported/Cobble_Road_2.png-6d827a9688c79cfa36cff390d13af9ea.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cobble_Road/Cobble_Road_2.png"
+dest_files=["res://.godot/imported/Cobble_Road_2.png-91304e77634722262af1bb586e48a8f7.ctex"]
 
 [params]
 

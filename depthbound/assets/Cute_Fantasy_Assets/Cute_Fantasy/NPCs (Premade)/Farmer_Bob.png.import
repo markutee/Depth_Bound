@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddksyp6g3ts8i"
-path="res://.godot/imported/Farmer_Bob.png-6beed8188be45ee48c77a7e3350dbc8f.ctex"
+path="res://.godot/imported/Farmer_Bob.png-c8da9d9781ea32a57e1c197bb142f408.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/NPCs (Premade)/Farmer_Bob.png"
-dest_files=["res://.godot/imported/Farmer_Bob.png-6beed8188be45ee48c77a7e3350dbc8f.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/NPCs (Premade)/Farmer_Bob.png"
+dest_files=["res://.godot/imported/Farmer_Bob.png-c8da9d9781ea32a57e1c197bb142f408.ctex"]
 
 [params]
 

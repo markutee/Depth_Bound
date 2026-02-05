@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj471lft515xd"
-path="res://.godot/imported/Lumberjack_Shirt_1_Orange.png-db7157b865712c1d24f0886ed73495f8.ctex"
+path="res://.godot/imported/Lumberjack_Shirt_1_Orange.png-282f9390a87ad4780db0fe39bf56fb34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Chest/Lumberjack_Shirt/Lumberjack_Shirt_1_Orange.png"
-dest_files=["res://.godot/imported/Lumberjack_Shirt_1_Orange.png-db7157b865712c1d24f0886ed73495f8.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Chest/Lumberjack_Shirt/Lumberjack_Shirt_1_Orange.png"
+dest_files=["res://.godot/imported/Lumberjack_Shirt_1_Orange.png-282f9390a87ad4780db0fe39bf56fb34.ctex"]
 
 [params]
 

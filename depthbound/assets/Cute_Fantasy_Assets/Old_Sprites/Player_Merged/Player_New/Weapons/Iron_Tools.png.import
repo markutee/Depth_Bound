@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4puvk0w8732v"
-path="res://.godot/imported/Iron_Tools.png-859aec3d47b973bcdf404850bcfdc82f.ctex"
+path="res://.godot/imported/Iron_Tools.png-57271a1821986961d40d8fc6ae9be6ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player_Merged/Player_New/Weapons/Iron_Tools.png"
-dest_files=["res://.godot/imported/Iron_Tools.png-859aec3d47b973bcdf404850bcfdc82f.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player_Merged/Player_New/Weapons/Iron_Tools.png"
+dest_files=["res://.godot/imported/Iron_Tools.png-57271a1821986961d40d8fc6ae9be6ca.ctex"]
 
 [params]
 

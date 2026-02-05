@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bagkid3rtrf1"
-path="res://.godot/imported/Dungeon_1_Door_Open.png-3ed7049f971bb2d0339aa63dcf1dfb94.ctex"
+path="res://.godot/imported/Dungeon_1_Door_Open.png-72db6adae247afbc02ac2144c11c997a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Door_Open.png"
-dest_files=["res://.godot/imported/Dungeon_1_Door_Open.png-3ed7049f971bb2d0339aa63dcf1dfb94.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Door_Open.png"
+dest_files=["res://.godot/imported/Dungeon_1_Door_Open.png-72db6adae247afbc02ac2144c11c997a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5sjpu2cyl75j"
-path="res://.godot/imported/Lantern_Idle.png-f3ff6e0570fb21ea82a59395833eec04.ctex"
+path="res://.godot/imported/Lantern_Idle.png-8841e917ad5e637b4ca8df9f8619eea1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Tools/Other_Tools/Lantern/Lantern_Idle.png"
-dest_files=["res://.godot/imported/Lantern_Idle.png-f3ff6e0570fb21ea82a59395833eec04.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Tools/Other_Tools/Lantern/Lantern_Idle.png"
+dest_files=["res://.godot/imported/Lantern_Idle.png-8841e917ad5e637b4ca8df9f8619eea1.ctex"]
 
 [params]
 

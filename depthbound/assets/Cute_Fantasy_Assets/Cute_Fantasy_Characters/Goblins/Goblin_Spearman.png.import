@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0uv4h37c5bae"
-path="res://.godot/imported/Goblin_Spearman.png-a83e7fd75bd6e7435371dac1fc01aa05.ctex"
+path="res://.godot/imported/Goblin_Spearman.png-5787b395664bd8caecb5f32ae8254991.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Characters/Goblins/Goblin_Spearman.png"
-dest_files=["res://.godot/imported/Goblin_Spearman.png-a83e7fd75bd6e7435371dac1fc01aa05.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Characters/Goblins/Goblin_Spearman.png"
+dest_files=["res://.godot/imported/Goblin_Spearman.png-5787b395664bd8caecb5f32ae8254991.ctex"]
 
 [params]
 

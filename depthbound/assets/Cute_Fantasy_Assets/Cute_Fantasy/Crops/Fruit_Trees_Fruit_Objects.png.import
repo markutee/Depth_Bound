@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdlqs5gug5iba"
-path="res://.godot/imported/Fruit_Trees_Fruit_Objects.png-3e59db8e56432054334f585c8b60c63e.ctex"
+path="res://.godot/imported/Fruit_Trees_Fruit_Objects.png-b10cd4b5bb68bc051ee8ef910750fead.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Crops/Fruit_Trees_Fruit_Objects.png"
-dest_files=["res://.godot/imported/Fruit_Trees_Fruit_Objects.png-3e59db8e56432054334f585c8b60c63e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Crops/Fruit_Trees_Fruit_Objects.png"
+dest_files=["res://.godot/imported/Fruit_Trees_Fruit_Objects.png-b10cd4b5bb68bc051ee8ef910750fead.ctex"]
 
 [params]
 

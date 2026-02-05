@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://jc1reoinmmki"]
+
+[ext_resource type="Texture2D" uid="uid://dd6u83nrav0k4" path="res://assets/ImagesDepthbound/Ores/Ores.png" id="1_1di36"]
+[ext_resource type="Script" uid="uid://bbsc8aykifmbd" path="res://scripts/rock.gd" id="1_ik6fu"]
+[ext_resource type="Resource" uid="uid://clxmui02fb3ab" path="res://data/rocks/iron.tres" id="2_ik6fu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mek2u"]
+atlas = ExtResource("1_1di36")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ik6fu"]
+
+[node name="Rock" type="StaticBody2D" unique_id=1219277682]
+script = ExtResource("1_ik6fu")
+data = ExtResource("2_ik6fu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=560228462]
+position = Vector2(2.0000005, -0.49999976)
+scale = Vector2(1.25, 1.1875)
+texture = SubResource("AtlasTexture_mek2u")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1101702954]
+position = Vector2(2, 0)
+shape = SubResource("CircleShape2D_ik6fu")

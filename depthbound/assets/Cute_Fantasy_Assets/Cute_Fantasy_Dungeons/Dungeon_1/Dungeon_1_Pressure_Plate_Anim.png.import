@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jnavdq0f6lxr"
-path="res://.godot/imported/Dungeon_1_Pressure_Plate_Anim.png-c6dde3821902948f6947c933e0798da6.ctex"
+path="res://.godot/imported/Dungeon_1_Pressure_Plate_Anim.png-1e757dfbbc6091e8415b46ce682fe59f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Pressure_Plate_Anim.png"
-dest_files=["res://.godot/imported/Dungeon_1_Pressure_Plate_Anim.png-c6dde3821902948f6947c933e0798da6.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Pressure_Plate_Anim.png"
+dest_files=["res://.godot/imported/Dungeon_1_Pressure_Plate_Anim.png-1e757dfbbc6091e8415b46ce682fe59f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crvbolhkr01kf"
-path="res://.godot/imported/Wooden_FishingRod.png-b7e7dc743c2365f53e612bf1f4042800.ctex"
+path="res://.godot/imported/Wooden_FishingRod.png-5af9d639bf859b7b33e0d2c28f756abf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Tools/Other_Tools/Wooden_FishingRod.png"
-dest_files=["res://.godot/imported/Wooden_FishingRod.png-b7e7dc743c2365f53e612bf1f4042800.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Tools/Other_Tools/Wooden_FishingRod.png"
+dest_files=["res://.godot/imported/Wooden_FishingRod.png-5af9d639bf859b7b33e0d2c28f756abf.ctex"]
 
 [params]
 

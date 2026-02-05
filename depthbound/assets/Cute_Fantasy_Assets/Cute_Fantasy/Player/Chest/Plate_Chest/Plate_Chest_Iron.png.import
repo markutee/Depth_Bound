@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bihn4csl36kbd"
-path="res://.godot/imported/Plate_Chest_Iron.png-62b375357fdb966959125467342e7bfc.ctex"
+path="res://.godot/imported/Plate_Chest_Iron.png-2bc32f7c4e4a85687e065bb57804ad28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Chest/Plate_Chest/Plate_Chest_Iron.png"
-dest_files=["res://.godot/imported/Plate_Chest_Iron.png-62b375357fdb966959125467342e7bfc.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Chest/Plate_Chest/Plate_Chest_Iron.png"
+dest_files=["res://.godot/imported/Plate_Chest_Iron.png-2bc32f7c4e4a85687e065bb57804ad28.ctex"]
 
 [params]
 

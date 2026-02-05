@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqmlu7xfk5qre"
-path="res://.godot/imported/Pants_Blue_Push.png-d030c587c3a6fcc8593eaafb86f56c55.ctex"
+path="res://.godot/imported/Pants_Blue_Push.png-23c840477005ed251e69c97f6089ac26.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Push.png"
-dest_files=["res://.godot/imported/Pants_Blue_Push.png-d030c587c3a6fcc8593eaafb86f56c55.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Push.png"
+dest_files=["res://.godot/imported/Pants_Blue_Push.png-23c840477005ed251e69c97f6089ac26.ctex"]
 
 [params]
 

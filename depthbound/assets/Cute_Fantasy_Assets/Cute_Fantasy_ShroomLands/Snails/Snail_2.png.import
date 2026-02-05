@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7ehu4j48duov"
-path="res://.godot/imported/Snail_2.png-2d0da2ff9f72e6b8d29606dd81541c8a.ctex"
+path="res://.godot/imported/Snail_2.png-1adac27b8657aa809da2497b93ef35da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_ShroomLands/Snails/Snail_2.png"
-dest_files=["res://.godot/imported/Snail_2.png-2d0da2ff9f72e6b8d29606dd81541c8a.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Snails/Snail_2.png"
+dest_files=["res://.godot/imported/Snail_2.png-1adac27b8657aa809da2497b93ef35da.ctex"]
 
 [params]
 

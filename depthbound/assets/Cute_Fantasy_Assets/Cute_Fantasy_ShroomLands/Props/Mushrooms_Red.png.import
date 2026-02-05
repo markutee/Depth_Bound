@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clrmaxavs0b72"
-path="res://.godot/imported/Mushrooms_Red.png-6237049e6256c0ea52df9efd2b1233a6.ctex"
+path="res://.godot/imported/Mushrooms_Red.png-db47db10e2e15734a0ce17e6b71011ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_ShroomLands/Props/Mushrooms_Red.png"
-dest_files=["res://.godot/imported/Mushrooms_Red.png-6237049e6256c0ea52df9efd2b1233a6.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Props/Mushrooms_Red.png"
+dest_files=["res://.godot/imported/Mushrooms_Red.png-db47db10e2e15734a0ce17e6b71011ec.ctex"]
 
 [params]
 

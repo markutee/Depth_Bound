@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cialbl75j2d2c"
-path="res://.godot/imported/Shoes_1_Pink.png-30837cc7ee6f9cae491fc2018df4a47b.ctex"
+path="res://.godot/imported/Shoes_1_Pink.png-9cd462c2fc34fddb49386825383ef93e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Player/Feet/Shoes_1_Pink.png"
-dest_files=["res://.godot/imported/Shoes_1_Pink.png-30837cc7ee6f9cae491fc2018df4a47b.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Player/Feet/Shoes_1_Pink.png"
+dest_files=["res://.godot/imported/Shoes_1_Pink.png-9cd462c2fc34fddb49386825383ef93e.ctex"]
 
 [params]
 

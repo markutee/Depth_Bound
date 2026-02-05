@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cahp8bqkeefuc"
-path="res://.godot/imported/Player_Base_Axe.png-4662e5fe490f337138c429754d709606.ctex"
+path="res://.godot/imported/Player_Base_Axe.png-0e89dc55a8c2cd06ffe56cedeb926048.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Player_Base/Player_Base_Axe.png"
-dest_files=["res://.godot/imported/Player_Base_Axe.png-4662e5fe490f337138c429754d709606.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Player_Base/Player_Base_Axe.png"
+dest_files=["res://.godot/imported/Player_Base_Axe.png-0e89dc55a8c2cd06ffe56cedeb926048.ctex"]
 
 [params]
 

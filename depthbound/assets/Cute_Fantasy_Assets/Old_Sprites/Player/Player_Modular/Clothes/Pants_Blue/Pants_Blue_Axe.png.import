@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf37i78flhg1u"
-path="res://.godot/imported/Pants_Blue_Axe.png-56b8252150cf833b3b65b5df25f2f6c8.ctex"
+path="res://.godot/imported/Pants_Blue_Axe.png-480e27ba410b59d89a67c358e6c5ec4f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Axe.png"
-dest_files=["res://.godot/imported/Pants_Blue_Axe.png-56b8252150cf833b3b65b5df25f2f6c8.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Clothes/Pants_Blue/Pants_Blue_Axe.png"
+dest_files=["res://.godot/imported/Pants_Blue_Axe.png-480e27ba410b59d89a67c358e6c5ec4f.ctex"]
 
 [params]
 

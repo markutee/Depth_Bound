@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bposa0qjmvytc"
-path="res://.godot/imported/Campfire_Pot_Anim.png-40b177b650f5dd9f57edcbb77a9f6042.ctex"
+path="res://.godot/imported/Campfire_Pot_Anim.png-2b8d328eb14c6d5f74814ab42c2aa7e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_MilitaryCamp/Campfire_Pot_Anim.png"
-dest_files=["res://.godot/imported/Campfire_Pot_Anim.png-40b177b650f5dd9f57edcbb77a9f6042.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_MilitaryCamp/Campfire_Pot_Anim.png"
+dest_files=["res://.godot/imported/Campfire_Pot_Anim.png-2b8d328eb14c6d5f74814ab42c2aa7e8.ctex"]
 
 [params]
 

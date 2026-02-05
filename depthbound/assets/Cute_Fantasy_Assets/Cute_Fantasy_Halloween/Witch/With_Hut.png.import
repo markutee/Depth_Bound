@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctt3f1r61302g"
-path="res://.godot/imported/With_Hut.png-816f29a548ef3538a1ad3fc425050472.ctex"
+path="res://.godot/imported/With_Hut.png-b0e9ef97cd64f2b363deb97be6fa26f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Halloween/Witch/With_Hut.png"
-dest_files=["res://.godot/imported/With_Hut.png-816f29a548ef3538a1ad3fc425050472.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Halloween/Witch/With_Hut.png"
+dest_files=["res://.godot/imported/With_Hut.png-b0e9ef97cd64f2b363deb97be6fa26f9.ctex"]
 
 [params]
 

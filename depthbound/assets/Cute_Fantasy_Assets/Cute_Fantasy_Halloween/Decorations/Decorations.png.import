@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dim5diymbi7xi"
-path="res://.godot/imported/Decorations.png-f90ffc8b37e4693a354724be6d5bb699.ctex"
+path="res://.godot/imported/Decorations.png-68f671348d372ee03b0cbd0015a31f0d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Halloween/Decorations/Decorations.png"
-dest_files=["res://.godot/imported/Decorations.png-f90ffc8b37e4693a354724be6d5bb699.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Halloween/Decorations/Decorations.png"
+dest_files=["res://.godot/imported/Decorations.png-68f671348d372ee03b0cbd0015a31f0d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp5xkcpy7wxlf"
-path="res://.godot/imported/Golden_Pots.png-62ff20f57db7fc2b46fabf90ff7d72bf.ctex"
+path="res://.godot/imported/Golden_Pots.png-ce1f20398be5298cbaba48ceba2be773.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Golden_Pots.png"
-dest_files=["res://.godot/imported/Golden_Pots.png-62ff20f57db7fc2b46fabf90ff7d72bf.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Golden_Pots.png"
+dest_files=["res://.godot/imported/Golden_Pots.png-ce1f20398be5298cbaba48ceba2be773.ctex"]
 
 [params]
 

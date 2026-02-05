@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1tx08dv3mcpc"
-path="res://.godot/imported/Camel_1.png-983abee74abe8bb06762bd14ba11064b.ctex"
+path="res://.godot/imported/Camel_1.png-37579a25c916187c583ea6368e320962.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Animals/Camel/Camel_1.png"
-dest_files=["res://.godot/imported/Camel_1.png-983abee74abe8bb06762bd14ba11064b.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Animals/Camel/Camel_1.png"
+dest_files=["res://.godot/imported/Camel_1.png-37579a25c916187c583ea6368e320962.ctex"]
 
 [params]
 

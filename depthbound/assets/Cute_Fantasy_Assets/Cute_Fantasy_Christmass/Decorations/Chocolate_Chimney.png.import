@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx2dbb04ouc3q"
-path="res://.godot/imported/Chocolate_Chimney.png-dd50ff469c6b9e3069f0c79b231e310b.ctex"
+path="res://.godot/imported/Chocolate_Chimney.png-91b4af33a18e0bfeef05637d556552fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Christmass/Decorations/Chocolate_Chimney.png"
-dest_files=["res://.godot/imported/Chocolate_Chimney.png-dd50ff469c6b9e3069f0c79b231e310b.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Christmass/Decorations/Chocolate_Chimney.png"
+dest_files=["res://.godot/imported/Chocolate_Chimney.png-91b4af33a18e0bfeef05637d556552fd.ctex"]
 
 [params]
 

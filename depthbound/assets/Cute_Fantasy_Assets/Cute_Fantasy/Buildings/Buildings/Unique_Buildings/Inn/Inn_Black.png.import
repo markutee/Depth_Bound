@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4up8c2d8r2pn"
-path="res://.godot/imported/Inn_Black.png-d3916caeca00423266ec3e0711266877.ctex"
+path="res://.godot/imported/Inn_Black.png-26e406cd9b07338682fcb4df626d7cfa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Inn/Inn_Black.png"
-dest_files=["res://.godot/imported/Inn_Black.png-d3916caeca00423266ec3e0711266877.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/Buildings/Unique_Buildings/Inn/Inn_Black.png"
+dest_files=["res://.godot/imported/Inn_Black.png-26e406cd9b07338682fcb4df626d7cfa.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btxbpeidjoh7b"
-path="res://.godot/imported/Barrel_1_Anim.png-4c2983ec9062fbe177e6850af3047623.ctex"
+path="res://.godot/imported/Barrel_1_Anim.png-53bd38d480d1c83116a8b010e65d2c6d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Break_Animations/Barrel_1_Anim.png"
-dest_files=["res://.godot/imported/Barrel_1_Anim.png-4c2983ec9062fbe177e6850af3047623.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Break_Animations/Barrel_1_Anim.png"
+dest_files=["res://.godot/imported/Barrel_1_Anim.png-53bd38d480d1c83116a8b010e65d2c6d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6ko30yayfkbq"
-path="res://.godot/imported/Furnace_Anim.png-6f4b4bfe12d19e374e7926ec68d5c69f.ctex"
+path="res://.godot/imported/Furnace_Anim.png-aad408dae5cddb8e1bd660e486a15f2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Furnace_Anim.png"
-dest_files=["res://.godot/imported/Furnace_Anim.png-6f4b4bfe12d19e374e7926ec68d5c69f.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Furnace_Anim.png"
+dest_files=["res://.godot/imported/Furnace_Anim.png-aad408dae5cddb8e1bd660e486a15f2e.ctex"]
 
 [params]
 

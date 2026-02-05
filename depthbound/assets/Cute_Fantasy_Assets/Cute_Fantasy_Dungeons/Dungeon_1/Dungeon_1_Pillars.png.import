@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dte78ecupu0b7"
-path="res://.godot/imported/Dungeon_1_Pillars.png-ad29fc54121011355ec5f303f9f52a98.ctex"
+path="res://.godot/imported/Dungeon_1_Pillars.png-0fd320ec1ec8bbe1ef89b250d3b61981.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Pillars.png"
-dest_files=["res://.godot/imported/Dungeon_1_Pillars.png-ad29fc54121011355ec5f303f9f52a98.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_1/Dungeon_1_Pillars.png"
+dest_files=["res://.godot/imported/Dungeon_1_Pillars.png-0fd320ec1ec8bbe1ef89b250d3b61981.ctex"]
 
 [params]
 

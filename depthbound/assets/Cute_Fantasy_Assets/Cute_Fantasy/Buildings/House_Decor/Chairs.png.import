@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cna3kputwxtfp"
-path="res://.godot/imported/Chairs.png-a5f7ceb4f83a1eccda183f08af74d68b.ctex"
+path="res://.godot/imported/Chairs.png-75dbfac4ba4eed9b8b55c9a77ffa476b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Buildings/House_Decor/Chairs.png"
-dest_files=["res://.godot/imported/Chairs.png-a5f7ceb4f83a1eccda183f08af74d68b.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Buildings/House_Decor/Chairs.png"
+dest_files=["res://.godot/imported/Chairs.png-75dbfac4ba4eed9b8b55c9a77ffa476b.ctex"]
 
 [params]
 

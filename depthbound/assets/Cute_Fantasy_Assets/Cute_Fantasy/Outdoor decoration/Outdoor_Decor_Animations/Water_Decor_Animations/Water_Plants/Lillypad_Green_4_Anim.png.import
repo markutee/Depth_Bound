@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b01v1c7dtg272"
-path="res://.godot/imported/Lillypad_Green_4_Anim.png-444abb48ae37b2304c79a04c4788252e.ctex"
+path="res://.godot/imported/Lillypad_Green_4_Anim.png-c6b20df22a7c54977e0124301f216c0d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Water_Plants/Lillypad_Green_4_Anim.png"
-dest_files=["res://.godot/imported/Lillypad_Green_4_Anim.png-444abb48ae37b2304c79a04c4788252e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Water_Plants/Lillypad_Green_4_Anim.png"
+dest_files=["res://.godot/imported/Lillypad_Green_4_Anim.png-c6b20df22a7c54977e0124301f216c0d.ctex"]
 
 [params]
 

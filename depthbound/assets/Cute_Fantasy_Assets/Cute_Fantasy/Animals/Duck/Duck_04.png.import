@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnw3xee5d3u2x"
-path="res://.godot/imported/Duck_04.png-a0454addc3d9114934f906556e6234b5.ctex"
+path="res://.godot/imported/Duck_04.png-300c463d6a9e56d8b387df77210694ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Animals/Duck/Duck_04.png"
-dest_files=["res://.godot/imported/Duck_04.png-a0454addc3d9114934f906556e6234b5.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Animals/Duck/Duck_04.png"
+dest_files=["res://.godot/imported/Duck_04.png-300c463d6a9e56d8b387df77210694ac.ctex"]
 
 [params]
 

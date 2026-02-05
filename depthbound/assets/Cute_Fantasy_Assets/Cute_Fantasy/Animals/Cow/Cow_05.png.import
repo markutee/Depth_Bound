@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbdrijb805kui"
-path="res://.godot/imported/Cow_05.png-7637538d92def961e513bf4b4842d1af.ctex"
+path="res://.godot/imported/Cow_05.png-1df7c2d24be3e20fc51f58f74e68468d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Animals/Cow/Cow_05.png"
-dest_files=["res://.godot/imported/Cow_05.png-7637538d92def961e513bf4b4842d1af.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Animals/Cow/Cow_05.png"
+dest_files=["res://.godot/imported/Cow_05.png-1df7c2d24be3e20fc51f58f74e68468d.ctex"]
 
 [params]
 

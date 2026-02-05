@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chc3q4ntigyik"
-path="res://.godot/imported/Volcano_Fence.png-e487852b65b14302ff46458e440a03d7.ctex"
+path="res://.godot/imported/Volcano_Fence.png-fe008adcd66a2192f0563f4601b3e33f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Volcano/Volcano_Props/Volcano_Fence.png"
-dest_files=["res://.godot/imported/Volcano_Fence.png-e487852b65b14302ff46458e440a03d7.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Volcano_Props/Volcano_Fence.png"
+dest_files=["res://.godot/imported/Volcano_Fence.png-fe008adcd66a2192f0563f4601b3e33f.ctex"]
 
 [params]
 

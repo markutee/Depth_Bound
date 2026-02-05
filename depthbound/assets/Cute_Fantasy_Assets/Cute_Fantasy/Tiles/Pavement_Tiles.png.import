@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://84x0pxnhv2x5"
-path="res://.godot/imported/Pavement_Tiles.png-b121e89e3d24b5523fbfffe0bea28112.ctex"
+path="res://.godot/imported/Pavement_Tiles.png-8e160b0fc18c02d6dc79435e268a4b3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Pavement_Tiles.png"
-dest_files=["res://.godot/imported/Pavement_Tiles.png-b121e89e3d24b5523fbfffe0bea28112.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Pavement_Tiles.png"
+dest_files=["res://.godot/imported/Pavement_Tiles.png-8e160b0fc18c02d6dc79435e268a4b3d.ctex"]
 
 [params]
 

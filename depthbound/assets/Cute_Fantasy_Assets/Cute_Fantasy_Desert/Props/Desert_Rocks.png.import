@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bckvvjnioup3j"
-path="res://.godot/imported/Desert_Rocks.png-ee7217af69ba16032e36f1e6a3e2ca13.ctex"
+path="res://.godot/imported/Desert_Rocks.png-e7fccbda94d765b6cc4afe9ab6edace5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Desert/Props/Desert_Rocks.png"
-dest_files=["res://.godot/imported/Desert_Rocks.png-ee7217af69ba16032e36f1e6a3e2ca13.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Desert_Rocks.png"
+dest_files=["res://.godot/imported/Desert_Rocks.png-e7fccbda94d765b6cc4afe9ab6edace5.ctex"]
 
 [params]
 

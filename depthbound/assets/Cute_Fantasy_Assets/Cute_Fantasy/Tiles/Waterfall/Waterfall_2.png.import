@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gs87jqsxk51y"
-path="res://.godot/imported/Waterfall_2.png-19f08cf753eec410626d7a3b21a0fdf4.ctex"
+path="res://.godot/imported/Waterfall_2.png-9fa41433f627790c317836414248b5cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Waterfall/Waterfall_2.png"
-dest_files=["res://.godot/imported/Waterfall_2.png-19f08cf753eec410626d7a3b21a0fdf4.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Waterfall/Waterfall_2.png"
+dest_files=["res://.godot/imported/Waterfall_2.png-9fa41433f627790c317836414248b5cd.ctex"]
 
 [params]
 

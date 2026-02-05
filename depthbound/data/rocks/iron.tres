@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RockData" format=3 uid="uid://clxmui02fb3ab"]
+
+[ext_resource type="Resource" uid="uid://bragqg8l5gcpr" path="res://data/ores/iron_ore.tres" id="1_2p1yt"]
+[ext_resource type="Script" uid="uid://d6ub26v8dym2" path="res://scripts/rock_data.gd" id="1_qo01q"]
+[ext_resource type="Texture2D" uid="uid://dd6u83nrav0k4" path="res://assets/ImagesDepthbound/Ores/Ores.png" id="2_8h880"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2p1yt"]
+atlas = ExtResource("2_8h880")
+region = Rect2(16, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_qo01q")
+texture = SubResource("AtlasTexture_2p1yt")
+max_health = 4
+rarity = 25
+min_depth = 3
+ore_resource = ExtResource("1_2p1yt")
+metadata/_custom_type_script = "uid://d6ub26v8dym2"

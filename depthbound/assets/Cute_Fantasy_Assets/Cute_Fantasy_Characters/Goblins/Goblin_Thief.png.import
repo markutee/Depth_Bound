@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bndf765eaw8i2"
-path="res://.godot/imported/Goblin_Thief.png-8bd812e5a57f01ff84e69342c0304995.ctex"
+path="res://.godot/imported/Goblin_Thief.png-57b9fde343822a3cc74da99a475f37e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Characters/Goblins/Goblin_Thief.png"
-dest_files=["res://.godot/imported/Goblin_Thief.png-8bd812e5a57f01ff84e69342c0304995.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Characters/Goblins/Goblin_Thief.png"
+dest_files=["res://.godot/imported/Goblin_Thief.png-57b9fde343822a3cc74da99a475f37e4.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8t45hxchhhw"
-path="res://.godot/imported/Skeleton_Mage_Projectile.png-67054e878e07cfeb1b2aa705cbb84d6a.ctex"
+path="res://.godot/imported/Skeleton_Mage_Projectile.png-f8cc8352d83b12656823069ade395e72.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Other/Skeleton_Mage_Projectile.png"
-dest_files=["res://.godot/imported/Skeleton_Mage_Projectile.png-67054e878e07cfeb1b2aa705cbb84d6a.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Other/Skeleton_Mage_Projectile.png"
+dest_files=["res://.godot/imported/Skeleton_Mage_Projectile.png-f8cc8352d83b12656823069ade395e72.ctex"]
 
 [params]
 

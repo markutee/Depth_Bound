@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0j63vyn7e0c7"
-path="res://.godot/imported/Player_Base_Hoe.png-69792518969cb9a02060d3550068ef81.ctex"
+path="res://.godot/imported/Player_Base_Hoe.png-d1d3be3fa68eeebf11cb403a35e5234a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Sprites/Player/Player_Modular/Player_Base/Player_Base_Hoe.png"
-dest_files=["res://.godot/imported/Player_Base_Hoe.png-69792518969cb9a02060d3550068ef81.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Old_Sprites/Player/Player_Modular/Player_Base/Player_Base_Hoe.png"
+dest_files=["res://.godot/imported/Player_Base_Hoe.png-d1d3be3fa68eeebf11cb403a35e5234a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crx6fxpfpraym"
-path="res://.godot/imported/Cave_Water_Animation.png-52f5e6e313c0088868d68eb4f525869d.ctex"
+path="res://.godot/imported/Cave_Water_Animation.png-5a1c4e227052f36bfb326c595c1ade91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Cave/Cave_Water_Animation.png"
-dest_files=["res://.godot/imported/Cave_Water_Animation.png-52f5e6e313c0088868d68eb4f525869d.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cave/Cave_Water_Animation.png"
+dest_files=["res://.godot/imported/Cave_Water_Animation.png-5a1c4e227052f36bfb326c595c1ade91.ctex"]
 
 [params]
 

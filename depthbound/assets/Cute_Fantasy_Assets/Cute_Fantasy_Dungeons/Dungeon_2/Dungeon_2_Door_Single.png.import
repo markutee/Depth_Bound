@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmaelntju2phl"
-path="res://.godot/imported/Dungeon_2_Door_Single.png-e5afa3eba2e39811eaa92dafdeb7b29e.ctex"
+path="res://.godot/imported/Dungeon_2_Door_Single.png-d9882bd1003fdd02bc6f74b70c0ae76a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Dungeon_2/Dungeon_2_Door_Single.png"
-dest_files=["res://.godot/imported/Dungeon_2_Door_Single.png-e5afa3eba2e39811eaa92dafdeb7b29e.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_2/Dungeon_2_Door_Single.png"
+dest_files=["res://.godot/imported/Dungeon_2_Door_Single.png-d9882bd1003fdd02bc6f74b70c0ae76a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7acrb6atgqch"
-path="res://.godot/imported/Cattail_1_Anim.png-bba6472cb9fe5ac77fd06aede00eb910.ctex"
+path="res://.godot/imported/Cattail_1_Anim.png-2a75dbdf92eb65f12a6a6ac02092a722.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Water_Plants/Cattail_1_Anim.png"
-dest_files=["res://.godot/imported/Cattail_1_Anim.png-bba6472cb9fe5ac77fd06aede00eb910.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Water_Plants/Cattail_1_Anim.png"
+dest_files=["res://.godot/imported/Cattail_1_Anim.png-2a75dbdf92eb65f12a6a6ac02092a722.ctex"]
 
 [params]
 

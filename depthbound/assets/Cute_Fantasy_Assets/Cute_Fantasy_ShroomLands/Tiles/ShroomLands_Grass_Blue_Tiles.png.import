@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qr4d06w8h8qy"
-path="res://.godot/imported/ShroomLands_Grass_Blue_Tiles.png-850b1e5b641f49c4ffb4d79091aa6805.ctex"
+path="res://.godot/imported/ShroomLands_Grass_Blue_Tiles.png-9cc62de7dfcbe8e419376537e318cf69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_ShroomLands/Tiles/ShroomLands_Grass_Blue_Tiles.png"
-dest_files=["res://.godot/imported/ShroomLands_Grass_Blue_Tiles.png-850b1e5b641f49c4ffb4d79091aa6805.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Tiles/ShroomLands_Grass_Blue_Tiles.png"
+dest_files=["res://.godot/imported/ShroomLands_Grass_Blue_Tiles.png-9cc62de7dfcbe8e419376537e318cf69.ctex"]
 
 [params]
 

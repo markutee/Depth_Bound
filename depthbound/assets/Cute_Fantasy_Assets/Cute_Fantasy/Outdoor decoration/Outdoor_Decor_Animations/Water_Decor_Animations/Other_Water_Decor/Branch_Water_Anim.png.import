@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3c1srngwi626"
-path="res://.godot/imported/Branch_Water_Anim.png-2005e480dad153c1a66bada17693758c.ctex"
+path="res://.godot/imported/Branch_Water_Anim.png-335707a217859930b41127c051322bf3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Other_Water_Decor/Branch_Water_Anim.png"
-dest_files=["res://.godot/imported/Branch_Water_Anim.png-2005e480dad153c1a66bada17693758c.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Outdoor decoration/Outdoor_Decor_Animations/Water_Decor_Animations/Other_Water_Decor/Branch_Water_Anim.png"
+dest_files=["res://.godot/imported/Branch_Water_Anim.png-335707a217859930b41127c051322bf3.ctex"]
 
 [params]
 

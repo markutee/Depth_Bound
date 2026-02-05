@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq8bs1b7bhpy8"
-path="res://.godot/imported/Stone_Cliff_3_Cave_Entrance.png-56d278994ec80023efa2d2d144fd97c4.ctex"
+path="res://.godot/imported/Stone_Cliff_3_Cave_Entrance.png-f0bf93f312a048b5eccddf80aa746635.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Tiles/Cliff/Stone_Cliff_3_Cave_Entrance.png"
-dest_files=["res://.godot/imported/Stone_Cliff_3_Cave_Entrance.png-56d278994ec80023efa2d2d144fd97c4.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cliff/Stone_Cliff_3_Cave_Entrance.png"
+dest_files=["res://.godot/imported/Stone_Cliff_3_Cave_Entrance.png-f0bf93f312a048b5eccddf80aa746635.ctex"]
 
 [params]
 

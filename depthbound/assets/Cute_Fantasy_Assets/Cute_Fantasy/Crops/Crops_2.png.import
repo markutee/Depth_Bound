@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4t1il08afr3r"
-path="res://.godot/imported/Crops_2.png-ef014fe5f8ffc6819f3c871b1a1a0b3f.ctex"
+path="res://.godot/imported/Crops_2.png-3c9f70a972fe69ef46980a8ac71a49ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy/Crops/Crops_2.png"
-dest_files=["res://.godot/imported/Crops_2.png-ef014fe5f8ffc6819f3c871b1a1a0b3f.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Crops/Crops_2.png"
+dest_files=["res://.godot/imported/Crops_2.png-3c9f70a972fe69ef46980a8ac71a49ce.ctex"]
 
 [params]
 

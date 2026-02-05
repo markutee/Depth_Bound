@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwrbtp2uu2fkb"
-path="res://.godot/imported/Ladder_Down_SingleFrame.png-9b952ff5e9f6d5b9b679de61ae0f4e80.ctex"
+path="res://.godot/imported/Ladder_Down_SingleFrame.png-88eea9d03ab87bac3e5851d3fa2b3aac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Dungeons/Objects/Ladder_Down_SingleFrame.png"
-dest_files=["res://.godot/imported/Ladder_Down_SingleFrame.png-9b952ff5e9f6d5b9b679de61ae0f4e80.ctex"]
+source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Objects/Ladder_Down_SingleFrame.png"
+dest_files=["res://.godot/imported/Ladder_Down_SingleFrame.png-88eea9d03ab87bac3e5851d3fa2b3aac.ctex"]
 
 [params]
 
