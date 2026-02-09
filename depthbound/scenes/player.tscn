@@ -351,7 +351,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"swing_pickaxe_down",
-"speed": 5.0
+"speed": 7.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -368,7 +368,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"swing_pickaxe_right",
-"speed": 5.0
+"speed": 7.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -385,7 +385,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"swing_pickaxe_up",
-"speed": 5.0
+"speed": 7.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
@@ -401,7 +401,9 @@ script = ExtResource("1_g2els")
 position = Vector2(1.9073486e-06, -4)
 scale = Vector2(1.8125002, 1.4843751)
 sprite_frames = SubResource("SpriteFrames_dw050")
-animation = &"run_right"
+animation = &"swing_pickaxe_up"
+frame = 3
+frame_progress = 1.0
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1483131452]
