@@ -1,5 +1,5 @@
 extends CharacterBody2D
-
+class_name Player
 
 const walkSPEED = 100.0
 const runSPEED = 150.0
@@ -129,3 +129,7 @@ func get_most_overlapping_rock() -> Rock:
 			best_rock = rock
 			
 	return best_rock
+
+func add_ore(data: OreData) -> bool:
+	print(data)
+	return true
