@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cfbfaa8kpt4p6"]
 
 [ext_resource type="Texture2D" uid="uid://dd6u83nrav0k4" path="res://assets/ImagesDepthbound/Ores/Ores.png" id="1_84iim"]
+[ext_resource type="Script" uid="uid://ch0xjqigfpd2p" path="res://scripts/ore.gd" id="1_f6cf6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f6cf6"]
 atlas = ExtResource("1_84iim")
@@ -10,6 +11,7 @@ region = Rect2(48.354103, 16.655514, 15.550652, 14.927643)
 radius = 6.0827627
 
 [node name="Ore" type="Area2D" unique_id=1115415357]
+script = ExtResource("1_f6cf6")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=733522586]
 texture = SubResource("AtlasTexture_f6cf6")
@@ -17,3 +19,5 @@ texture = SubResource("AtlasTexture_f6cf6")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=485045794]
 position = Vector2(0, 1)
 shape = SubResource("CircleShape2D_e1maq")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
