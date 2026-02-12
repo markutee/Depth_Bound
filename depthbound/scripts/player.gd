@@ -10,10 +10,13 @@ var is_mining: bool = false
 var hitbox_offset: Vector2
 var last_direction: Vector2 = Vector2.RIGHT
 var detected_rocks: Array = []
+var pickaxe_strength: int = 1
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var hitbox: Area2D = $Hitbox
 @onready var hitbox_collision_shape_2d: CollisionShape2D = $Hitbox/CollisionShape2D
+@onready var mining_timer: Timer = $MiningTimer
+
 
 func _ready() -> void:
 	hitbox_offset = hitbox.position  # Initialise hitbox offset
@@ -21,7 +24,7 @@ func _ready() -> void:
 func _physics_process(_delta: float) -> void:
 	
 	# Handle mining input
-	if Input.is_action_just_pressed("use_pickaxe"):
+	if Input.is_action_pressed("use_pickaxe") and mining_timer.is_stopped():
 		use_pickaxe()
 		
 	# Skip movement if mining
@@ -99,6 +102,7 @@ func use_pickaxe() -> void:
 	detected_rocks.clear()
 	is_mining = true
 	hitbox.monitoring = true
+	mining_timer.start() #start the cooldown timer
 	play_animation("swing_pickaxe", last_direction)
 
 
@@ -107,7 +111,7 @@ func _on_animated_sprite_2d_animation_finished() -> void:
 		is_mining = false
 		if detected_rocks.size() > 0:
 			var rock_to_hit = get_most_overlapping_rock()
-			print(rock_to_hit)
+			rock_to_hit.take_damage(pickaxe_strength)
 
 
 func _on_hitbox_body_entered(body: Node2D) -> void:
