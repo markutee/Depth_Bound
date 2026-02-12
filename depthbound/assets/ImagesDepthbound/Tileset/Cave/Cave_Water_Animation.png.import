@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7wrbjvcfqcwv"
-path="res://.godot/imported/Cave_Floor_1.png-dd92194cd588b9b200b5578e7650fbd5.ctex"
+uid="uid://crx6fxpfpraym"
+path="res://.godot/imported/Cave_Water_Animation.png-581201153f2a70c2736613cdbaa01e66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cave/Cave_Floor_1.png"
-dest_files=["res://.godot/imported/Cave_Floor_1.png-dd92194cd588b9b200b5578e7650fbd5.ctex"]
+source_file="res://assets/ImagesDepthbound/Tileset/Cave/Cave_Water_Animation.png"
+dest_files=["res://.godot/imported/Cave_Water_Animation.png-581201153f2a70c2736613cdbaa01e66.ctex"]
 
 [params]
 
