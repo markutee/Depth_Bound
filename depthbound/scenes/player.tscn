@@ -392,7 +392,7 @@ animations = [{
 size = Vector2(17, 8)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qhqgy"]
-size = Vector2(9, 7)
+size = Vector2(15, 7)
 
 [node name="Player" type="CharacterBody2D" unique_id=1502523612]
 script = ExtResource("1_g2els")
@@ -417,6 +417,9 @@ position = Vector2(20, 0)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox" unique_id=1055260758]
 position = Vector2(0, 3)
 shape = SubResource("RectangleShape2D_qhqgy")
+
+[node name="MiningTimer" type="Timer" parent="." unique_id=493623977]
+one_shot = true
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]
