@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsxw8xgvygrse"
-path="res://.godot/imported/Cave_Doorway_1.png-a51d3b05ba9a993f429604c69c511754.ctex"
+uid="uid://dpn4enaenvscn"
+path="res://.godot/imported/Cave_Floor_Decoration.png-ccb97481c39a473761cc237e6e2c5ec2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cave/Cave_Doorway_1.png"
-dest_files=["res://.godot/imported/Cave_Doorway_1.png-a51d3b05ba9a993f429604c69c511754.ctex"]
+source_file="res://assets/ImagesDepthbound/Tileset/Cave/Cave_Floor_Decoration.png"
+dest_files=["res://.godot/imported/Cave_Floor_Decoration.png-ccb97481c39a473761cc237e6e2c5ec2.ctex"]
 
 [params]
 

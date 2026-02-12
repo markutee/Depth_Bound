@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccfwm4jv4pspn"
-path="res://.godot/imported/Cave_Support_1.png-9bfa00e791fd0c4d7676ed952286c4f6.ctex"
+uid="uid://bbo63s0oqp164"
+path="res://.godot/imported/Cave_Floor_Ladder.png-1b0230892cf8ff81f2ed2605b1aa0b24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cave/Cave_Support_1.png"
-dest_files=["res://.godot/imported/Cave_Support_1.png-9bfa00e791fd0c4d7676ed952286c4f6.ctex"]
+source_file="res://assets/ImagesDepthbound/Tileset/Cave/Cave_Floor_Ladder.png"
+dest_files=["res://.godot/imported/Cave_Floor_Ladder.png-1b0230892cf8ff81f2ed2605b1aa0b24.ctex"]
 
 [params]
 
