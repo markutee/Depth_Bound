@@ -26,3 +26,5 @@ shape = SubResource("CircleShape2D_ik6fu")
 
 [node name="RockBreakingSound" type="AudioStreamPlayer2D" parent="." unique_id=872503658]
 stream = ExtResource("4_872ht")
+volume_db = -15.0
+pitch_scale = 2.0
