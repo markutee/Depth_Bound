@@ -1,10 +1,14 @@
 [gd_scene format=3 uid="uid://c11brqy7honkf"]
 
+[ext_resource type="PackedScene" uid="uid://b2fikdu32tydd" path="res://scenes/levels/map_1.tscn" id="1_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://oslirmbl01sd" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://jc1reoinmmki" path="res://scenes/rock.tscn" id="2_yqjtg"]
 [ext_resource type="Resource" uid="uid://c238p2dn3he30" path="res://data/rocks/stone.tres" id="3_lnu2h"]
 
 [node name="Game" type="Node2D" unique_id=1064699759]
+
+[node name="Map" parent="." unique_id=588729166 instance=ExtResource("1_lbhrr")]
+position = Vector2(1, 0)
 
 [node name="RockContainer" type="Node2D" parent="." unique_id=202155942]
 
@@ -22,7 +26,7 @@ position = Vector2(31, -28)
 
 [node name="Player" parent="." unique_id=1502523612 instance=ExtResource("1_uwrxv")]
 z_index = 5
-position = Vector2(-44, 1)
+position = Vector2(-26, -10)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1543537689]
 position = Vector2(29, -22)
