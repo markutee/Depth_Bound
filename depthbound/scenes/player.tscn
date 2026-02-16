@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://fs00e35odrb3" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/NPCs (Premade)/Miner_Mike.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://wnlbl5078kqt" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://tua2tm7oc1jl" path="res://assets/ImagesDepthbound/Player/Miner_Mike.png" id="3_qhqgy"]
+[ext_resource type="AudioStream" uid="uid://droyd77s7hqqx" path="res://assets/audio/pickaxe_hit.wav" id="4_dqkch"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
 atlas = ExtResource("1_4flbx")
@@ -420,6 +421,10 @@ shape = SubResource("RectangleShape2D_qhqgy")
 
 [node name="MiningTimer" type="Timer" parent="." unique_id=493623977]
 one_shot = true
+
+[node name="PickaxeHitSound" type="AudioStreamPlayer2D" parent="." unique_id=781787704]
+stream = ExtResource("4_dqkch")
+volume_db = -10.0
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]

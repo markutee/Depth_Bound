@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dd6u83nrav0k4" path="res://assets/ImagesDepthbound/Ores/Ores.png" id="1_1di36"]
 [ext_resource type="Script" uid="uid://bbsc8aykifmbd" path="res://scripts/rock.gd" id="1_ik6fu"]
 [ext_resource type="Resource" uid="uid://clxmui02fb3ab" path="res://data/rocks/iron.tres" id="2_ik6fu"]
+[ext_resource type="AudioStream" uid="uid://cxkm5ng65po37" path="res://assets/audio/rock_breaking.wav" id="4_872ht"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mek2u"]
 atlas = ExtResource("1_1di36")
@@ -22,3 +23,6 @@ texture = SubResource("AtlasTexture_mek2u")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1101702954]
 position = Vector2(2, 0)
 shape = SubResource("CircleShape2D_ik6fu")
+
+[node name="RockBreakingSound" type="AudioStreamPlayer2D" parent="." unique_id=872503658]
+stream = ExtResource("4_872ht")

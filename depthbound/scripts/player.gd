@@ -16,6 +16,7 @@ var pickaxe_strength: int = 1
 @onready var hitbox: Area2D = $Hitbox
 @onready var hitbox_collision_shape_2d: CollisionShape2D = $Hitbox/CollisionShape2D
 @onready var mining_timer: Timer = $MiningTimer
+@onready var pickaxe_hit_sound: AudioStreamPlayer2D = $PickaxeHitSound
 
 
 func _ready() -> void:
@@ -112,6 +113,7 @@ func _on_animated_sprite_2d_animation_finished() -> void:
 		if detected_rocks.size() > 0:
 			var rock_to_hit = get_most_overlapping_rock()
 			rock_to_hit.take_damage(pickaxe_strength)
+			pickaxe_hit_sound.play()
 
 
 func _on_hitbox_body_entered(body: Node2D) -> void:
