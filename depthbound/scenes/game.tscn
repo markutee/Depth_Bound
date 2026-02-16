@@ -8,7 +8,6 @@
 [node name="Game" type="Node2D" unique_id=1064699759]
 
 [node name="Map" parent="." unique_id=588729166 instance=ExtResource("1_lbhrr")]
-position = Vector2(1, 0)
 
 [node name="RockContainer" type="Node2D" parent="." unique_id=202155942]
 
