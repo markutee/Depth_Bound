@@ -27,11 +27,10 @@ position = Vector2(31, -28)
 
 [node name="Player" parent="." unique_id=1502523612 instance=ExtResource("1_uwrxv")]
 z_index = 5
-position = Vector2(-26, -10)
+position = Vector2(-18, -12)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1543537689]
 position = Vector2(29, -22)
-zoom = Vector2(4, 4)
 
 [node name="MusicController" type="Node2D" parent="." unique_id=668889660]
 script = ExtResource("5_p57ef")
@@ -40,4 +39,4 @@ script = ExtResource("5_p57ef")
 stream = ExtResource("5_iywne")
 volume_db = -20.0
 autoplay = true
-parameters/looping = false
+parameters/looping = true

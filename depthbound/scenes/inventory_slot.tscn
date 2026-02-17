@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://bcp3r07v3fdb4"]
+
+[ext_resource type="Texture2D" uid="uid://ckc8qv8a4ksw7" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_UI/UI/UI_ALL.png" id="1_bxqf6"]
+[ext_resource type="Texture2D" uid="uid://dd6u83nrav0k4" path="res://assets/ImagesDepthbound/Ores/Ores.png" id="2_hddt5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bbig2"]
+atlas = ExtResource("1_bxqf6")
+region = Rect2(1112, 8, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c13kb"]
+atlas = ExtResource("2_hddt5")
+region = Rect2(33, 0, 14, 14)
+
+[node name="TextureRect" type="TextureRect" unique_id=2043617680]
+custom_minimum_size = Vector2(16, 16)
+offset_right = 16.0
+offset_bottom = 16.0
+texture = SubResource("AtlasTexture_bbig2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=293181462]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 1
+theme_override_constants/margin_top = 1
+theme_override_constants/margin_right = 1
+theme_override_constants/margin_bottom = 1
+
+[node name="ItemIcon" type="TextureRect" parent="MarginContainer" unique_id=106992860]
+layout_mode = 2
+texture = SubResource("AtlasTexture_c13kb")
+stretch_mode = 5
+
+[node name="QuantityLabel" type="Label" parent="." unique_id=853457718]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -9.0
+offset_bottom = 10.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 12
+text = "x0"
