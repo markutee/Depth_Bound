@@ -5,11 +5,18 @@ const ROCK_SCENE = preload("res://scenes/rock.tscn")
 
 @onready var current_map: Node2D = $Map
 @onready var rock_container: Node2D = $RockContainer
+@onready var player: Player = $Player
+
 
 func _ready() -> void:
-	generate_rocks()
-
-func generate_rocks() -> void:
+	_generate_rocks()
+	_position_objects()
+	
+func _position_objects() -> void:
+	var player_spawn: Marker2D = current_map.get_node("PlayerSpawn")
+	player.reset(player_spawn.position)
+	
+func _generate_rocks() -> void:
 	for child in rock_container.get_children():
 		child.queue_free()
 

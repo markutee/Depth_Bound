@@ -355,7 +355,7 @@ tile_map_data = PackedByteArray("AAD0/wwAAgABAAIAAAD2/wwAAgADAAIAAAAjAAMAAAADAAA
 tile_set = SubResource("TileSet_i87yn")
 
 [node name="PlayerSpawn" type="Marker2D" parent="." unique_id=1457788630]
-position = Vector2(-183, -155)
+position = Vector2(-185, -168)
 
 [node name="Support" type="TileMapLayer" parent="." unique_id=942663986]
 z_index = 6
