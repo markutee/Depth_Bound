@@ -25,7 +25,8 @@ func _ready() -> void:
 	hitbox_offset = hitbox.position  # Initialise hitbox offset
 	inventory = Inventory.new(4) # Create inventory with 4 slots 
 	
-
+func reset(pos: Vector2) -> void:
+	position = pos
 
 func _physics_process(_delta: float) -> void:
 	
