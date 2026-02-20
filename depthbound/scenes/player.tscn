@@ -390,7 +390,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g2els"]
-size = Vector2(17, 8)
+size = Vector2(7.0136986, 13.1428585)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qhqgy"]
 size = Vector2(15, 7)
@@ -408,7 +408,7 @@ frame_progress = 1.0
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1483131452]
-position = Vector2(0, 3.0000002)
+position = Vector2(0.9999999, 0.46874952)
 scale = Vector2(1.140625, 0.984375)
 shape = SubResource("RectangleShape2D_g2els")
 
