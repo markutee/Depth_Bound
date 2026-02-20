@@ -24,8 +24,11 @@ var inventory: Inventory
 func _ready() -> void:
 	hitbox_offset = hitbox.position  # Initialise hitbox offset
 	inventory = Inventory.new(4) # Create inventory with 4 slots 
+	
+
 
 func _physics_process(_delta: float) -> void:
+	
 	
 	# Handle mining input
 	if Input.is_action_pressed("use_pickaxe") and mining_timer.is_stopped():
