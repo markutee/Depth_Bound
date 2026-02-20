@@ -4,6 +4,8 @@ class_name Inventory
 var slots: Array = []
 var max_slots: int
 
+signal inventory_changed
+
 func _init(starting_slots: int = 4):
 	max_slots = starting_slots
 	for i in range(max_slots):
@@ -14,7 +16,7 @@ func add_item(data: OreData) -> bool:
 	for slot in slots:
 		if slot != null and slot.can_stack(data):
 			slot.add_ore()
-			print(slot.ore_data.name, "|", slot.quantity)
+			inventory_changed.emit()
 			return true
 	
 	
@@ -22,7 +24,7 @@ func add_item(data: OreData) -> bool:
 	for i in range(slots.size()):
 		if slots[i] == null:
 			slots[i] = InventorySlot.new(data, 1)
-			print(slots)
+			inventory_changed.emit()
 			return true
 			
 	# No space

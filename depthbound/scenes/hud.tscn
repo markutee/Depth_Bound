@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://8xpjuv1yyw"]
 
 [ext_resource type="PackedScene" uid="uid://bhl22f4sjaf3g" path="res://scenes/inventory_ui.tscn" id="1_ahhtf"]
+[ext_resource type="Script" uid="uid://bvgm5h64jpx60" path="res://scripts/hud.gd" id="1_oo0fn"]
 
 [node name="HUD" type="CanvasLayer" unique_id=884470397]
+script = ExtResource("1_oo0fn")
 
 [node name="DepthRect" type="ColorRect" parent="." unique_id=762493254]
 anchors_preset = 1
