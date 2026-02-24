@@ -3,9 +3,14 @@ extends Node2D
 const FILL_PERCENTAGE: float = 0.2
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 
+@export var rock_types: Array[RockData] = []
+
+
 @onready var current_map: Node2D = $Map
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
+
+var current_depth: int = 1
 
 
 func _ready() -> void:
@@ -16,6 +21,7 @@ func _position_objects() -> void:
 	var player_spawn: Marker2D = current_map.get_node("PlayerSpawn")
 	player.reset(player_spawn.position)
 	
+	#Clear existing rocks
 func _generate_rocks() -> void:
 	for child in rock_container.get_children():
 		child.queue_free()
@@ -44,11 +50,34 @@ func _generate_rocks() -> void:
 	print("ground_cells=", ground_cells.size(), " available=", available_cells.size())
 
 	var num_rocks: int = int(available_cells.size() * FILL_PERCENTAGE)
+	
+	var valid_rocks: Array[RockData] = []
+	for rock in rock_types:
+		if current_depth >= rock.min_depth:
+			valid_rocks.append(rock)
 
 	for i in range(num_rocks):
 		var cell := available_cells[i]
 		var rock := ROCK_SCENE.instantiate()
-		rock_container.add_child(rock)
+		
+		rock.data = get_random_rock(valid_rocks)
 
+		#Get local position from tilemap
 		var local_pos: Vector2 = ground_layer.map_to_local(cell)
 		rock.global_position = ground_layer.to_global(local_pos)
+		rock_container.add_child(rock)
+		
+func get_random_rock(options: Array[RockData]) -> RockData:
+	var total_weight : int = 0
+	for rock in options:
+		total_weight = rock.rarity
+			
+	var roll = randi_range(0, total_weight -1)
+	var current_sum: int = 0
+		
+	for rock in options:
+		current_sum += rock.rarity
+		if roll < current_sum:
+			return rock
+	
+	return options[0] #fallback to stone if nothing else is picked

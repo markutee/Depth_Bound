@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RockData" format=3 uid="uid://kpqdpgicrcfg"]
+
+[ext_resource type="Resource" uid="uid://b8tan3parqxg2" path="res://data/ores/amethyst_ore.tres" id="1_hfgx7"]
+[ext_resource type="Script" uid="uid://d6ub26v8dym2" path="res://scripts/rock_data.gd" id="2_pphnx"]
+[ext_resource type="Texture2D" uid="uid://dd6u83nrav0k4" path="res://assets/ImagesDepthbound/Ores/Ores.png" id="3_3r4u5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_blrke"]
+atlas = ExtResource("3_3r4u5")
+region = Rect2(0, 112, 16, 16)
+
+[resource]
+script = ExtResource("2_pphnx")
+texture = SubResource("AtlasTexture_blrke")
+max_health = 8
+rarity = 4
+min_depth = 6
+ore_resource = ExtResource("1_hfgx7")
+metadata/_custom_type_script = "uid://d6ub26v8dym2"

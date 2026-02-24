@@ -3,13 +3,19 @@
 [ext_resource type="PackedScene" uid="uid://b2fikdu32tydd" path="res://scenes/levels/map_1.tscn" id="1_lbhrr"]
 [ext_resource type="Script" uid="uid://2w0a5kv0kqyb" path="res://scripts/game_new.gd" id="1_u5sy4"]
 [ext_resource type="PackedScene" uid="uid://oslirmbl01sd" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="Script" uid="uid://d6ub26v8dym2" path="res://scripts/rock_data.gd" id="2_dinhu"]
 [ext_resource type="PackedScene" uid="uid://jc1reoinmmki" path="res://scenes/rock.tscn" id="2_yqjtg"]
 [ext_resource type="Resource" uid="uid://c238p2dn3he30" path="res://data/rocks/stone.tres" id="3_lnu2h"]
+[ext_resource type="Resource" uid="uid://clxmui02fb3ab" path="res://data/rocks/iron.tres" id="4_kvuet"]
 [ext_resource type="AudioStream" uid="uid://cx0hw6tgeiqbf" path="res://assets/audio/backroundMusic1.mp3" id="5_iywne"]
 [ext_resource type="Script" uid="uid://44e0qw07sfx0" path="res://Autoloads/music_controller.gd" id="5_p57ef"]
+[ext_resource type="Resource" uid="uid://c7oq153eue72s" path="res://data/rocks/gold.tres" id="5_trtic"]
+[ext_resource type="Resource" uid="uid://kpqdpgicrcfg" path="res://data/rocks/amethyst.tres" id="6_ir15t"]
+[ext_resource type="Resource" uid="uid://bvq8vlgm8awgy" path="res://data/rocks/diamond.tres" id="7_ca42v"]
 
 [node name="Game" type="Node2D" unique_id=1064699759]
 script = ExtResource("1_u5sy4")
+rock_types = Array[ExtResource("2_dinhu")]([ExtResource("3_lnu2h"), ExtResource("4_kvuet"), ExtResource("5_trtic"), ExtResource("6_ir15t"), ExtResource("7_ca42v")])
 
 [node name="Map" parent="." unique_id=588729166 instance=ExtResource("1_lbhrr")]
 

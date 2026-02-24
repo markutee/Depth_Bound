@@ -6,13 +6,13 @@
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7e5to"]
 atlas = ExtResource("3_l0bcs")
-region = Rect2(15.76593, 31.780003, 17.184631, 16.431065)
+region = Rect2(0, 31.780003, 16, 16.219997)
 
 [resource]
 script = ExtResource("1_4p6rw")
 texture = SubResource("AtlasTexture_7e5to")
 max_health = 6
-rarity = 20
-min_depth = 4
+rarity = 5
+min_depth = 5
 ore_resource = ExtResource("1_0nfgd")
 metadata/_custom_type_script = "uid://d6ub26v8dym2"

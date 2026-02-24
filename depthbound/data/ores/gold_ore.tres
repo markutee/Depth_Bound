@@ -5,11 +5,11 @@
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qtbnj"]
 atlas = ExtResource("2_si681")
-region = Rect2(48.929123, 33.331917, 14.01976, 14.720745)
+region = Rect2(50, 34, 11, 12)
 
 [resource]
 script = ExtResource("1_qjqc3")
 name = "gold_ore"
 texture = SubResource("AtlasTexture_qtbnj")
-value = 30
+value = 100
 metadata/_custom_type_script = "uid://se255mcseh8u"

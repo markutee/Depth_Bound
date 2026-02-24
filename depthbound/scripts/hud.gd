@@ -8,5 +8,5 @@ extends CanvasLayer
 func set_inventory(inv: Inventory):
 	inventory_ui.set_inventory(inv)
 
-#func update_depth(value: int) -> void:
-	#depth_label.text = "Depth: %s" % value
+func update_depth(value: int) -> void:
+	depth_label.text = "Depth: %s" % value
