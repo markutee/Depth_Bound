@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c11brqy7honkf"]
 
 [ext_resource type="PackedScene" uid="uid://b2fikdu32tydd" path="res://scenes/levels/map_1.tscn" id="1_lbhrr"]
-[ext_resource type="Script" uid="uid://2w0a5kv0kqyb" path="res://scripts/game_new.gd" id="1_u5sy4"]
+[ext_resource type="Script" uid="uid://2w0a5kv0kqyb" path="res://scripts/game.gd" id="1_u5sy4"]
 [ext_resource type="PackedScene" uid="uid://oslirmbl01sd" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Script" uid="uid://d6ub26v8dym2" path="res://scripts/rock_data.gd" id="2_dinhu"]
 [ext_resource type="PackedScene" uid="uid://jc1reoinmmki" path="res://scenes/rock.tscn" id="2_yqjtg"]
@@ -24,12 +24,6 @@ rock_types = Array[ExtResource("2_dinhu")]([ExtResource("3_lnu2h"), ExtResource(
 [node name="Rock" parent="RockContainer" unique_id=1219277682 instance=ExtResource("2_yqjtg")]
 position = Vector2(31, -10)
 data = ExtResource("3_lnu2h")
-
-[node name="Rock2" parent="RockContainer" unique_id=365748370 instance=ExtResource("2_yqjtg")]
-position = Vector2(31, 11)
-
-[node name="Rock3" parent="RockContainer" unique_id=1239899151 instance=ExtResource("2_yqjtg")]
-position = Vector2(31, -28)
 
 [node name="OreContainer" type="Node2D" parent="." unique_id=1992506598]
 

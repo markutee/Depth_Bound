@@ -10,7 +10,11 @@ const ROCK_SCENE = preload("res://scenes/rock.tscn")
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 
+<<<<<<< HEAD:depthbound/scripts/game_new.gd
 var current_depth: int = 5
+=======
+var current_depth: int = 10
+>>>>>>> 2076e9dfce5d960ac66fdcda0d0cc988f407e15b:depthbound/scripts/game.gd
 
 
 func _ready() -> void:
@@ -70,7 +74,7 @@ func _generate_rocks() -> void:
 func get_random_rock(options: Array[RockData]) -> RockData:
 	var total_weight : int = 0
 	for rock in options:
-		total_weight = rock.rarity
+		total_weight += rock.rarity
 			
 	var roll = randi_range(0, total_weight -1)
 	var current_sum: int = 0
