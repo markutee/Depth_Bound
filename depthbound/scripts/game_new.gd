@@ -70,7 +70,7 @@ func _generate_rocks() -> void:
 func get_random_rock(options: Array[RockData]) -> RockData:
 	var total_weight : int = 0
 	for rock in options:
-		total_weight = rock.rarity
+		total_weight += rock.rarity
 			
 	var roll = randi_range(0, total_weight -1)
 	var current_sum: int = 0
