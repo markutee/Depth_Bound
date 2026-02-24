@@ -9,8 +9,4 @@ script = ExtResource("1_sugp2")
 
 [node name="Game" parent="." unique_id=1064699759 instance=ExtResource("1_o5qli")]
 
-[node name="Game2" parent="." unique_id=388683724 instance=ExtResource("1_o5qli")]
-
-[node name="Game3" parent="." unique_id=1431251885 instance=ExtResource("1_o5qli")]
-
 [node name="HUD" parent="." unique_id=884470397 instance=ExtResource("2_0wfyh")]
