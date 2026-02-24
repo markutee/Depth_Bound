@@ -10,7 +10,9 @@ const ROCK_SCENE = preload("res://scenes/rock.tscn")
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 
+
 var current_depth: int = 1
+
 
 
 func _ready() -> void:
