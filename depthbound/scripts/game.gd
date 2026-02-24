@@ -16,8 +16,9 @@ var current_depth: int = 1
 
 
 func _ready() -> void:
-	_generate_rocks()
+	
 	_position_objects()
+	_generate_rocks()
 	
 func _position_objects() -> void:
 	var player_spawn: Marker2D = current_map.get_node("PlayerSpawn")
@@ -59,14 +60,14 @@ func _generate_rocks() -> void:
 			valid_rocks.append(rock)
 
 	for i in range(num_rocks):
-		var cell := available_cells[i]
-		var rock := ROCK_SCENE.instantiate()
+		var cell = available_cells[i]
+		var rock = ROCK_SCENE.instantiate()
 		
 		rock.data = get_random_rock(valid_rocks)
 
 		#Get local position from tilemap
-		var local_pos: Vector2 = ground_layer.map_to_local(cell)
-		rock.global_position = ground_layer.to_global(local_pos)
+		var local_pos = ground_layer.map_to_local(cell)
+		rock.global_position = local_pos
 		rock_container.add_child(rock)
 		
 func get_random_rock(options: Array[RockData]) -> RockData:

@@ -10,6 +10,7 @@ atlas = ExtResource("1_1di36")
 region = Rect2(16, 0, 16, 16)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ik6fu"]
+radius = 9.0
 
 [node name="Rock" type="StaticBody2D" unique_id=1219277682]
 script = ExtResource("1_ik6fu")
