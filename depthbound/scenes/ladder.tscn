@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://v5cro7822v0q"]
+
+[ext_resource type="Texture2D" uid="uid://bbo63s0oqp164" path="res://assets/ImagesDepthbound/Tileset/Cave/Cave_Floor_Ladder.png" id="1_xxwne"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xb1tl"]
+atlas = ExtResource("1_xxwne")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ku54x"]
+size = Vector2(16, 16)
+
+[node name="Ladder" type="Area2D" unique_id=1801256742]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=979850159]
+texture = SubResource("AtlasTexture_xb1tl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=617419288]
+shape = SubResource("RectangleShape2D_ku54x")
