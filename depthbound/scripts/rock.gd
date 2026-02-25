@@ -46,6 +46,8 @@ func _destroy() -> void:
 
 
 func _drop_ore() -> void:
+	broken.emit(position)
+	
 	var ore = ORE_SCENE.instantiate()
 	ore.position = position
 	ore.ore_data = data.ore_resource
