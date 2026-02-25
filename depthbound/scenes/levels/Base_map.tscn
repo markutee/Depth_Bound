@@ -183,6 +183,10 @@ texture = ExtResource("8_xj75o")
 texture = ExtResource("6_velfm")
 0:0/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lb3wk"]
+texture = ExtResource("11_28543")
+0:0/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_g7f7r"]
 physics_layer_0/collision_layer = 1
 terrain_set_0/mode = 0
@@ -199,6 +203,7 @@ sources/3 = SubResource("TileSetAtlasSource_fosge")
 sources/0 = SubResource("TileSetAtlasSource_i87yn")
 sources/4 = SubResource("TileSetAtlasSource_o22fv")
 sources/5 = SubResource("TileSetAtlasSource_avfnh")
+sources/6 = SubResource("TileSetAtlasSource_lb3wk")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yw7hv"]
 texture = ExtResource("4_gehfo")
