@@ -90,6 +90,10 @@ func get_random_rock(options: Array[RockData]) -> RockData:
 			return rock
 	
 	return options[0] #fallback to stone if nothing else is picked
+	
+#-------------------
+#Ladder code
+#-------------------
 
 func _on_rock_broken(pos: Vector2) -> void:
 	rocks_remaining -= 1
