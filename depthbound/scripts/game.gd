@@ -18,11 +18,16 @@ const MAPS = [
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
+@onready var exit_rail: Area2D = $ExitRail
+
 
 var last_map_index: int
 var current_depth: int = 1
 var down_ladder: Area2D
 var rocks_remaining: int = 0
+
+
+signal exit_mine
 
 func _ready() -> void:
 	setup_map()
@@ -69,6 +74,9 @@ func _generate_map() -> void:
 func _position_objects() -> void:
 	var player_spawn: Marker2D = current_map.get_node("PlayerSpawn")
 	player.reset(player_spawn.position)
+	
+	#Position exit rail on top of player spawn
+	exit_rail.position = player_spawn.position
 	
 	#Clear existing rocks
 func _generate_rocks() -> void:
@@ -156,3 +164,10 @@ func _create_down_ladder(pos: Vector2) -> void:
 func _on_down_ladder_used() -> void:
 	current_depth += 1
 	setup_map()
+
+
+func _on_exit_rail_exit_used() -> void:
+	if !player.can_move:
+		return #if the player is already using the ladder skip this
+	player.can_move = false
+	exit_mine.emit()

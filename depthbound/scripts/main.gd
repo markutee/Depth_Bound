@@ -11,3 +11,7 @@ func _ready() -> void:
 	hud.set_inventory(game.player.inventory)
 	
 	#game.change_depth.connect(hud.update_depth)
+
+
+func _on_game_exit_mine() -> void:
+	print("Exited mines")

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cc6loaxnyj7f0"]
+
+[ext_resource type="Script" uid="uid://44a06ulmyo0q" path="res://scripts/exit_rail.gd" id="1_1woor"]
+[ext_resource type="Texture2D" uid="uid://dheuju0baoa0d" path="res://assets/ImagesDepthbound/Tileset/Cave/Rails.png" id="1_3vq6h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1woor"]
+atlas = ExtResource("1_3vq6h")
+region = Rect2(96, 16, 16, 16)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yq8rc"]
+
+[node name="ExitRail" type="Area2D" unique_id=1695021668]
+script = ExtResource("1_1woor")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=831075034]
+z_index = -1
+texture = SubResource("AtlasTexture_1woor")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=106223460]
+shape = SubResource("RectangleShape2D_yq8rc")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
