@@ -5,7 +5,10 @@ const LADDER_CHANGE: float = 0.9
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const MAPS = [
-	preload("res://scenes/levels/map_1.tscn")
+	preload("res://scenes/levels/map_1.tscn"),
+	preload("res://scenes/levels/map_2.tscn"),
+	preload("res://scenes/levels/map_3.tscn"),
+	preload("res://scenes/levels/map_4.tscn")
 ]
 
 @export var rock_types: Array[RockData] = []
@@ -16,7 +19,7 @@ const MAPS = [
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
 
-
+var last_map_index: int
 var current_depth: int = 1
 var down_ladder: Area2D
 var rocks_remaining: int = 0
@@ -48,7 +51,15 @@ func _clear_map() -> void:
 		ore.queue_free()
 		
 func _generate_map() -> void:
-	current_map = MAPS[0].instantiate()
+	#pick a random map
+	var new_index = randi_range(0, MAPS.size()-1)
+	
+	# keep picking until we get a different map
+	while new_index == last_map_index:
+		new_index = randi_range(0, MAPS.size()-1)
+	last_map_index = new_index
+		
+	current_map = MAPS[new_index].instantiate()
 	game.add_child(current_map)
 	
 	
