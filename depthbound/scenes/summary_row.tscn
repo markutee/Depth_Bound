@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://d0qwsg0nrwbae"]
+
+[ext_resource type="Texture2D" uid="uid://dd6u83nrav0k4" path="res://assets/ImagesDepthbound/Ores/Ores.png" id="1_t4yoc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0t5u8"]
+atlas = ExtResource("1_t4yoc")
+region = Rect2(49, 1, 13, 14)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uweeg"]
+content_margin_left = 4.0
+content_margin_right = 4.0
+draw_center = false
+border_width_left = 1
+border_width_right = 1
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bf34r"]
+content_margin_right = 4.0
+bg_color = Color(0, 0, 0, 1)
+draw_center = false
+border_width_right = 1
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iihg4"]
+draw_center = false
+border_color = Color(0, 0, 0, 1)
+
+[node name="SummaryRow" type="HBoxContainer" unique_id=549249895]
+offset_left = -1.0
+offset_right = 156.0
+offset_bottom = 23.0
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1283880833]
+custom_minimum_size = Vector2(15, 15)
+layout_mode = 2
+texture = SubResource("AtlasTexture_0t5u8")
+expand_mode = 4
+stretch_mode = 5
+
+[node name="QuantityLabel" type="Label" parent="." unique_id=27741768]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_uweeg")
+text = "QTY: 9"
+
+[node name="ValueLabel" type="Label" parent="." unique_id=333422147]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_bf34r")
+text = "Value: 10"
+
+[node name="TotalLabel" type="Label" parent="." unique_id=1293458849]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_iihg4")
+text = "Total: 90"

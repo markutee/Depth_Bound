@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://bllrl45tsbui0"]
+
+[ext_resource type="Texture2D" uid="uid://cdvx84ew5gcc0" path="res://assets/ImagesDepthbound/UI/UI_Frames.png" id="1_3yf3y"]
+[ext_resource type="PackedScene" uid="uid://d0qwsg0nrwbae" path="res://scenes/summary_row.tscn" id="2_6v8sc"]
+[ext_resource type="Theme" uid="uid://dnw3mokwto0tb" path="res://assets/UI_theme.tres" id="3_xkf0e"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6fe7f"]
+bg_color = Color(0.82774955, 0.51890516, 0.18267569, 1)
+
+[node name="SummaryUI" type="ColorRect" unique_id=1444574392]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1434830146]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="NinePatchRect" type="NinePatchRect" parent="MarginContainer" unique_id=747090246]
+layout_mode = 2
+texture = ExtResource("1_3yf3y")
+region_rect = Rect2(1019, 107, 26, 26)
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/NinePatchRect" unique_id=483760]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/NinePatchRect/MarginContainer" unique_id=1444955034]
+layout_mode = 2
+
+[node name="SummaryVbox" type="VBoxContainer" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer" unique_id=1995214056]
+layout_mode = 2
+
+[node name="SummaryRow2" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/SummaryVbox" unique_id=549249895 instance=ExtResource("2_6v8sc")]
+layout_mode = 2
+
+[node name="SummaryRow" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/SummaryVbox" unique_id=1690981795 instance=ExtResource("2_6v8sc")]
+layout_mode = 2
+
+[node name="SummaryRow3" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/SummaryVbox" unique_id=1614448302 instance=ExtResource("2_6v8sc")]
+layout_mode = 2
+
+[node name="TotalLabel" type="Label" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer" unique_id=1865843965]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_6fe7f")
+text = "Total: 270"
+horizontal_alignment = 2
+
+[node name="Spacer" type="Control" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer" unique_id=1632733947]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button Container" type="HBoxContainer" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer" unique_id=1818325225]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="ShopButton" type="Button" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/Button Container" unique_id=1203393695]
+layout_mode = 2
+theme = ExtResource("3_xkf0e")
+text = "Go To
+
+The Shop"
+
+[node name="MinesButton" type="Button" parent="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/Button Container" unique_id=863592350]
+layout_mode = 2
+theme = ExtResource("3_xkf0e")
+text = "Back To
+The Mines"
