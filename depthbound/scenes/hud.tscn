@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bhl22f4sjaf3g" path="res://scenes/inventory_ui.tscn" id="1_ahhtf"]
 [ext_resource type="Script" uid="uid://bvgm5h64jpx60" path="res://scripts/hud.gd" id="1_oo0fn"]
+[ext_resource type="PackedScene" uid="uid://bllrl45tsbui0" path="res://scenes/summary_ui.tscn" id="3_5ysmq"]
 
 [node name="HUD" type="CanvasLayer" unique_id=884470397]
 script = ExtResource("1_oo0fn")
@@ -35,3 +36,5 @@ theme_override_font_sizes/font_size = 6
 text = "Depth: 1"
 
 [node name="InventoryUI" parent="." unique_id=2004184431 instance=ExtResource("1_ahhtf")]
+
+[node name="SummaryUI" parent="." unique_id=1444574392 instance=ExtResource("3_5ysmq")]

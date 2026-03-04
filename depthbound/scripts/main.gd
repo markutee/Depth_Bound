@@ -14,4 +14,4 @@ func _ready() -> void:
 
 
 func _on_game_exit_mine() -> void:
-	print("Exited mines")
+	hud.show_summary()

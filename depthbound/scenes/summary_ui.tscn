@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bllrl45tsbui0"]
 
 [ext_resource type="Texture2D" uid="uid://cdvx84ew5gcc0" path="res://assets/ImagesDepthbound/UI/UI_Frames.png" id="1_3yf3y"]
+[ext_resource type="Script" uid="uid://c6a8y83sp43o2" path="res://scripts/summary_ui.gd" id="1_xkf0e"]
 [ext_resource type="PackedScene" uid="uid://d0qwsg0nrwbae" path="res://scenes/summary_row.tscn" id="2_6v8sc"]
 [ext_resource type="Theme" uid="uid://dnw3mokwto0tb" path="res://assets/UI_theme.tres" id="3_xkf0e"]
 
@@ -14,6 +15,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
+script = ExtResource("1_xkf0e")
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=1434830146]
 layout_mode = 1
