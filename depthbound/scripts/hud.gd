@@ -6,6 +6,9 @@ extends CanvasLayer
 @onready var summary_ui: ColorRect = $SummaryUI
 
 
+signal back_to_mies
+signal go_to_shop
+
 func set_inventory(inv: Inventory):
 	inventory_ui.set_inventory(inv)
 	summary_ui.set_inventory(inv)
@@ -15,6 +18,16 @@ func show_summary() -> int:
 	earnings = summary_ui.calculate_summary()
 	summary_ui.visible = true
 	return earnings
+	
+func hide_summary() -> void:
+	summary_ui.visible = false
 
 func update_depth(value: int) -> void:
 	depth_label.text = "Depth: %s" % value
+
+
+func _on_summary_ui_back_to_mines() -> void:
+	back_to_mies.emit()
+
+func _on_summary_ui_go_to_shop() -> void:
+	go_to_shop.emit()

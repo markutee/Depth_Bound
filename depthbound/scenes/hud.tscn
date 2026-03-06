@@ -38,3 +38,6 @@ text = "Depth: 1"
 [node name="InventoryUI" parent="." unique_id=2004184431 instance=ExtResource("1_ahhtf")]
 
 [node name="SummaryUI" parent="." unique_id=1444574392 instance=ExtResource("3_5ysmq")]
+
+[connection signal="back_to_mines" from="SummaryUI" to="." method="_on_summary_ui_back_to_mines"]
+[connection signal="go_to_shop" from="SummaryUI" to="." method="_on_summary_ui_go_to_shop"]

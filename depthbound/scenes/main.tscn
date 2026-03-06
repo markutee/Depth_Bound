@@ -12,3 +12,5 @@ script = ExtResource("1_sugp2")
 [node name="HUD" parent="." unique_id=884470397 instance=ExtResource("2_0wfyh")]
 
 [connection signal="exit_mine" from="Game" to="." method="_on_game_exit_mine"]
+[connection signal="back_to_mies" from="HUD" to="." method="_on_hud_back_to_mies"]
+[connection signal="go_to_shop" from="HUD" to="." method="_on_hud_go_to_shop"]

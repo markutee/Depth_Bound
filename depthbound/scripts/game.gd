@@ -26,12 +26,16 @@ var current_depth: int = 1
 var down_ladder: Area2D
 var rocks_remaining: int = 0
 
-
+signal change_depth
 signal exit_mine
 
 func _ready() -> void:
 	setup_map()
 
+
+func reset_depth() -> void:
+	current_depth = 1
+	change_depth.emit(current_depth)
 
 func setup_map() -> void:
 	_clear_map()
@@ -163,6 +167,7 @@ func _create_down_ladder(pos: Vector2) -> void:
 
 func _on_down_ladder_used() -> void:
 	current_depth += 1
+	change_depth.emit(current_depth)
 	setup_map()
 
 

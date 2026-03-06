@@ -28,6 +28,10 @@ func _ready() -> void:
 	
 func reset(pos: Vector2) -> void:
 	position = pos
+	last_direction = Vector2.DOWN
+	velocity = Vector2.ZERO
+	process_animation()
+	update_hitbox_position()
 
 func _physics_process(_delta: float) -> void:
 	if !can_move:

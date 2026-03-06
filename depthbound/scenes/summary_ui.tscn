@@ -91,3 +91,6 @@ layout_mode = 2
 theme = ExtResource("3_xkf0e")
 text = "Back To
 The Mines"
+
+[connection signal="pressed" from="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/Button Container/ShopButton" to="." method="_on_shop_button_pressed"]
+[connection signal="pressed" from="MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/Button Container/MinesButton" to="." method="_on_mines_button_pressed"]

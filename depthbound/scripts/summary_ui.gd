@@ -7,6 +7,10 @@ var inventory: Inventory
 @onready var total_label: Label = $MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/TotalLabel
 
 
+signal back_to_mines
+signal go_to_shop
+
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	visible = false
@@ -77,3 +81,11 @@ func _count_ores() -> Dictionary:
 			aggregated_ores[ore_name]["quantity"] += slot.quantity
 			
 	return aggregated_ores
+
+
+func _on_shop_button_pressed() -> void:
+	go_to_shop.emit()
+
+
+func _on_mines_button_pressed() -> void:
+	back_to_mines.emit()
