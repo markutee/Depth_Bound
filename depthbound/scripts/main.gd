@@ -3,7 +3,7 @@ extends Node2D
 @onready var game: Node2D = $Game
 @onready var hud: CanvasLayer = $HUD
 
-
+var gold: int = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -14,4 +14,4 @@ func _ready() -> void:
 
 
 func _on_game_exit_mine() -> void:
-	hud.show_summary()
+	gold += hud.show_summary()

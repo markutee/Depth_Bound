@@ -29,3 +29,8 @@ func add_item(data: OreData) -> bool:
 			
 	# No space
 	return false
+	
+func clear():
+	for i in range(slots.size()):
+		slots[i] = null
+	inventory_changed.emit()
