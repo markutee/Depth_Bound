@@ -21,7 +21,7 @@ const MAPS = [
 @onready var exit_rail: Area2D = $ExitRail
 
 
-var last_map_index: int
+var last_map_index: int = -1
 var current_depth: int = 1
 var down_ladder: Area2D
 var rocks_remaining: int = 0
@@ -35,11 +35,15 @@ func _ready() -> void:
 
 func reset_depth() -> void:
 	current_depth = 1
+	last_map_index = -1   # aloittaa mapit taas ensimmäisestä
 	change_depth.emit(current_depth)
 
 func setup_map() -> void:
 	_clear_map()
-	_generate_map()
+	if !_generate_map():
+		print("Peli ohi, palaa ylös")
+		return
+	
 	_position_objects()
 	_generate_rocks()
 
@@ -59,19 +63,18 @@ func _clear_map() -> void:
 	for ore in ore_container.get_children():
 		ore.queue_free()
 		
-func _generate_map() -> void:
-	#pick a random map
-	var new_index = randi_range(0, MAPS.size()-1)
+func _generate_map() -> bool:
+	if last_map_index >= MAPS.size() - 1:
+		print("Kaikki mapit käyty läpi, pohja saavutettu.")
+		return false
 	
-	# keep picking until we get a different map
-	while new_index == last_map_index:
-		new_index = randi_range(0, MAPS.size()-1)
-	last_map_index = new_index
-		
-	current_map = MAPS[new_index].instantiate()
+	last_map_index += 1
+	current_map = MAPS[last_map_index].instantiate()
 	game.add_child(current_map)
+	return true
 	
-	
+func is_on_last_map() -> bool:
+	return last_map_index >= MAPS.size() - 1	
 
 
 
@@ -153,6 +156,10 @@ func _on_rock_broken(pos: Vector2) -> void:
 	rocks_remaining -= 1
 	if down_ladder != null:
 		return
+	#Don't generate ladder if on last level
+	if is_on_last_map():
+		return
+	
 	var drop_ladder := randf() < LADDER_CHANGE
 	if drop_ladder or rocks_remaining == 0:
 		_create_down_ladder(pos)
