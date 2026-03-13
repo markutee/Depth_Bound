@@ -8,7 +8,8 @@ const MAPS = [
 	preload("res://scenes/levels/map_1.tscn"),
 	preload("res://scenes/levels/map_2.tscn"),
 	preload("res://scenes/levels/map_3.tscn"),
-	preload("res://scenes/levels/map_4.tscn")
+	preload("res://scenes/levels/map_4.tscn"),
+	preload("res://scenes/levels/map_5.tscn")
 ]
 
 @export var rock_types: Array[RockData] = []
