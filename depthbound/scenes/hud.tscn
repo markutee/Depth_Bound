@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bhl22f4sjaf3g" path="res://scenes/inventory_ui.tscn" id="1_ahhtf"]
 [ext_resource type="Script" uid="uid://bvgm5h64jpx60" path="res://scripts/hud.gd" id="1_oo0fn"]
 [ext_resource type="PackedScene" uid="uid://bllrl45tsbui0" path="res://scenes/summary_ui.tscn" id="3_5ysmq"]
+[ext_resource type="PackedScene" uid="uid://c2p54vw34871o" path="res://scenes/shop_ui.tscn" id="4_6fi6k"]
 
 [node name="HUD" type="CanvasLayer" unique_id=884470397]
 script = ExtResource("1_oo0fn")
@@ -39,5 +40,8 @@ text = "Depth: 1"
 
 [node name="SummaryUI" parent="." unique_id=1444574392 instance=ExtResource("3_5ysmq")]
 
-[connection signal="back_to_mines" from="SummaryUI" to="." method="_on_summary_ui_back_to_mines"]
+[node name="ShopUI" parent="." unique_id=788888871 instance=ExtResource("4_6fi6k")]
+
+[connection signal="back_to_mines" from="SummaryUI" to="." method="on_back_to_mines_clicked"]
 [connection signal="go_to_shop" from="SummaryUI" to="." method="_on_summary_ui_go_to_shop"]
+[connection signal="back_to_mines" from="ShopUI" to="." method="on_back_to_mines_clicked"]

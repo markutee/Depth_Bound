@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://dimhbm36qqwwt"]
+
+[ext_resource type="Script" uid="uid://bj5vk88r3t4ld" path="res://scripts/shop_button.gd" id="1_g7nvd"]
+[ext_resource type="Theme" uid="uid://dnw3mokwto0tb" path="res://assets/UI_theme.tres" id="1_rxki5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uweeg"]
+content_margin_left = 4.0
+content_margin_right = 4.0
+draw_center = false
+border_width_left = 1
+border_width_right = 1
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bf34r"]
+content_margin_right = 4.0
+bg_color = Color(0, 0, 0, 1)
+draw_center = false
+border_color = Color(0, 0, 0, 1)
+
+[node name="ShopButton" type="HBoxContainer" unique_id=549249895]
+offset_left = -1.0
+offset_right = 156.0
+offset_bottom = 23.0
+script = ExtResource("1_g7nvd")
+
+[node name="Button" type="Button" parent="." unique_id=1676975462]
+custom_minimum_size = Vector2(100, 15)
+layout_mode = 2
+theme = ExtResource("1_rxki5")
+text = "Pickaxe"
+
+[node name="LevelLabel" type="Label" parent="." unique_id=27741768]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_uweeg")
+text = "Level: 0/3"
+horizontal_alignment = 1
+
+[node name="CostLabel" type="Label" parent="." unique_id=333422147]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_bf34r")
+text = "500 Gold"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

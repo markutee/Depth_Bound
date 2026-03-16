@@ -20,6 +20,7 @@ func add_item(data: OreData) -> bool:
 			return true
 	
 	
+	
 	# Find empty slot
 	for i in range(slots.size()):
 		if slots[i] == null:
@@ -29,7 +30,14 @@ func add_item(data: OreData) -> bool:
 			
 	# No space
 	return false
-	
+
+func upgrade_slots(amount: int) -> void:
+	max_slots += amount
+	for i in range(amount):
+		slots.append(null)
+	inventory_changed.emit()
+
+
 func clear():
 	for i in range(slots.size()):
 		slots[i] = null

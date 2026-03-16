@@ -4,6 +4,7 @@ extends CanvasLayer
 @onready var depth_label: Label = $DepthRect/DepthLabel
 @onready var inventory_ui: Control = $InventoryUI
 @onready var summary_ui: ColorRect = $SummaryUI
+@onready var shop_ui: ColorRect = $ShopUI
 
 
 signal back_to_mies
@@ -21,12 +22,21 @@ func show_summary() -> int:
 	
 func hide_summary() -> void:
 	summary_ui.visible = false
+	
+	
+func show_shop(amount: int) -> void:
+	summary_ui.visible = false
+	shop_ui.visible = true
+	shop_ui.set_gold(amount)
+	
+func hide_shop() -> void:
+	shop_ui.visible = false
 
 func update_depth(value: int) -> void:
 	depth_label.text = "Depth: %s" % value
 
 
-func _on_summary_ui_back_to_mines() -> void:
+func on_back_to_mines_clicked() -> void:
 	back_to_mies.emit()
 
 func _on_summary_ui_go_to_shop() -> void:

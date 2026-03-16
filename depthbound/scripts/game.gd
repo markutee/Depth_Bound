@@ -1,7 +1,7 @@
 extends Node2D
 
 const FILL_PERCENTAGE: float = 0.2
-const LADDER_CHANGE: float = 0.9
+const LADDER_CHANGE: float = 0.1
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const MAPS = [
