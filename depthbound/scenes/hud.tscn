@@ -38,9 +38,53 @@ text = "Depth: 1"
 
 [node name="InventoryUI" parent="." unique_id=2004184431 instance=ExtResource("1_ahhtf")]
 
+[node name="OxygenRect" type="ColorRect" parent="." unique_id=1905301268]
+offset_right = 73.0
+offset_bottom = 16.0
+color = Color(0, 0.5019608, 0.5019608, 1)
+
+[node name="OxygenLabel" type="Label" parent="OxygenRect" unique_id=713745583]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -30.5
+offset_right = 30.5
+offset_bottom = 13.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Oxygen: 100"
+horizontal_alignment = 1
+
 [node name="SummaryUI" parent="." unique_id=1444574392 instance=ExtResource("3_5ysmq")]
 
 [node name="ShopUI" parent="." unique_id=788888871 instance=ExtResource("4_6fi6k")]
+
+[node name="FadeOverlay" type="ColorRect" parent="." unique_id=1302207877]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="DeathLabel" type="Label" parent="." unique_id=814492387]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -91.5
+offset_top = -9.5
+offset_right = 91.5
+offset_bottom = 9.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 24
+text = "YOU RAN OUT OF OXYGEN"
 
 [connection signal="back_to_mines" from="SummaryUI" to="." method="on_back_to_mines_clicked"]
 [connection signal="go_to_shop" from="SummaryUI" to="." method="_on_summary_ui_go_to_shop"]

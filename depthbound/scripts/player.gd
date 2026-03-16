@@ -85,6 +85,11 @@ func play_animation(prefix: String, dir: Vector2) -> void:
 	elif dir.y  > 0:
 		animated_sprite_2d.play(prefix + "_down")
 		
+		
+func die() -> bool:
+	animated_sprite_2d.play("death")
+	await animated_sprite_2d.animation_finished
+	return true
 #--------------------------------------------------------------------
 # HITBOX OFFSET
 #--------------------------------------------------------------------

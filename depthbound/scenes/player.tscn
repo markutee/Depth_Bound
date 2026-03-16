@@ -5,6 +5,22 @@
 [ext_resource type="Texture2D" uid="uid://tua2tm7oc1jl" path="res://assets/ImagesDepthbound/Player/Miner_Mike.png" id="3_qhqgy"]
 [ext_resource type="AudioStream" uid="uid://droyd77s7hqqx" path="res://assets/audio/pickaxe_hit.wav" id="4_dqkch"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_jc3p3"]
+atlas = ExtResource("3_qhqgy")
+region = Rect2(0, 384, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hax0n"]
+atlas = ExtResource("3_qhqgy")
+region = Rect2(64, 384, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_giy8y"]
+atlas = ExtResource("3_qhqgy")
+region = Rect2(128, 384, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fdfoy"]
+atlas = ExtResource("3_qhqgy")
+region = Rect2(192, 384, 64, 64)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
 atlas = ExtResource("1_4flbx")
 region = Rect2(0, 0, 64, 64)
@@ -199,6 +215,23 @@ region = Rect2(192, 576, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_dw050"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jc3p3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hax0n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_giy8y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fdfoy")
+}],
+"loop": false,
+"name": &"death",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_onrkg")
@@ -402,9 +435,7 @@ script = ExtResource("1_g2els")
 position = Vector2(1.9073486e-06, -4)
 scale = Vector2(1.8125002, 1.4843751)
 sprite_frames = SubResource("SpriteFrames_dw050")
-animation = &"swing_pickaxe_up"
-frame = 3
-frame_progress = 1.0
+animation = &"death"
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1483131452]

@@ -5,6 +5,9 @@ extends CanvasLayer
 @onready var inventory_ui: Control = $InventoryUI
 @onready var summary_ui: ColorRect = $SummaryUI
 @onready var shop_ui: ColorRect = $ShopUI
+@onready var oxygen_rect: ColorRect = $OxygenRect
+@onready var oxygen_label: Label = $OxygenRect/OxygenLabel
+@onready var fade_overlay: ColorRect = $FadeOverlay
 
 
 signal back_to_mies
@@ -32,9 +35,26 @@ func show_shop(amount: int) -> void:
 func hide_shop() -> void:
 	shop_ui.visible = false
 
+func update_oxygen(value: int) -> void:
+	oxygen_label.text = "Oxygen: %d" % value
+	
+	if value <= 25:
+		oxygen_rect.color = Color.DARK_RED
+	
+	elif value <= 50:
+		oxygen_rect.color = Color.ORANGE
+	
+	else:
+		oxygen_rect.color = Color.TEAL
+
+
 func update_depth(value: int) -> void:
 	depth_label.text = "Depth: %s" % value
 
+func fade(to_alpha: float) -> void:
+	var tween := create_tween()
+	tween.tween_property(fade_overlay, "modulate:a", to_alpha, 1.5)
+	await tween.finished
 
 func on_back_to_mines_clicked() -> void:
 	back_to_mies.emit()
