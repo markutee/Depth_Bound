@@ -1,7 +1,7 @@
 extends Node2D
 
 const FILL_PERCENTAGE: float = 0.2
-const LADDER_CHANGE: float = 0.1
+const LADDER_CHANGE: float = 0.9
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const MAPS = [
@@ -42,7 +42,6 @@ func reset_depth() -> void:
 func setup_map() -> void:
 	_clear_map()
 	if !_generate_map():
-		print("Peli ohi, palaa ylös")
 		return
 	
 	_position_objects()

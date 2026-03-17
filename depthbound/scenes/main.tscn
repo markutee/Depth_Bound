@@ -12,6 +12,7 @@ script = ExtResource("1_sugp2")
 [node name="HUD" parent="." unique_id=884470397 instance=ExtResource("2_0wfyh")]
 
 [node name="OxygenTimer" type="Timer" parent="." unique_id=877475916]
+wait_time = 2.0
 autostart = true
 
 [connection signal="exit_mine" from="Game" to="." method="_on_game_exit_mine"]
