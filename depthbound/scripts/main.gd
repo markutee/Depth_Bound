@@ -5,7 +5,7 @@ extends Node2D
 @onready var oxygen_timer: Timer = $OxygenTimer
 
 var gold: int = 0
-var max_oxygen: int = 100
+var max_oxygen: int = 10000
 var oxygen: int
 var oxygen_use: int = 5
 
