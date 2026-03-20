@@ -8,6 +8,7 @@
 script = ExtResource("1_sugp2")
 
 [node name="Game" parent="." unique_id=1064699759 instance=ExtResource("1_o5qli")]
+position = Vector2(42, -17)
 
 [node name="HUD" parent="." unique_id=884470397 instance=ExtResource("2_0wfyh")]
 
