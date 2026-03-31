@@ -13,6 +13,11 @@ extends CanvasLayer
 signal back_to_mies
 signal go_to_shop
 
+#Määrittää oxygen indikaattorin näkyvyyden ruudun vasemmassa yläkulmassa
+func _ready() -> void: 
+	oxygen_rect.visible = false
+	# oxygen_label.visible = false   # ei pakollinen, koska jos parent on piilossa, label ei näy myöskään
+
 func set_inventory(inv: Inventory):
 	inventory_ui.set_inventory(inv)
 	summary_ui.set_inventory(inv)
@@ -35,17 +40,18 @@ func show_shop(amount: int) -> void:
 func hide_shop() -> void:
 	shop_ui.visible = false
 
-func update_oxygen(value: int) -> void:
-	oxygen_label.text = "Oxygen: %d" % value
+#func update_oxygen(value: int) -> void:
 	
-	if value <= 25:
-		oxygen_rect.color = Color.DARK_RED
+	#oxygen_label.text = "Oxygen: %d" % value
 	
-	elif value <= 50:
-		oxygen_rect.color = Color.ORANGE
+	#if value <= 25:
+		#oxygen_rect.color = Color.DARK_RED
 	
-	else:
-		oxygen_rect.color = Color.TEAL
+	#elif value <= 50:
+		#oxygen_rect.color = Color.ORANGE
+	
+	#else:
+		#oxygen_rect.color = Color.TEAL
 
 
 func update_depth(value: int) -> void:
