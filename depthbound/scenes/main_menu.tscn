@@ -1,0 +1,136 @@
+[gd_scene format=3 uid="uid://cwo31kxdphja2"]
+
+[ext_resource type="Texture2D" uid="uid://d10p2ta73tcy6" path="res://assets/ImagesDepthbound/UI/pixel_art_small.png" id="1_ekxnf"]
+[ext_resource type="Script" uid="uid://da735gt56hpf5" path="res://scripts/main_menu.gd" id="1_l6cm7"]
+[ext_resource type="Theme" uid="uid://dnw3mokwto0tb" path="res://assets/UI_theme.tres" id="2_ekxnf"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bqqt6"]
+texture = ExtResource("1_ekxnf")
+modulate_color = Color(0.90359825, 0.90359825, 0.9035982, 1)
+
+[sub_resource type="Animation" id="Animation_bqqt6"]
+resource_name = "Fade_out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_wu84c"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8ln24"]
+_data = {
+&"Fade_out": SubResource("Animation_bqqt6"),
+&"RESET": SubResource("Animation_wu84c")
+}
+
+[node name="Main_menu" type="Control" unique_id=770086321]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l6cm7")
+
+[node name="Panel" type="Panel" parent="." unique_id=1353833334]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_bqqt6")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=357439799]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -72.0
+offset_top = -13.0
+offset_right = 74.0
+offset_bottom = 58.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 4
+
+[node name="Start" type="Button" parent="VBoxContainer" unique_id=943893385]
+modulate = Color(0.99705297, 0.99705297, 0.99705297, 0.9647059)
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("2_ekxnf")
+theme_override_font_sizes/font_size = 19
+text = "Start Game"
+
+[node name="Credits" type="Button" parent="VBoxContainer" unique_id=1294174905]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("2_ekxnf")
+theme_override_font_sizes/font_size = 19
+text = "Credits
+"
+
+[node name="Quit" type="Button" parent="VBoxContainer" unique_id=476148116]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("2_ekxnf")
+theme_override_font_sizes/font_size = 19
+text = "Exit Game"
+
+[node name="Label" type="Label" parent="." unique_id=57807867]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -61.0
+offset_top = -44.0
+offset_right = 59.0
+offset_bottom = -18.666656
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "DEPTHBOUND"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=369477990]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="Fade" type="AnimationPlayer" parent="." unique_id=2079197575]
+libraries/ = SubResource("AnimationLibrary_8ln24")
+speed_scale = 0.8
+
+[connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
+[connection signal="animation_finished" from="Fade" to="." method="_on_fade_animation_finished"]

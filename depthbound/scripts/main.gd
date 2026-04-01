@@ -3,6 +3,8 @@ extends Node2D
 @onready var game: Node2D = $Game
 @onready var hud: CanvasLayer = $HUD
 #@onready var oxygen_timer: Timer = $OxygenTimer
+@onready var fade: AnimationPlayer = $Fade
+
 
 var gold: int = 0
 #var max_oxygen: int = 10000
@@ -12,6 +14,9 @@ var gold: int = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+
+	fade.play("fade_in")
+	
 	
 	hud.set_inventory(game.player.inventory)
 	
@@ -23,9 +28,9 @@ func _ready() -> void:
 	
 
 
-#func _on_game_exit_mine() -> void:
+func _on_game_exit_mine() -> void:
 	#oxygen_timer.stop()
-	#gold += hud.show_summary()
+	gold += hud.show_summary()
 
 
 func _on_hud_back_to_mies() -> void:
@@ -48,24 +53,24 @@ func _on_hud_go_to_shop() -> void:
 #func _on_oxygen_empty() -> void:
 	#oxygen_timer.stop()
 	
-	game.player.can_move = false
+	#game.player.can_move = false
 	#Handle player death
-	await game.player.die()
+	#await game.player.die()
 	
-	await hud.fade(1.0) #Fade out
-	hud.get_node("DeathLabel").visible = true
-	game.player.inventory.clear()
+	#await hud.fade(1.0) #Fade out
+	#hud.get_node("DeathLabel").visible = true
+	#game.player.inventory.clear()
 	
-	await get_tree().create_timer(2.5).timeout
+	#await get_tree().create_timer(2.5).timeout
 	
 	
-	_reset_run(true)
+	#_reset_run(true)
 
 
 func _reset_run(do_fade: bool) -> void:
 	#_reset_oxygen()
 	hud.get_node("DeathLabel").visible = false
-	
+	game.player.inventory.clear()
 	game.reset_depth()
 	game.setup_map()
 	

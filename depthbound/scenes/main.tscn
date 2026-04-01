@@ -3,6 +3,43 @@
 [ext_resource type="PackedScene" uid="uid://c11brqy7honkf" path="res://scenes/game.tscn" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://b2ls7muvds44n" path="res://scripts/main.gd" id="1_sugp2"]
 [ext_resource type="PackedScene" uid="uid://8xpjuv1yyw" path="res://scenes/hud.tscn" id="2_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://cj2t5h7nx8ll5" path="res://scenes/pause_menu.tscn" id="4_jyhfs"]
+
+[sub_resource type="Animation" id="Animation_sugp2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_jyhfs"]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.89),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tbgi4"]
+_data = {
+&"RESET": SubResource("Animation_sugp2"),
+&"fade_in": SubResource("Animation_jyhfs")
+}
 
 [node name="Main" type="Node2D" unique_id=982069976]
 script = ExtResource("1_sugp2")
@@ -15,6 +52,24 @@ position = Vector2(42, -17)
 [node name="OxygenTimer" type="Timer" parent="." unique_id=877475916]
 wait_time = 2.0
 autostart = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=647107886]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=784353479]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Fade" type="AnimationPlayer" parent="." unique_id=358725498]
+libraries/ = SubResource("AnimationLibrary_tbgi4")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1682696532]
+
+[node name="PauseMenu" parent="CanvasLayer2" unique_id=713580185 instance=ExtResource("4_jyhfs")]
 
 [connection signal="exit_mine" from="Game" to="." method="_on_game_exit_mine"]
 [connection signal="back_to_mies" from="HUD" to="." method="_on_hud_back_to_mies"]
