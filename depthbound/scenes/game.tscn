@@ -34,6 +34,7 @@ position = Vector2(42, -71)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1543537689]
 position = Vector2(29, -22)
+zoom = Vector2(0.5, 0.5)
 
 [node name="MusicController" type="Node2D" parent="." unique_id=668889660]
 script = ExtResource("5_p57ef")
