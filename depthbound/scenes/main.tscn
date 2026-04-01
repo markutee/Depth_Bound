@@ -10,7 +10,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("CanvasLayer/ColorRect:color")
+tracks/0/path = NodePath("Fade_in/ColorRect:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -25,7 +25,7 @@ resource_name = "fade_in"
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("CanvasLayer/ColorRect:color")
+tracks/0/path = NodePath("Fade_in/ColorRect:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -53,9 +53,9 @@ position = Vector2(42, -17)
 wait_time = 2.0
 autostart = true
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=647107886]
+[node name="Fade_in" type="CanvasLayer" parent="." unique_id=647107886]
 
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=784353479]
+[node name="ColorRect" type="ColorRect" parent="Fade_in" unique_id=784353479]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -67,9 +67,9 @@ color = Color(0, 0, 0, 1)
 [node name="Fade" type="AnimationPlayer" parent="." unique_id=358725498]
 libraries/ = SubResource("AnimationLibrary_tbgi4")
 
-[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1682696532]
+[node name="Pause" type="CanvasLayer" parent="." unique_id=1682696532]
 
-[node name="PauseMenu" parent="CanvasLayer2" unique_id=713580185 instance=ExtResource("4_jyhfs")]
+[node name="PauseMenu" parent="Pause" unique_id=713580185 instance=ExtResource("4_jyhfs")]
 
 [connection signal="exit_mine" from="Game" to="." method="_on_game_exit_mine"]
 [connection signal="back_to_mies" from="HUD" to="." method="_on_hud_back_to_mies"]
