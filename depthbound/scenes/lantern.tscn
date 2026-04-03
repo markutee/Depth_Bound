@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://bvqppkj3d2ijq"]
+
+[ext_resource type="Script" uid="uid://6enhjgtjlybu" path="res://scripts/lantern.gd" id="1_jdg25"]
+[ext_resource type="Texture2D" uid="uid://b24v570m3yc72" path="res://assets/ImagesDepthbound/Light/Lantern_Torch.png" id="1_uxgnm"]
+[ext_resource type="Texture2D" uid="uid://box11001g8uu1" path="res://assets/ImagesDepthbound/Light/light_texture.png" id="2_jdg25"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y6stn"]
+atlas = ExtResource("1_uxgnm")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4a08e"]
+atlas = ExtResource("1_uxgnm")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5omvi"]
+atlas = ExtResource("1_uxgnm")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_spggs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6stn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4a08e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5omvi")
+}],
+"loop": true,
+"name": &"Lantern",
+"speed": 1.0
+}]
+
+[node name="Lantern" type="Node2D" unique_id=1167479074]
+script = ExtResource("1_jdg25")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=875867675]
+position = Vector2(24, 20)
+sprite_frames = SubResource("SpriteFrames_spggs")
+animation = &"Lantern"
+frame_progress = 0.06293909
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=297764378]
+position = Vector2(24.389065, 22.7)
+scale = Vector2(0.2136366, 0.20225696)
+color = Color(1, 0.8235294, 0.47843137, 1)
+texture = ExtResource("2_jdg25")
+texture_scale = 0.9

@@ -1,6 +1,8 @@
 [gd_scene format=4 uid="uid://b2fikdu32tydd"]
 
 [ext_resource type="PackedScene" uid="uid://b30ecr8myaob1" path="res://scenes/levels/Base_map.tscn" id="1_h2hyn"]
+[ext_resource type="PackedScene" uid="uid://b1fu52lbjipn" path="res://scenes/torch.tscn" id="2_v7fe1"]
+[ext_resource type="PackedScene" uid="uid://bvqppkj3d2ijq" path="res://scenes/lantern.tscn" id="3_wy4vl"]
 
 [node name="Map" unique_id=588729166 instance=ExtResource("1_h2hyn")]
 
@@ -14,3 +16,29 @@ tile_map_data = PackedByteArray("AAAjAAMAAAADAAAAAAAiAAMAAAADAAAAAAAgAAMAAAADAAA
 [node name="Support" parent="." index="3" unique_id=942663986]
 tile_map_data = PackedByteArray("AADz/wsAAQAAAAAAAAD0/wsAAQABAAAAAAD1/wsAAQABAAAAAAD2/wsAAQABAAAAAAD3/wsAAQAEAAAAAADX//z/AQAAAAAAAADY//z/AQABAAAAAADZ//z/AQABAAAAAADa//z/AQADAAAAAADb//z/AQABAAAAAADc//z/AQABAAAAAADd//z/AQACAAAAAADa//3/AQADAAEAAADh//3/AQADAAEAAADh//z/AQADAAAAAADe//z/AQABAAAAAADf//z/AQABAAAAAADg//z/AQABAAAAAADi//z/AQABAAAAAADj//z/AQABAAAAAADk//z/AQAEAAAAAADx//z/AQAAAAAAAADy//z/AQABAAAAAADz//z/AQABAAAAAAD0//z/AQABAAAAAAD1//z/AQABAAAAAAD2//z/AQABAAAAAAD3//z/AQAEAAAAAAD//xMAAQAAAAAAAAAAABMAAQABAAAAAAABABMAAQABAAAAAAACABMAAQABAAAAAAADABMAAQABAAAAAAAEABMAAQAEAAAAAADk/x4AAQAAAAAAAADl/x4AAQABAAAAAADm/x4AAQABAAAAAADn/x4AAQABAAAAAADo/x4AAQACAAAAAADp/x4AAQABAAAAAADq/x4AAQABAAAAAADr/x4AAQABAAAAAADs/x4AAQAEAAAAAADz//P/AQAAAAAAAAD1//P/AQAEAAAAAAD0//P/AQABAAAAAAA=")
 collision_enabled = false
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." index="4" unique_id=935365989]
+color = Color(0.12156863, 0.08627451, 0.07450981, 1)
+
+[node name="Torches" type="Node2D" parent="." index="5" unique_id=1362821550]
+
+[node name="Torch" parent="Torches" index="0" unique_id=306918574 instance=ExtResource("2_v7fe1")]
+position = Vector2(-73, 144)
+
+[node name="Torch2" parent="Torches" index="1" unique_id=1161573324 instance=ExtResource("2_v7fe1")]
+position = Vector2(-233, -32)
+
+[node name="Torch3" parent="Torches" index="2" unique_id=1739189634 instance=ExtResource("2_v7fe1")]
+position = Vector2(-423, 320)
+
+[node name="Torch4" parent="Torches" index="3" unique_id=2074845323 instance=ExtResource("2_v7fe1")]
+position = Vector2(392, 241)
+
+[node name="Lanterns" type="Node2D" parent="." index="6" unique_id=641777540]
+z_index = 5
+
+[node name="Lantern" parent="Lanterns" index="0" unique_id=1167479074 instance=ExtResource("3_wy4vl")]
+position = Vector2(-215, 168)
+
+[node name="Lantern2" parent="Lanterns" index="1" unique_id=1416098740 instance=ExtResource("3_wy4vl")]
+position = Vector2(-169, 168)

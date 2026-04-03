@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://b4x6fvt8jwcns"]
 
 [ext_resource type="PackedScene" uid="uid://b30ecr8myaob1" path="res://scenes/levels/Base_map.tscn" id="1_bcp74"]
+[ext_resource type="Texture2D" uid="uid://bdna65ae0y12j" path="res://assets/ImagesDepthbound/Light/smooth_square_light_texture.png" id="2_0jawo"]
 
 [node name="Map" unique_id=588729166 instance=ExtResource("1_bcp74")]
 
@@ -15,3 +16,27 @@ position = Vector2(-200, -183)
 
 [node name="Support" parent="." index="3" unique_id=942663986]
 tile_map_data = PackedByteArray("AADk////BgACAAEAAADl//7/BgADAAAAAADm//7/BgAEAAAAAADm////BgAEAAEAAAAHAPv/BgAEAAEAAAAHAPr/BgAEAAAAAAAGAPr/BgADAAAAAAAFAPv/BgACAAEAAAD8/woABgACAAEAAAD9/wkABgADAAAAAAD+/wkABgAEAAAAAAD+/woABgAEAAEAAAAXAAIABgACAAEAAAAYAAEABgADAAAAAAAZAAEABgAEAAAAAAAZAAIABgAEAAEAAADl////BgADAAEAAAD9/woABgADAAEAAAAGAPv/BgADAAEAAAAYAAIABgADAAEAAAA=")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." index="4" unique_id=1981024066]
+color = Color(0.101960786, 0.11372549, 0.13333334, 1)
+
+[node name="LavaLights" type="Node2D" parent="." index="5" unique_id=1084664812]
+
+[node name="PointLight2D" type="PointLight2D" parent="LavaLights" index="0" unique_id=290486126]
+position = Vector2(-195, 70.5)
+scale = Vector2(0.69531244, 0.66015625)
+color = Color(1, 0.47843137, 0.18431373, 1)
+energy = 1.7
+texture = ExtResource("2_0jawo")
+
+[node name="PointLight2D2" type="PointLight2D" parent="LavaLights" index="1" unique_id=932497989]
+position = Vector2(-248.49998, 66.50001)
+scale = Vector2(1.2773438, 0.82421887)
+color = Color(1, 0.47843137, 0.18431373, 1)
+texture = ExtResource("2_0jawo")
+
+[node name="PointLight2D3" type="PointLight2D" parent="LavaLights" index="2" unique_id=1812728119]
+position = Vector2(-286, 63)
+scale = Vector2(0.74218744, 0.63281244)
+color = Color(1, 0.47843137, 0.18431373, 1)
+texture = ExtResource("2_0jawo")
