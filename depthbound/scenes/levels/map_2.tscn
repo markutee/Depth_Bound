@@ -5,6 +5,15 @@
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4giaw"]
 texture = ExtResource("2_7frs4")
+0:0/size_in_atlas = Vector2i(3, 3)
+0:0/animation_columns = 4
+0:0/animation_separation = Vector2i(2, 0)
+0:0/animation_speed = 1.5
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
 0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_ii3rk"]
@@ -24,8 +33,10 @@ tile_map_data = PackedByteArray("AADz//P/AQAAAAAAAAD1//P/AQAEAAAAAAD0//P/AQABAAA
 collision_enabled = false
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." index="4" unique_id=434370465]
+visible = false
 color = Color(0.12156863, 0.08627451, 0.07450981, 1)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." index="5" unique_id=1728794053]
 texture_filter = 1
+tile_map_data = PackedByteArray("AAAJABkAAQAAAAAAAAA=")
 tile_set = SubResource("TileSet_ii3rk")
