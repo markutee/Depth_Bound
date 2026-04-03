@@ -40,7 +40,7 @@ script = ExtResource("1_jdg25")
 position = Vector2(24, 20)
 sprite_frames = SubResource("SpriteFrames_spggs")
 animation = &"Lantern"
-frame_progress = 0.06293909
+frame_progress = 0.12345816
 
 [node name="PointLight2D" type="PointLight2D" parent="." unique_id=297764378]
 position = Vector2(24.389065, 22.7)

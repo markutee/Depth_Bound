@@ -12,7 +12,7 @@ var target_scale := 2.4
 
 func _ready() -> void:
 	randomize()
-	sprite.play("idle")
+	sprite.play("Lantern")
 
 	base_energy += randf_range(-0.05, 0.05)
 	base_scale += randf_range(-0.05, 0.05)

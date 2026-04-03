@@ -65,7 +65,7 @@ position = Vector2(8, 8)
 sprite_frames = SubResource("SpriteFrames_x1r1x")
 animation = &"Torch"
 autoplay = "Torch"
-frame_progress = 0.44770285
+frame_progress = 0.31746647
 
 [node name="PointLight2D" type="PointLight2D" parent="." unique_id=1564855168]
 position = Vector2(8, 9.899999)

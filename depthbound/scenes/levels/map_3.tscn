@@ -17,4 +17,5 @@ position = Vector2(-648, -376)
 tile_map_data = PackedByteArray()
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." index="4" unique_id=1345076070]
+visible = false
 color = Color(0.12156863, 0.08627451, 0.07450981, 1)

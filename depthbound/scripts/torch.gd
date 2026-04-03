@@ -12,7 +12,7 @@ var target_scale := 2.6
 
 func _ready() -> void:
 	randomize()
-	sprite.play("idle")
+	sprite.play("Torch")
 
 	# Jokaiselle soihdulle hieman eri aloitusarvot
 	base_energy += randf_range(-0.08, 0.08)

@@ -3,7 +3,7 @@ extends Node2D
 const FILL_PERCENTAGE: float = 0.2
 const LADDER_CHANGE: float = 0.9
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
-const LADDER_SCENE = preload("res://scenes/ladder.tscn")
+# const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const MAPS = [
 	preload("res://scenes/levels/map_1.tscn"),
 	preload("res://scenes/levels/map_2.tscn"),
@@ -14,17 +14,15 @@ const MAPS = [
 
 @export var rock_types: Array[RockData] = []
 
-
 @onready var current_map: Node2D = $Map
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
 @onready var exit_rail: Area2D = $ExitRail
 
-
 var last_map_index: int = -1
 var current_depth: int = 1
-var down_ladder: Area2D
+# var down_ladder: Area2D
 var rocks_remaining: int = 0
 
 signal change_depth
@@ -33,10 +31,9 @@ signal exit_mine
 func _ready() -> void:
 	setup_map()
 
-
 func reset_depth() -> void:
 	current_depth = 1
-	last_map_index = -1   # aloittaa mapit taas ensimmäisestä
+	last_map_index = -1
 	change_depth.emit(current_depth)
 
 func setup_map() -> void:
@@ -47,6 +44,20 @@ func setup_map() -> void:
 	_position_objects()
 	_generate_rocks()
 
+#-------------------------------------------------------------------------
+# Uusi kokeilu mappien välillä liikkumiseen
+#-------------------------------------------------------------------------
+func go_to_next_map() -> void:
+	if last_map_index >= MAPS.size() - 1:
+		print("Viimeinen map saavutettu.")
+		return
+
+	current_depth += 1
+	change_depth.emit(current_depth)
+	setup_map()
+#-------------------------------------------------------------------------
+#-------------------------------------------------------------------------
+
 func _clear_map() -> void:
 	# Remove old map
 	if current_map:
@@ -54,15 +65,15 @@ func _clear_map() -> void:
 		current_map = null
 
 	# Delete any down ladders
-	if down_ladder:
-		down_ladder.queue_free()
-		down_ladder = null
+	# if down_ladder:
+	# 	down_ladder.queue_free()
+	# 	down_ladder = null
 
 	# Delete any ores that werent collected
 	var ore_container = $OreContainer
 	for ore in ore_container.get_children():
 		ore.queue_free()
-		
+
 func _generate_map() -> bool:
 	if last_map_index >= MAPS.size() - 1:
 		print("Kaikki mapit käyty läpi, pohja saavutettu.")
@@ -72,20 +83,22 @@ func _generate_map() -> bool:
 	current_map = MAPS[last_map_index].instantiate()
 	game.add_child(current_map)
 	return true
-	
+
 func is_on_last_map() -> bool:
-	return last_map_index >= MAPS.size() - 1	
-
-
+	return last_map_index >= MAPS.size() - 1
 
 func _position_objects() -> void:
 	var player_spawn: Marker2D = current_map.get_node("PlayerSpawn")
 	player.reset(player_spawn.position)
 	
-	#Position exit rail on top of player spawn
+	# Position exit rail on top of player spawn
 	exit_rail.position = player_spawn.position
-	
-	#Clear existing rocks
+
+	if current_map.has_node("ExitToMap2"):
+		var exit_to_map_2 = current_map.get_node("ExitToMap2")
+		if not exit_to_map_2.exit_used.is_connected(_on_exit_to_map_2_used):
+			exit_to_map_2.exit_used.connect(_on_exit_to_map_2_used)
+
 func _generate_rocks() -> void:
 	for child in rock_container.get_children():
 		child.queue_free()
@@ -127,18 +140,19 @@ func _generate_rocks() -> void:
 		
 		rock.data = get_random_rock(valid_rocks)
 
-		#Get local position from tilemap
+		# Get local position from tilemap
 		var local_pos = ground_layer.map_to_local(cell)
 		rock.global_position = local_pos
 		rock_container.add_child(rock)
-		rock.broken.connect(_on_rock_broken)
-		
+		# LADDER DISABLED FOR NOW
+		# rock.broken.connect(_on_rock_broken)
+
 func get_random_rock(options: Array[RockData]) -> RockData:
-	var total_weight : int = 0
+	var total_weight: int = 0
 	for rock in options:
 		total_weight += rock.rarity
 			
-	var roll = randi_range(0, total_weight -1)
+	var roll = randi_range(0, total_weight - 1)
 	var current_sum: int = 0
 		
 	for rock in options:
@@ -146,40 +160,44 @@ func get_random_rock(options: Array[RockData]) -> RockData:
 		if roll < current_sum:
 			return rock
 	
-	return options[0] #fallback to stone if nothing else is picked
-	
+	return options[0] # fallback to stone if nothing else is picked
+
 #-------------------
-#Ladder code
+# Map exit code
+#-------------------
+func _on_exit_to_map_2_used() -> void:
+	go_to_next_map()
+
+#-------------------
+# Ladder code
 #-------------------
 
-func _on_rock_broken(pos: Vector2) -> void:
-	rocks_remaining -= 1
-	if down_ladder != null:
-		return
-	#Don't generate ladder if on last level
-	if is_on_last_map():
-		return
-	
-	var drop_ladder := randf() < LADDER_CHANGE
-	if drop_ladder or rocks_remaining == 0:
-		_create_down_ladder(pos)
-	
+# func _on_rock_broken(pos: Vector2) -> void:
+# 	rocks_remaining -= 1
+# 	if down_ladder != null:
+# 		return
+# 	# Don't generate ladder if on last level
+# 	if is_on_last_map():
+# 		return
+# 	
+# 	var drop_ladder := randf() < LADDER_CHANGE
+# 	if drop_ladder or rocks_remaining == 0:
+# 		_create_down_ladder(pos)
 
-func _create_down_ladder(pos: Vector2) -> void:
-	down_ladder = LADDER_SCENE.instantiate()
-	down_ladder.position = pos
-	add_child(down_ladder)
-	down_ladder.ladder_used.connect(_on_down_ladder_used)
-
+# func _create_down_ladder(pos: Vector2) -> void:
+# 	down_ladder = LADDER_SCENE.instantiate()
+# 	down_ladder.position = pos
+# 	add_child(down_ladder)
+# 	down_ladder.ladder_used.connect(_on_down_ladder_used)
 
 func _on_down_ladder_used() -> void:
 	current_depth += 1
 	change_depth.emit(current_depth)
 	setup_map()
 
-
 func _on_exit_rail_exit_used() -> void:
+	go_to_next_map()
 	if !player.can_move:
-		return #if the player is already using the ladder skip this
+		return
 	player.can_move = false
 	exit_mine.emit()
