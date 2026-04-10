@@ -14,16 +14,19 @@ const MAPS = [
 
 @export var rock_types: Array[RockData] = []
 
-@onready var current_map: Node2D = $Map
+var current_map: Node2D
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
+
+
 @onready var exit_rail: Area2D = $ExitRail
 
-var last_map_index: int = -1
+var current_map_index: int = 0
 var current_depth: int = 1
 # var down_ladder: Area2D
 var rocks_remaining: int = 0
+var transition_direction: String = "start"
 
 signal change_depth
 signal exit_mine
@@ -32,12 +35,15 @@ func _ready() -> void:
 	setup_map()
 
 func reset_depth() -> void:
+	current_map_index = 0
 	current_depth = 1
-	last_map_index = -1
+	transition_direction = "start"
 	change_depth.emit(current_depth)
+	setup_map()
 
 func setup_map() -> void:
 	_clear_map()
+	await get_tree().process_frame
 	if !_generate_map():
 		return
 	
@@ -48,11 +54,24 @@ func setup_map() -> void:
 # Uusi kokeilu mappien välillä liikkumiseen
 #-------------------------------------------------------------------------
 func go_to_next_map() -> void:
-	if last_map_index >= MAPS.size() - 1:
+	if current_map_index >= MAPS.size() - 1:
 		print("Viimeinen map saavutettu.")
 		return
 
-	current_depth += 1
+	current_map_index += 1
+	current_depth = current_map_index + 1
+	transition_direction = "down"
+	change_depth.emit(current_depth)
+	setup_map()
+
+func go_to_previous_map() -> void:
+	if current_map_index <= 0:
+		print("Ensimmäinen map saavutettu.")
+		return
+
+	current_map_index -= 1
+	current_depth = current_map_index + 1
+	transition_direction = "up"
 	change_depth.emit(current_depth)
 	setup_map()
 #-------------------------------------------------------------------------
@@ -74,30 +93,55 @@ func _clear_map() -> void:
 	for ore in ore_container.get_children():
 		ore.queue_free()
 
+	for child in rock_container.get_children():
+		child.queue_free()
+
 func _generate_map() -> bool:
-	if last_map_index >= MAPS.size() - 1:
-		print("Kaikki mapit käyty läpi, pohja saavutettu.")
+	if current_map_index < 0 or current_map_index >= MAPS.size():
+		print("Virheellinen map index: ", current_map_index)
 		return false
 	
-	last_map_index += 1
-	current_map = MAPS[last_map_index].instantiate()
+	current_map = MAPS[current_map_index].instantiate()
 	game.add_child(current_map)
+	
+	print("GAME CHILDREN:")
+	for child in game.get_children():
+		print(" - ", child.name)
+		
 	return true
 
 func is_on_last_map() -> bool:
-	return last_map_index >= MAPS.size() - 1
+	return current_map_index >= MAPS.size() - 1
 
 func _position_objects() -> void:
-	var player_spawn: Marker2D = current_map.get_node("PlayerSpawn")
-	player.reset(player_spawn.position)
+	var spawn_node: Marker2D
+
+	# Kun tullaan alemmalta tasolta ylöspäin
+	if transition_direction == "up" and current_map.has_node("SpawnUp"):
+		spawn_node = current_map.get_node("SpawnUp")
+	else:
+		# Kaikki muut tilanteet (alas + aloitus)
+		spawn_node = current_map.get_node("PlayerSpawn")
+
+	player.reset(spawn_node.position)
+	
+	var camera = player.get_node("Camera2D")
+	if camera:
+		camera.force_update_scroll()
 	
 	# Position exit rail on top of player spawn
-	exit_rail.position = player_spawn.position
+	exit_rail.position = spawn_node.position
 
-	if current_map.has_node("ExitToMap2"):
-		var exit_to_map_2 = current_map.get_node("ExitToMap2")
-		if not exit_to_map_2.exit_used.is_connected(_on_exit_to_map_2_used):
-			exit_to_map_2.exit_used.connect(_on_exit_to_map_2_used)
+	# Exitit
+	if current_map.has_node("ExitDown"):
+		var exit_down = current_map.get_node("ExitDown")
+		if not exit_down.exit_used.is_connected(_on_level_exit_used):
+			exit_down.exit_used.connect(_on_level_exit_used)
+
+	if current_map.has_node("ExitUp"):
+		var exit_up = current_map.get_node("ExitUp")
+		if not exit_up.exit_used.is_connected(_on_level_exit_used):
+			exit_up.exit_used.connect(_on_level_exit_used)
 
 func _generate_rocks() -> void:
 	for child in rock_container.get_children():
@@ -134,7 +178,11 @@ func _generate_rocks() -> void:
 		if current_depth >= rock.min_depth:
 			valid_rocks.append(rock)
 
-	for i in range(num_rocks):
+	if valid_rocks.is_empty():
+		print("Ei valid rocks tällä depthillä: ", current_depth)
+		return
+
+	for i in range(min(num_rocks, available_cells.size())):
 		var cell = available_cells[i]
 		var rock = ROCK_SCENE.instantiate()
 		
@@ -165,8 +213,12 @@ func get_random_rock(options: Array[RockData]) -> RockData:
 #-------------------
 # Map exit code
 #-------------------
-func _on_exit_to_map_2_used() -> void:
-	go_to_next_map()
+func _on_level_exit_used(direction: int) -> void:
+	match direction:
+		LevelExit.Direction.UP:
+			go_to_previous_map()
+		LevelExit.Direction.DOWN:
+			go_to_next_map()
 
 #-------------------
 # Ladder code
@@ -191,9 +243,7 @@ func _on_exit_to_map_2_used() -> void:
 # 	down_ladder.ladder_used.connect(_on_down_ladder_used)
 
 func _on_down_ladder_used() -> void:
-	current_depth += 1
-	change_depth.emit(current_depth)
-	setup_map()
+	go_to_next_map()
 
 func _on_exit_rail_exit_used() -> void:
 	go_to_next_map()

@@ -1,6 +1,5 @@
 [gd_scene format=3 uid="uid://c11brqy7honkf"]
 
-[ext_resource type="PackedScene" uid="uid://b2fikdu32tydd" path="res://scenes/levels/map_1.tscn" id="1_lbhrr"]
 [ext_resource type="Script" uid="uid://2w0a5kv0kqyb" path="res://scripts/game.gd" id="1_u5sy4"]
 [ext_resource type="PackedScene" uid="uid://oslirmbl01sd" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Script" uid="uid://d6ub26v8dym2" path="res://scripts/rock_data.gd" id="2_dinhu"]
@@ -17,8 +16,6 @@
 [node name="Game" type="Node2D" unique_id=1064699759]
 script = ExtResource("1_u5sy4")
 rock_types = Array[ExtResource("2_dinhu")]([ExtResource("3_lnu2h"), ExtResource("4_kvuet"), ExtResource("5_trtic"), ExtResource("6_ir15t"), ExtResource("7_ca42v")])
-
-[node name="Map" parent="." unique_id=588729166 instance=ExtResource("1_lbhrr")]
 
 [node name="RockContainer" type="Node2D" parent="." unique_id=202155942]
 
