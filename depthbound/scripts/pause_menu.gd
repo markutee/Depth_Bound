@@ -29,10 +29,6 @@ func close_pause_menu() -> void:
 func _on_resume_pressed() -> void:
 	await resume()
 
-func _on_restart_pressed() -> void:
-	close_pause_menu()
-	
-	get_tree().get_current_scene()._reset_run(true)
 
 func _on_main_menu_pressed() -> void:
 	close_pause_menu()

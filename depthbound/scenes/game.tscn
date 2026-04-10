@@ -13,6 +13,62 @@
 [ext_resource type="Resource" uid="uid://bvq8vlgm8awgy" path="res://data/rocks/diamond.tres" id="7_ca42v"]
 [ext_resource type="PackedScene" uid="uid://cc6loaxnyj7f0" path="res://scenes/exit_rail.tscn" id="13_kvuet"]
 
+[sub_resource type="Animation" id="Animation_dinhu"]
+resource_name = "Fade_in"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_kvuet"]
+resource_name = "Fade_out"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_trtic"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_ir15t"]
+resource_name = "new_animation"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ca42v"]
+_data = {
+&"Fade_in": SubResource("Animation_dinhu"),
+&"Fade_out": SubResource("Animation_kvuet"),
+&"RESET": SubResource("Animation_trtic"),
+&"new_animation": SubResource("Animation_ir15t")
+}
+
 [node name="Game" type="Node2D" unique_id=1064699759]
 script = ExtResource("1_u5sy4")
 rock_types = Array[ExtResource("2_dinhu")]([ExtResource("3_lnu2h"), ExtResource("4_kvuet"), ExtResource("5_trtic"), ExtResource("6_ir15t"), ExtResource("7_ca42v")])
@@ -45,5 +101,19 @@ parameters/looping = true
 [node name="ExitRail" parent="." unique_id=1695021668 instance=ExtResource("13_kvuet")]
 z_index = -1
 position = Vector2(-184, -184)
+
+[node name="FadeLayer" type="CanvasLayer" parent="." unique_id=209003219]
+
+[node name="ColorRect" type="ColorRect" parent="FadeLayer" unique_id=1286166541]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="FadeLayer" unique_id=508366250]
+libraries/ = SubResource("AnimationLibrary_ca42v")
+speed_scale = 0.5
 
 [connection signal="exit_used" from="ExitRail" to="." method="_on_exit_rail_exit_used"]

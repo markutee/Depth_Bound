@@ -66,7 +66,7 @@ size_flags_vertical = 3
 [node name="PickaxeUpgrade" parent="MarginContainer/NinePatchRect/MarginContainer/ShopVbox" unique_id=549249895 instance=ExtResource("2_18xnp")]
 layout_mode = 2
 
-[node name="OxygenUpgrade" parent="MarginContainer/NinePatchRect/MarginContainer/ShopVbox" unique_id=1972655054 instance=ExtResource("2_18xnp")]
+[node name="LampUpgrade" parent="MarginContainer/NinePatchRect/MarginContainer/ShopVbox" unique_id=1972655054 instance=ExtResource("2_18xnp")]
 layout_mode = 2
 
 [node name="InventoryUpgrade" parent="MarginContainer/NinePatchRect/MarginContainer/ShopVbox" unique_id=1920671650 instance=ExtResource("2_18xnp")]

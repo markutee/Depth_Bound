@@ -18,20 +18,23 @@ var current_map: Node2D
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
-
-
 @onready var exit_rail: Area2D = $ExitRail
+@onready var fade_rect: ColorRect = $FadeLayer/ColorRect
+@onready var animation_player: AnimationPlayer = $FadeLayer/AnimationPlayer
+
 
 var current_map_index: int = 0
 var current_depth: int = 1
 # var down_ladder: Area2D
 var rocks_remaining: int = 0
 var transition_direction: String = "start"
+var is_transitioning: bool = false
 
 signal change_depth
 signal exit_mine
 
 func _ready() -> void:
+	fade_rect.modulate.a = 0.0
 	setup_map()
 
 func reset_depth() -> void:
@@ -54,28 +57,68 @@ func setup_map() -> void:
 # Uusi kokeilu mappien välillä liikkumiseen
 #-------------------------------------------------------------------------
 func go_to_next_map() -> void:
-	if current_map_index >= MAPS.size() - 1:
-		print("Viimeinen map saavutettu.")
+	if is_transitioning:
 		return
-
-	current_map_index += 1
-	current_depth = current_map_index + 1
-	transition_direction = "down"
-	change_depth.emit(current_depth)
-	setup_map()
+	change_map_with_fade("down")
 
 func go_to_previous_map() -> void:
-	if current_map_index <= 0:
-		print("Ensimmäinen map saavutettu.")
+	if is_transitioning:
+		return
+	change_map_with_fade("up")
+#-------------------------------------------------------------------------
+#-------------------------------------------------------------------------
+
+func change_map_with_fade(direction: String) -> void:
+	if is_transitioning:
 		return
 
-	current_map_index -= 1
-	current_depth = current_map_index + 1
-	transition_direction = "up"
+	is_transitioning = true
+
+	if player.has_method("set"):
+		player.can_move = false
+
+	await fade_out()
+
+	if direction == "down":
+		if current_map_index >= MAPS.size() - 1:
+			await fade_in()
+			player.can_move = true
+			is_transitioning = false
+			print("Viimeinen map saavutettu.")
+			return
+
+		current_map_index += 1
+		current_depth = current_map_index + 1
+		transition_direction = "down"
+
+	elif direction == "up":
+		if current_map_index <= 0:
+			await fade_in()
+			player.can_move = true
+			is_transitioning = false
+			print("Ensimmäinen map saavutettu.")
+			return
+
+		current_map_index -= 1
+		current_depth = current_map_index + 1
+		transition_direction = "up"
+
 	change_depth.emit(current_depth)
-	setup_map()
-#-------------------------------------------------------------------------
-#-------------------------------------------------------------------------
+	await setup_map()
+	await fade_in()
+
+	player.can_move = true
+	is_transitioning = false
+
+func fade_out() -> void:
+	var tween = create_tween()
+	tween.tween_property(fade_rect, "modulate:a", 1.0, 0.35)
+	await tween.finished
+
+func fade_in() -> void:
+	var tween = create_tween()
+	tween.tween_property(fade_rect, "modulate:a", 0.0, 0.35)
+	await tween.finished
 
 func _clear_map() -> void:
 	# Remove old map
@@ -103,11 +146,6 @@ func _generate_map() -> bool:
 	
 	current_map = MAPS[current_map_index].instantiate()
 	game.add_child(current_map)
-	
-	print("GAME CHILDREN:")
-	for child in game.get_children():
-		print(" - ", child.name)
-		
 	return true
 
 func is_on_last_map() -> bool:
@@ -124,15 +162,20 @@ func _position_objects() -> void:
 		spawn_node = current_map.get_node("PlayerSpawn")
 
 	player.reset(spawn_node.position)
-	
-	var camera = player.get_node("Camera2D")
+
+	var camera = player.get_node_or_null("Camera2D")
 	if camera:
 		camera.force_update_scroll()
-	
-	# Position exit rail on top of player spawn
-	exit_rail.position = spawn_node.position
 
-	# Exitit
+	# Exit rail näkyy ja toimii vain ensimmäisellä mapilla
+	if current_map_index == 0:
+		exit_rail.visible = true
+		exit_rail.monitoring = true
+		exit_rail.position = spawn_node.position
+	else:
+		exit_rail.visible = false
+		exit_rail.monitoring = false
+
 	if current_map.has_node("ExitDown"):
 		var exit_down = current_map.get_node("ExitDown")
 		if not exit_down.exit_used.is_connected(_on_level_exit_used):
@@ -214,6 +257,9 @@ func get_random_rock(options: Array[RockData]) -> RockData:
 # Map exit code
 #-------------------
 func _on_level_exit_used(direction: int) -> void:
+	if is_transitioning:
+		return
+
 	match direction:
 		LevelExit.Direction.UP:
 			go_to_previous_map()
@@ -246,7 +292,10 @@ func _on_down_ladder_used() -> void:
 	go_to_next_map()
 
 func _on_exit_rail_exit_used() -> void:
-	go_to_next_map()
+	if is_transitioning:
+		return
+
+
 	if !player.can_move:
 		return
 	player.can_move = false

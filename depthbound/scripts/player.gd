@@ -4,8 +4,6 @@ class_name Player
 const walkSPEED = 100.0
 const runSPEED = 150.0
 
-
-
 var is_mining: bool = false
 var hitbox_offset: Vector2
 var last_direction: Vector2 = Vector2.RIGHT
@@ -15,17 +13,23 @@ var can_move: bool = true
 
 var inventory: Inventory
 
+# Lamp upgrade
+var lamp_level: int = 0
+var lamp_energy_levels: Array[float] = [1.0, 1.1, 1.2, 1.3]
+var lamp_scale_levels: Array[float] = [1.0, 1.15, 1.3, 1.45]
+
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var hitbox: Area2D = $Hitbox
 @onready var hitbox_collision_shape_2d: CollisionShape2D = $Hitbox/CollisionShape2D
 @onready var mining_timer: Timer = $MiningTimer
 @onready var pickaxe_hit_sound: AudioStreamPlayer2D = $PickaxeHitSound
-
+@onready var point_light_2d: PointLight2D = $PointLight2D
 
 func _ready() -> void:
-	hitbox_offset = hitbox.position  # Initialise hitbox offset
-	inventory = Inventory.new(4) # Create inventory with 4 slots 
-	
+	hitbox_offset = hitbox.position # Initialise hitbox offset
+	inventory = Inventory.new(4) # Create inventory with 4 slots
+	update_lamp()
+
 func reset(pos: Vector2) -> void:
 	position = pos
 	last_direction = Vector2.DOWN
@@ -49,13 +53,13 @@ func _physics_process(_delta: float) -> void:
 	process_movement()
 	process_animation()
 	move_and_slide()
-	
+
 #--------------------------------------------------------------------
 # MOVEMENT AND ANIMATIONS
 #--------------------------------------------------------------------
 
 func process_movement() -> void:
-		# Get the input direction and handle the movement/deceleration.
+	# Get the input direction and handle the movement/deceleration.
 	var direction := Input.get_vector("left", "right", "up", "down")
 	var speed = runSPEED if Input.is_action_pressed("sprint") else walkSPEED
 	
@@ -66,7 +70,6 @@ func process_movement() -> void:
 	else:
 		velocity = Vector2.ZERO
 
-		
 func process_animation() -> void:
 	# Disable hitbox until player swings pickaxe
 	hitbox.monitoring = false
@@ -77,19 +80,19 @@ func process_animation() -> void:
 		play_animation("idle", last_direction)
 
 func play_animation(prefix: String, dir: Vector2) -> void:
-	if dir.x !=0:
+	if dir.x != 0:
 		animated_sprite_2d.flip_h = dir.x < 0
 		animated_sprite_2d.play(prefix + "_right")
-	elif dir.y  < 0:
+	elif dir.y < 0:
 		animated_sprite_2d.play(prefix + "_up")
-	elif dir.y  > 0:
+	elif dir.y > 0:
 		animated_sprite_2d.play(prefix + "_down")
-		
-		
+
 func die() -> bool:
 	animated_sprite_2d.play("death")
 	await animated_sprite_2d.animation_finished
 	return true
+
 #--------------------------------------------------------------------
 # HITBOX OFFSET
 #--------------------------------------------------------------------
@@ -112,18 +115,16 @@ func update_hitbox_position() -> void:
 			hitbox.position = Vector2(y, x)
 			hitbox_collision_shape_2d.rotation_degrees = 90
 
-
 #--------------------------------------------------------------------
-#             MINING
+# MINING
 #--------------------------------------------------------------------
 
 func use_pickaxe() -> void:
 	detected_rocks.clear()
 	is_mining = true
 	hitbox.monitoring = true
-	mining_timer.start() #start the cooldown timer
+	mining_timer.start() # start the cooldown timer
 	play_animation("swing_pickaxe", last_direction)
-
 
 func _on_animated_sprite_2d_animation_finished() -> void:
 	if is_mining:
@@ -133,11 +134,10 @@ func _on_animated_sprite_2d_animation_finished() -> void:
 			rock_to_hit.take_damage(pickaxe_strength)
 			pickaxe_hit_sound.play()
 
-
 func _on_hitbox_body_entered(body: Node2D) -> void:
 	if body is Rock:
 		detected_rocks.append(body)
-		
+
 func get_most_overlapping_rock() -> Rock:
 	var best_rock = detected_rocks[0]
 	var best_dist = hitbox.global_position.distance_to(best_rock.global_position)
@@ -152,3 +152,18 @@ func get_most_overlapping_rock() -> Rock:
 
 func add_ore(data: OreData) -> bool:
 	return inventory.add_item(data)
+
+#--------------------------------------------------------------------
+# LAMP UPGRADE
+#--------------------------------------------------------------------
+
+func upgrade_lamp() -> void:
+	if lamp_level >= 3:
+		return
+	
+	lamp_level += 1
+	update_lamp()
+
+func update_lamp() -> void:
+	point_light_2d.energy = lamp_energy_levels[lamp_level]
+	point_light_2d.texture_scale = lamp_scale_levels[lamp_level]

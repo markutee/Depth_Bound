@@ -40,18 +40,7 @@ func show_shop(amount: int) -> void:
 func hide_shop() -> void:
 	shop_ui.visible = false
 
-#func update_oxygen(value: int) -> void:
-	
-	#oxygen_label.text = "Oxygen: %d" % value
-	
-	#if value <= 25:
-		#oxygen_rect.color = Color.DARK_RED
-	
-	#elif value <= 50:
-		#oxygen_rect.color = Color.ORANGE
-	
-	#else:
-		#oxygen_rect.color = Color.TEAL
+
 
 
 func update_depth(value: int) -> void:

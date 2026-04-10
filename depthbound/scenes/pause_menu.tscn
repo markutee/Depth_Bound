@@ -85,10 +85,6 @@ size_flags_vertical = 4
 layout_mode = 2
 text = "Resume"
 
-[node name="Restart" type="Button" parent="PanelContainer/VBoxContainer" unique_id=692469810]
-layout_mode = 2
-text = "Restart"
-
 [node name="Save" type="Button" parent="PanelContainer/VBoxContainer" unique_id=45181276]
 layout_mode = 2
 text = "Save game
@@ -108,5 +104,4 @@ text = "Main Menu"
 libraries/ = SubResource("AnimationLibrary_1s2dm")
 
 [connection signal="pressed" from="PanelContainer/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
-[connection signal="pressed" from="PanelContainer/VBoxContainer/Restart" to="." method="_on_restart_pressed"]
 [connection signal="pressed" from="PanelContainer/VBoxContainer/Main_menu" to="." method="_on_main_menu_pressed"]
