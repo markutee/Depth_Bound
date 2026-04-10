@@ -18,7 +18,6 @@ var current_map: Node2D
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
-@onready var exit_rail: Area2D = $ExitRail
 @onready var fade_rect: ColorRect = $FadeLayer/ColorRect
 @onready var animation_player: AnimationPlayer = $FadeLayer/AnimationPlayer
 
@@ -167,14 +166,10 @@ func _position_objects() -> void:
 	if camera:
 		camera.force_update_scroll()
 
-	# Exit rail näkyy ja toimii vain ensimmäisellä mapilla
-	if current_map_index == 0:
-		exit_rail.visible = true
-		exit_rail.monitoring = true
-		exit_rail.position = spawn_node.position
-	else:
-		exit_rail.visible = false
-		exit_rail.monitoring = false
+	if current_map.has_node("ExitRail"):
+		var exit_rail = current_map.get_node("ExitRail")
+		if not exit_rail.exit_used.is_connected(_on_exit_rail_exit_used):
+			exit_rail.exit_used.connect(_on_exit_rail_exit_used)
 
 	if current_map.has_node("ExitDown"):
 		var exit_down = current_map.get_node("ExitDown")

@@ -4,7 +4,7 @@ extends Node2D
 @onready var hud: CanvasLayer = $HUD
 @onready var fade: AnimationPlayer = $Fade
 
-var gold: int = 1000000
+var gold: int = 340
 
 func _ready() -> void:
 	fade.play("fade_in")
@@ -27,7 +27,7 @@ func _reset_run(do_fade: bool) -> void:
 	hud.get_node("DeathLabel").visible = false
 	game.player.inventory.clear()
 	game.reset_depth()
-	game.setup_map()
+	
 	
 	hud.hide_shop()
 	hud.hide_summary()
