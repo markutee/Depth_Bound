@@ -30,6 +30,7 @@ tile_map_data = PackedByteArray("AADp//3/AQAAAAAAAADq//3/AQABAAAAAADr//3/AQAEAAA
 collision_enabled = false
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." index="5" unique_id=135562049]
+visible = false
 color = Color(0.12156863, 0.08627451, 0.07450981, 1)
 
 [node name="Torches" type="Node2D" parent="." index="6" unique_id=393293631]

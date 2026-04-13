@@ -11,7 +11,6 @@
 [ext_resource type="Resource" uid="uid://c7oq153eue72s" path="res://data/rocks/gold.tres" id="5_trtic"]
 [ext_resource type="Resource" uid="uid://kpqdpgicrcfg" path="res://data/rocks/amethyst.tres" id="6_ir15t"]
 [ext_resource type="Resource" uid="uid://bvq8vlgm8awgy" path="res://data/rocks/diamond.tres" id="7_ca42v"]
-[ext_resource type="PackedScene" uid="uid://cc6loaxnyj7f0" path="res://scenes/exit_rail.tscn" id="13_kvuet"]
 
 [sub_resource type="Animation" id="Animation_dinhu"]
 resource_name = "Fade_in"
@@ -98,10 +97,6 @@ volume_db = -20.0
 autoplay = true
 parameters/looping = true
 
-[node name="ExitRail" parent="." unique_id=1695021668 instance=ExtResource("13_kvuet")]
-z_index = -1
-position = Vector2(-184, -184)
-
 [node name="FadeLayer" type="CanvasLayer" parent="." unique_id=209003219]
 
 [node name="ColorRect" type="ColorRect" parent="FadeLayer" unique_id=1286166541]
@@ -115,5 +110,3 @@ color = Color(0, 0, 0, 1)
 [node name="AnimationPlayer" type="AnimationPlayer" parent="FadeLayer" unique_id=508366250]
 libraries/ = SubResource("AnimationLibrary_ca42v")
 speed_scale = 0.5
-
-[connection signal="exit_used" from="ExitRail" to="." method="_on_exit_rail_exit_used"]
