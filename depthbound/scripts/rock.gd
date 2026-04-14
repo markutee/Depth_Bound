@@ -6,7 +6,7 @@ const FLASH_COLOR := Color(2.454, 2.454, 2.454, 1.0)
 
 var health: int
 
-signal broken
+signal broken(pos: Vector2)
 
 @export var data: RockData
 

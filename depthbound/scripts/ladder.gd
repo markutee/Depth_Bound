@@ -6,7 +6,9 @@ signal ladder_used
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("use_ladder"):
+		print("Space painettu")
 		if player_on_ladder:
+			print("Ladder used")
 			ladder_used.emit()
 
 
