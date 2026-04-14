@@ -5,7 +5,7 @@ var player_on_ladder: bool = false
 signal ladder_used
 
 func _unhandled_input(event: InputEvent) -> void:
-	if event.is_action_pressed("climb_down_ladder"):
+	if event.is_action_pressed("use_ladder"):
 		if player_on_ladder:
 			ladder_used.emit()
 

@@ -19,8 +19,6 @@ var current_map: Node2D
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
 @onready var fade_rect: ColorRect = $FadeLayer/ColorRect
-@onready var animation_player: AnimationPlayer = $FadeLayer/AnimationPlayer
-
 
 var current_map_index: int = 0
 var current_depth: int = 1
@@ -72,9 +70,7 @@ func change_map_with_fade(direction: String) -> void:
 		return
 
 	is_transitioning = true
-
-	if player.has_method("set"):
-		player.can_move = false
+	player.can_move = false
 
 	await fade_out()
 
@@ -166,11 +162,6 @@ func _position_objects() -> void:
 	if camera:
 		camera.force_update_scroll()
 
-	if current_map.has_node("ExitRail"):
-		var exit_rail = current_map.get_node("ExitRail")
-		if not exit_rail.exit_used.is_connected(_on_exit_rail_exit_used):
-			exit_rail.exit_used.connect(_on_exit_rail_exit_used)
-
 	if current_map.has_node("ExitDown"):
 		var exit_down = current_map.get_node("ExitDown")
 		if not exit_down.exit_used.is_connected(_on_level_exit_used):
@@ -180,6 +171,11 @@ func _position_objects() -> void:
 		var exit_up = current_map.get_node("ExitUp")
 		if not exit_up.exit_used.is_connected(_on_level_exit_used):
 			exit_up.exit_used.connect(_on_level_exit_used)
+
+	if current_map.has_node("ExitRail"):
+		var exit_rail = current_map.get_node("ExitRail")
+		if not exit_rail.exit_used.is_connected(_on_exit_rail_exit_used):
+			exit_rail.exit_used.connect(_on_exit_rail_exit_used)
 
 func _generate_rocks() -> void:
 	for child in rock_container.get_children():
@@ -261,6 +257,16 @@ func _on_level_exit_used(direction: int) -> void:
 		LevelExit.Direction.DOWN:
 			go_to_next_map()
 
+func _on_exit_rail_exit_used() -> void:
+	if is_transitioning:
+		return
+
+	if !player.can_move:
+		return
+
+	player.can_move = false
+	exit_mine.emit()
+
 #-------------------
 # Ladder code
 #-------------------
@@ -285,13 +291,3 @@ func _on_level_exit_used(direction: int) -> void:
 
 func _on_down_ladder_used() -> void:
 	go_to_next_map()
-
-func _on_exit_rail_exit_used() -> void:
-	if is_transitioning:
-		return
-
-
-	if !player.can_move:
-		return
-	player.can_move = false
-	exit_mine.emit()

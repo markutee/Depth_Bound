@@ -24,11 +24,14 @@
 [ext_resource type="Texture2D" uid="uid://bhqt1l5xni1wy" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Dungeon_2/Dungeon_2_Pillars.png" id="18_cpe1n"]
 [ext_resource type="Texture2D" uid="uid://ck3f7oe4muyfx" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Cliff/Stone_Cliff_1_Cave_Entrance.png" id="19_xawr8"]
 [ext_resource type="Texture2D" uid="uid://cie8xmhc3o05r" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Volcano_Props/Volcano_Plants.png" id="20_6mhkg"]
+[ext_resource type="Texture2D" uid="uid://c8iheogr1cg6s" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Objects/Gold_Piles.png" id="20_yyt6e"]
 [ext_resource type="Texture2D" uid="uid://dpil58qvnnp63" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Props/Mushrooms_Blue.png" id="21_8wg41"]
+[ext_resource type="Texture2D" uid="uid://bd4gou58qlexk" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Objects/Dungeon_Objects.png" id="21_c73oo"]
 [ext_resource type="Texture2D" uid="uid://dytvufpmvsvhi" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Volcano/Volcano_Props/Volcano_Rocks.png" id="21_tg28x"]
 [ext_resource type="Texture2D" uid="uid://0aaa682nf5ei" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Props/Mushrooms_Purple.png" id="22_yyt6e"]
 [ext_resource type="Texture2D" uid="uid://clrmaxavs0b72" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Props/Mushrooms_Red.png" id="23_c73oo"]
 [ext_resource type="Texture2D" uid="uid://coeppv4mjavgr" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_ShroomLands/Props/Shroomlands_Rocks.png" id="24_xye4c"]
+[ext_resource type="Texture2D" uid="uid://bboj6wbvxkii6" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Desert_Ladder.png" id="27_c73oo"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kxrml"]
 texture = ExtResource("6_velfm")
@@ -1233,6 +1236,74 @@ texture = ExtResource("18_cpe1n")
 1:2/0 = 0
 2:2/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n4yip"]
+texture = ExtResource("20_yyt6e")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yjsn6"]
+texture = ExtResource("21_c73oo")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wp21d"]
 texture = ExtResource("19_xawr8")
 0:0/0 = 0
@@ -1765,6 +1836,12 @@ texture = ExtResource("6_c6o1k")
 4:9/0 = 0
 3:10/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1r06n"]
+texture = ExtResource("27_c73oo")
+0:0/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_velfm"]
 texture = ExtResource("8_xj75o")
 0:0/0 = 0
@@ -2063,6 +2140,9 @@ sources/19 = SubResource("TileSetAtlasSource_h5fte")
 sources/20 = SubResource("TileSetAtlasSource_07koa")
 sources/21 = SubResource("TileSetAtlasSource_a1yfr")
 sources/22 = SubResource("TileSetAtlasSource_sp7dk")
+sources/14 = SubResource("TileSetAtlasSource_n4yip")
+sources/15 = SubResource("TileSetAtlasSource_yjsn6")
+sources/23 = SubResource("TileSetAtlasSource_1r06n")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4hni2"]
 texture = ExtResource("1_644l7")

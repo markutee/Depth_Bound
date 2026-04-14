@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ArtifactData" format=3 uid="uid://f7jacjjeo1gu"]
+
+[ext_resource type="Script" uid="uid://betk65srtx4ta" path="res://scripts/artefact_data.gd" id="1_7b7qo"]
+[ext_resource type="Texture2D" uid="uid://bp5xkcpy7wxlf" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Golden_Pots.png" id="2_dbum7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2reb4"]
+atlas = ExtResource("2_dbum7")
+region = Rect2(32, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_7b7qo")
+name = "Bottle"
+texture = SubResource("AtlasTexture_2reb4")
+value = 400
