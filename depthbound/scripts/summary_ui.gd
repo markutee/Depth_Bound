@@ -6,15 +6,11 @@ var inventory: Inventory
 @onready var summary_vbox: VBoxContainer = $MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/SummaryVbox
 @onready var total_label: Label = $MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/TotalLabel
 
-
 signal back_to_mines
 signal go_to_shop
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	visible = false
-
 
 func set_inventory(inv: Inventory) -> void:
 	inventory = inv
@@ -22,30 +18,39 @@ func set_inventory(inv: Inventory) -> void:
 func calculate_summary() -> int:
 	var total_earnings: int = 0
 	
-	#clear ols items
-	for i in summary_vbox.get_children():
-		i.queue_free()
+	# Clear old items
+	for child in summary_vbox.get_children():
+		child.queue_free()
 	
+	var counted_items := _count_items()
+	var ores: Dictionary = counted_items["ores"]
+	var artefacts: Dictionary = counted_items["artefacts"]
 	
-	#Go through the players inventory and see how many of each ore there is
-	var ores := _count_ores()
-
-	#Loop over aggregated ores and create UI rows
-	for key in ores.keys():
-		var data = ores[key]
-		var row = _create_summary_row(data)
-		summary_vbox.add_child(row)
-		total_earnings += data["quantity"] * data["value"]
-		
-	# Update total value
+	# Ores section
+	if not ores.is_empty():
+		_add_section_label("Ores")
+		for key in ores.keys():
+			var data = ores[key]
+			var row = _create_summary_row(data)
+			summary_vbox.add_child(row)
+			total_earnings += data["quantity"] * data["value"]
+	
+	# Artefacts section
+	if not artefacts.is_empty():
+		_add_section_label("Artefacts")
+		for key in artefacts.keys():
+			var data = artefacts[key]
+			var row = _create_summary_row(data)
+			summary_vbox.add_child(row)
+			total_earnings += data["quantity"] * data["value"]
+	
 	total_label.text = "Total: %d" % total_earnings
-		
+	
 	inventory.clear()
-		
+	
 	return total_earnings
-		
 
-func _create_summary_row(data) -> HBoxContainer:
+func _create_summary_row(data: Dictionary) -> HBoxContainer:
 	var summary_row = SUMMARY_ROW_SCENE.instantiate()
 	
 	summary_row.get_node("TextureRect").texture = data["texture"]
@@ -55,37 +60,50 @@ func _create_summary_row(data) -> HBoxContainer:
 	
 	return summary_row
 
+func _add_section_label(text: String) -> void:
+	var label := Label.new()
+	label.text = text
+	summary_vbox.add_child(label)
 
-
-	
-	
-	
-	
-
-func _count_ores() -> Dictionary:
+func _count_items() -> Dictionary:
 	var aggregated_ores := {}
+	var aggregated_artefacts := {}
 	
 	for slot in inventory.slots:
-		if slot == null:
+		if slot == null or slot.ore_data == null:
 			continue
-		var ore_name = slot.ore_data.name
-		if not aggregated_ores.has(ore_name):
-			# store initial data
-			aggregated_ores[ore_name] = {
-				"texture": slot.ore_data.texture,
-				"value": slot.ore_data.value,
-				"quantity": slot.quantity
-			}
+		
+		var item = slot.ore_data
+		var item_key = item.resource_path
+		
+		if item is ArtefactData:
+			if not aggregated_artefacts.has(item_key):
+				aggregated_artefacts[item_key] = {
+					"name": item.name,
+					"texture": item.texture,
+					"value": item.value,
+					"quantity": slot.quantity
+				}
+			else:
+				aggregated_artefacts[item_key]["quantity"] += slot.quantity
 		else:
-			#add quantitys if this ore exists already
-			aggregated_ores[ore_name]["quantity"] += slot.quantity
-			
-	return aggregated_ores
-
+			if not aggregated_ores.has(item_key):
+				aggregated_ores[item_key] = {
+					"name": item.name,
+					"texture": item.texture,
+					"value": item.value,
+					"quantity": slot.quantity
+				}
+			else:
+				aggregated_ores[item_key]["quantity"] += slot.quantity
+	
+	return {
+		"ores": aggregated_ores,
+		"artefacts": aggregated_artefacts
+	}
 
 func _on_shop_button_pressed() -> void:
 	go_to_shop.emit()
-
 
 func _on_mines_button_pressed() -> void:
 	back_to_mines.emit()

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://uhak3c7qwxe6"]
+
+[ext_resource type="PackedScene" uid="uid://dcou75afsp8pb" path="res://scenes/artifacts/Base_artefact.tscn" id="1_1dpn0"]
+[ext_resource type="Texture2D" uid="uid://bp5xkcpy7wxlf" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Golden_Pots.png" id="2_0m7ro"]
+[ext_resource type="Resource" uid="uid://dl5wb4vhdah5x" path="res://data/artefacts/Cup.tres" id="2_ifexf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a46uh"]
+atlas = ExtResource("2_0m7ro")
+region = Rect2(0, 0, 16, 16)
+
+[node name="BaseArtefact" unique_id=797681494 instance=ExtResource("1_1dpn0")]
+artefact_data = ExtResource("2_ifexf")
+
+[node name="Sprite2D" parent="." index="0" unique_id=25770376]
+texture = SubResource("AtlasTexture_a46uh")

@@ -1,7 +1,6 @@
 
-extends Resource
-class_name ArtifactData
+extends OreData
+class_name ArtefactData
 
-@export var name: String
-@export var texture: Texture2D
-@export var value: int
+func _init() -> void:
+	stackable = false

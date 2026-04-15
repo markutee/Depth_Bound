@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="ArtifactData" format=3 uid="uid://dcnvbd7hov56g"]
+[gd_resource type="Resource" script_class="ArtefactData" format=3 uid="uid://dcnvbd7hov56g"]
 
 [ext_resource type="Script" uid="uid://betk65srtx4ta" path="res://scripts/artefact_data.gd" id="1_a34d1"]
 [ext_resource type="Texture2D" uid="uid://bp5xkcpy7wxlf" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Desert/Props/Golden_Pots.png" id="2_wc7rv"]
