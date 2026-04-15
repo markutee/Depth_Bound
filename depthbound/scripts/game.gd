@@ -301,6 +301,10 @@ func _create_down_ladder(pos: Vector2) -> void:
 	down_ladder = LADDER_SCENE.instantiate()
 	down_ladder.position = pos
 	add_child(down_ladder)
+
+	if down_ladder.has_method("set_texture_for_map"):
+		down_ladder.set_texture_for_map(current_map_index)
+
 	down_ladder.ladder_used.connect(_on_down_ladder_used)
 	print("Ladder created and signal connected")
 

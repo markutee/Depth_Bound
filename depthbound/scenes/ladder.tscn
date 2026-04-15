@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://4k6w10fmoyt6" path="res://scripts/ladder.gd" id="1_xb1tl"]
 [ext_resource type="Texture2D" uid="uid://bbo63s0oqp164" path="res://assets/ImagesDepthbound/Tileset/Cave/Cave_Floor_Ladder.png" id="1_xxwne"]
+[ext_resource type="Texture2D" uid="uid://cwrbtp2uu2fkb" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy_Dungeons/Objects/Ladder_Down_SingleFrame.png" id="3_ku54x"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xb1tl"]
 atlas = ExtResource("1_xxwne")
@@ -13,6 +14,8 @@ size = Vector2(24, 24)
 [node name="Ladder" type="Area2D" unique_id=1801256742]
 z_index = -1
 script = ExtResource("1_xb1tl")
+default_texture = ExtResource("1_xxwne")
+map_5_texture = ExtResource("3_ku54x")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=979850159]
 scale = Vector2(1.5, 1.5)

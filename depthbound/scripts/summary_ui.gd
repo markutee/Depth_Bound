@@ -28,7 +28,7 @@ func calculate_summary() -> int:
 	
 	# Ores section
 	if not ores.is_empty():
-		_add_section_label("Ores")
+		
 		for key in ores.keys():
 			var data = ores[key]
 			var row = _create_summary_row(data)
@@ -37,7 +37,7 @@ func calculate_summary() -> int:
 	
 	# Artefacts section
 	if not artefacts.is_empty():
-		_add_section_label("Artefacts")
+		
 		for key in artefacts.keys():
 			var data = artefacts[key]
 			var row = _create_summary_row(data)
