@@ -1,7 +1,7 @@
 extends Node2D
 
 const FILL_PERCENTAGE: float = 0.2
-const LADDER_CHANGE: float = 0.9
+const LADDER_CHANCE: float = 0.9
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const SECRET_ROOM = preload("res://scenes/levels/secret_room.tscn")
@@ -294,7 +294,7 @@ func _on_rock_broken(pos: Vector2) -> void:
 	if down_ladder != null:
 		return
 	
-	if randf() < LADDER_CHANGE:
+	if randf() < LADDER_CHANCE:
 		_create_down_ladder(pos)
 
 func _create_down_ladder(pos: Vector2) -> void:
