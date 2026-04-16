@@ -1,6 +1,11 @@
 [gd_scene format=3 uid="uid://dcou75afsp8pb"]
 
 [ext_resource type="Script" uid="uid://dbqy2j7vbpv02" path="res://scripts/artefact.gd" id="1_lmphy"]
+[ext_resource type="Texture2D" uid="uid://box11001g8uu1" path="res://assets/ImagesDepthbound/Light/light_texture.png" id="2_7fy67"]
+[ext_resource type="Texture2D" uid="uid://di5bvj57wi2xt" path="res://assets/ImagesDepthbound/Light/rayskokeilu.png" id="3_j7n1e"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_j7n1e"]
+blend_mode = 1
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_tlofw"]
 radius = 7.0
@@ -9,6 +14,21 @@ radius = 7.0
 script = ExtResource("1_lmphy")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=25770376]
+
+[node name="GlowPivot" type="Node2D" parent="." unique_id=915197983]
+z_index = -1
+
+[node name="PointLight2D" type="PointLight2D" parent="GlowPivot" unique_id=1399619222]
+color = Color(1, 0.84705883, 0.41960785, 1)
+energy = 0.6
+texture = ExtResource("2_7fy67")
+
+[node name="Rays" type="Sprite2D" parent="GlowPivot" unique_id=693245554]
+modulate = Color(0.9141235, 0.85411423, 0.7636979, 1)
+material = SubResource("CanvasItemMaterial_j7n1e")
+position = Vector2(0, 0.3)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_j7n1e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=315519812]
 shape = SubResource("CircleShape2D_tlofw")
