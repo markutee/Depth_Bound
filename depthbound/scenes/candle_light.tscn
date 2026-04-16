@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://kmvdu8q7r2af"]
+
+[ext_resource type="Script" uid="uid://ujfjaig0onyi" path="res://scripts/candle_light.gd" id="1_5bag5"]
+[ext_resource type="Texture2D" uid="uid://box11001g8uu1" path="res://assets/ImagesDepthbound/Light/light_texture.png" id="1_5ckc8"]
+
+[node name="Candle_light" type="Node2D" unique_id=2114123710]
+script = ExtResource("1_5bag5")
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=1517803567]
+position = Vector2(18.8, 16.499998)
+scale = Vector2(0.11914061, 0.11230467)
+color = Color(0.9882353, 0.9019608, 0.7019608, 1)
+energy = 0.35
+texture = ExtResource("1_5ckc8")
+texture_scale = 0.8
