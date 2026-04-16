@@ -2,6 +2,8 @@ extends Control
 
 @onready var fade: AnimationPlayer = $Fade
 
+
+const OPTIONS_SCENE = preload("res://scenes/options.tscn")
 var starting := false
 
 func _on_start_pressed() -> void:
@@ -23,3 +25,13 @@ func _on_quit_pressed() -> void:
 func _on_fade_animation_finished(anim_name: StringName) -> void:
 	if anim_name == "Fade_out" and starting:
 		get_tree().change_scene_to_file("res://scenes/main.tscn")
+
+
+func _on_options_pressed() -> void:
+	var options = OPTIONS_SCENE.instantiate()
+	options.previous_menu = self
+
+	get_tree().root.add_child(options)
+	hide()
+	
+	
