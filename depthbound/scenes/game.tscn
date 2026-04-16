@@ -6,11 +6,11 @@
 [ext_resource type="PackedScene" uid="uid://jc1reoinmmki" path="res://scenes/rock.tscn" id="2_yqjtg"]
 [ext_resource type="Resource" uid="uid://c238p2dn3he30" path="res://data/rocks/stone.tres" id="3_lnu2h"]
 [ext_resource type="Resource" uid="uid://clxmui02fb3ab" path="res://data/rocks/iron.tres" id="4_kvuet"]
-[ext_resource type="AudioStream" uid="uid://cx0hw6tgeiqbf" path="res://assets/audio/backroundMusic1.mp3" id="5_iywne"]
 [ext_resource type="Script" uid="uid://44e0qw07sfx0" path="res://Autoloads/music_controller.gd" id="5_p57ef"]
 [ext_resource type="Resource" uid="uid://c7oq153eue72s" path="res://data/rocks/gold.tres" id="5_trtic"]
 [ext_resource type="Resource" uid="uid://kpqdpgicrcfg" path="res://data/rocks/amethyst.tres" id="6_ir15t"]
 [ext_resource type="Resource" uid="uid://bvq8vlgm8awgy" path="res://data/rocks/diamond.tres" id="7_ca42v"]
+[ext_resource type="AudioStream" uid="uid://cwywi8j7nwa52" path="res://assets/audio/StaringAtReflections.mp3" id="11_kvpfn"]
 
 [sub_resource type="Animation" id="Animation_dinhu"]
 resource_name = "Fade_in"
@@ -92,7 +92,7 @@ zoom = Vector2(0.5, 0.5)
 script = ExtResource("5_p57ef")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="MusicController" unique_id=2046271749]
-stream = ExtResource("5_iywne")
+stream = ExtResource("11_kvpfn")
 volume_db = -20.0
 autoplay = true
 parameters/looping = true

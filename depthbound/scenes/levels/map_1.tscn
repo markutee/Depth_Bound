@@ -38,16 +38,16 @@ color = Color(0.12156863, 0.08627451, 0.07450981, 1)
 [node name="Torches" type="Node2D" parent="." index="7" unique_id=1362821550]
 
 [node name="Torch" parent="Torches" index="0" unique_id=306918574 instance=ExtResource("2_v7fe1")]
-position = Vector2(-73, 144)
+position = Vector2(-54, 132)
 
 [node name="Torch2" parent="Torches" index="1" unique_id=1161573324 instance=ExtResource("2_v7fe1")]
-position = Vector2(-236, -28)
+position = Vector2(-215, -173)
 
 [node name="Torch3" parent="Torches" index="2" unique_id=1739189634 instance=ExtResource("2_v7fe1")]
-position = Vector2(-423, 320)
+position = Vector2(-454, 355)
 
 [node name="Torch4" parent="Torches" index="3" unique_id=2074845323 instance=ExtResource("2_v7fe1")]
-position = Vector2(392, 241)
+position = Vector2(346, 244)
 
 [node name="Torch5" parent="Torches" index="4" unique_id=446513676 instance=ExtResource("2_v7fe1")]
 position = Vector2(395, 515)
@@ -56,16 +56,16 @@ position = Vector2(395, 515)
 position = Vector2(336, 515)
 
 [node name="Torch7" parent="Torches" index="6" unique_id=484434396 instance=ExtResource("2_v7fe1")]
-position = Vector2(-452, -31)
+position = Vector2(-517, 66)
 
 [node name="Torch8" parent="Torches" index="7" unique_id=1479530633 instance=ExtResource("2_v7fe1")]
-position = Vector2(237, -17)
+position = Vector2(217, -45)
 
 [node name="Torch9" parent="Torches" index="8" unique_id=1621793482 instance=ExtResource("2_v7fe1")]
-position = Vector2(41, -204)
+position = Vector2(42, -205)
 
 [node name="Torch10" parent="Torches" index="9" unique_id=1918692269 instance=ExtResource("2_v7fe1")]
-position = Vector2(-179, 463)
+position = Vector2(-216, 468)
 
 [node name="Lanterns" type="Node2D" parent="." index="8" unique_id=641777540]
 z_index = 5
