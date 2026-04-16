@@ -89,7 +89,8 @@ text = "Start Game"
 layout_mode = 2
 theme = ExtResource("2_ekxnf")
 theme_override_font_sizes/font_size = 19
-text = "Load Game
+text = "Options
+
 "
 
 [node name="Credits" type="Button" parent="VBoxContainer" unique_id=1294174905]

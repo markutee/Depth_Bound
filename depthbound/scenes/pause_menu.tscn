@@ -68,10 +68,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -61.0
-offset_top = -84.0
-offset_right = 52.0
-offset_bottom = 60.5
+offset_left = -56.5
+offset_top = -61.0
+offset_right = 56.5
+offset_bottom = 61.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -87,12 +87,7 @@ text = "Resume"
 
 [node name="Save" type="Button" parent="PanelContainer/VBoxContainer" unique_id=45181276]
 layout_mode = 2
-text = "Save game
-"
-
-[node name="Load" type="Button" parent="PanelContainer/VBoxContainer" unique_id=1291460559]
-layout_mode = 2
-text = "Load Game"
+text = "Options"
 
 [node name="Main_menu" type="Button" parent="PanelContainer/VBoxContainer" unique_id=107109260]
 layout_mode = 2
