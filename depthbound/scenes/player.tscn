@@ -437,7 +437,7 @@ script = ExtResource("1_g2els")
 position = Vector2(1.9073486e-06, -4)
 scale = Vector2(1.8125002, 1.4843751)
 sprite_frames = SubResource("SpriteFrames_dw050")
-animation = &"death"
+animation = &"swing_pickaxe_right"
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1483131452]

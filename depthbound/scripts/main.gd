@@ -4,7 +4,7 @@ extends Node2D
 @onready var hud: CanvasLayer = $HUD
 @onready var fade: AnimationPlayer = $Fade
 
-var gold: int = 0
+var gold: int = 1000
 
 func _ready() -> void:
 	fade.play("fade_in")
