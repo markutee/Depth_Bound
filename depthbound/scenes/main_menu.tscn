@@ -85,14 +85,6 @@ theme = ExtResource("2_ekxnf")
 theme_override_font_sizes/font_size = 19
 text = "Start Game"
 
-[node name="Options" type="Button" parent="VBoxContainer" unique_id=527328916]
-layout_mode = 2
-theme = ExtResource("2_ekxnf")
-theme_override_font_sizes/font_size = 19
-text = "Options
-
-"
-
 [node name="Credits" type="Button" parent="VBoxContainer" unique_id=1294174905]
 layout_mode = 2
 size_flags_vertical = 3
@@ -139,7 +131,6 @@ libraries/ = SubResource("AnimationLibrary_8ln24")
 speed_scale = 0.8
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_credits_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
 [connection signal="animation_finished" from="Fade" to="." method="_on_fade_animation_finished"]

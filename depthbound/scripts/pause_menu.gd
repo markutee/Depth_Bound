@@ -1,7 +1,5 @@
 extends Control
 
-const OPTIONS_SCENE = preload("res://scenes/options.tscn")
-
 var locked := false
 
 func _ready() -> void:
@@ -32,16 +30,6 @@ func close_pause_menu() -> void:
 func _on_resume_pressed() -> void:
 	await resume()
 
-
 func _on_main_menu_pressed() -> void:
 	close_pause_menu()
 	get_tree().change_scene_to_file("res://scenes/main_menu.tscn")
-
-
-func _on_options_pressed() -> void:
-	var options = OPTIONS_SCENE.instantiate()
-	options.previous_menu = self
-
-	get_tree().root.add_child(options)
-	locked = true
-	hide()
