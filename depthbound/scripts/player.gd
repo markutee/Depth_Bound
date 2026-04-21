@@ -15,8 +15,8 @@ var inventory: Inventory
 
 # Lamp upgrade
 var lamp_level: int = 0
-var lamp_energy_levels: Array[float] = [1.0, 1.1, 1.2, 1.3]
-var lamp_scale_levels: Array[float] = [1.0, 1.15, 1.3, 1.45]
+var lamp_energy_levels: Array[float] = [0.8, 1, 1.1, 1.2]
+var lamp_scale_levels: Array[float] = [0.8, 1.15, 1.3, 1.45]
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var hitbox: Area2D = $Hitbox

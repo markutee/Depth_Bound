@@ -15,8 +15,8 @@ func setup(id: String, Display_name: String) -> void:
 	
 func set_level_and_cost(level: int, max_level: int, cost: int) -> void:
 	if level >= max_level:
-		level_label.text = "Max Level" % [level, max_level]
-		cost_label.text = "Max Level" % cost
+		level_label.text = "Max Level"
+		cost_label.text = "Max Level"
 		button.disabled = true
 	else:
 		level_label.text = "Level %d/%d" % [level, max_level]

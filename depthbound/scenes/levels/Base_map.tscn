@@ -423,8 +423,10 @@ texture = ExtResource("5_lb3wk")
 5:8/0 = 0
 6:8/0 = 0
 10:8/0 = 0
+10:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -3.4683504, -8, -3.2701588, 8, -8, 8)
 11:8/0 = 0
 12:8/0 = 0
+12:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(4.162019, -8, 8, -8, 8, 8, 4.0629244, 8)
 4:10/0 = 0
 5:10/0 = 0
 6:10/0 = 0
@@ -1871,6 +1873,8 @@ texture = ExtResource("27_c73oo")
 0:0/0 = 0
 0:1/0 = 0
 0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -4.558402, -8, -4.0629234)
+0:2/0/physics_layer_0/polygon_1/points = PackedVector2Array(-8, 2.8737755, 8, 2.9728718, 8, 8, -8, 8, -8, 4.85569)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kp6c0"]
 texture = ExtResource("33_xye4c")
@@ -2503,6 +2507,12 @@ texture = ExtResource("21_c73oo")
 6:5/0 = 0
 7:5/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_utmty"]
+texture = ExtResource("27_c73oo")
+0:0/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_o22fv"]
 physics_layer_0/collision_layer = 1
 terrain_set_0/mode = 0
@@ -2517,6 +2527,7 @@ sources/5 = SubResource("TileSetAtlasSource_u86ua")
 sources/6 = SubResource("TileSetAtlasSource_8isls")
 sources/7 = SubResource("TileSetAtlasSource_fmp6s")
 sources/8 = SubResource("TileSetAtlasSource_iqat1")
+sources/9 = SubResource("TileSetAtlasSource_utmty")
 
 [node name="Map" type="Node2D" unique_id=588729166]
 

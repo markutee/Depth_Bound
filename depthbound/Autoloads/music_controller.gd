@@ -6,5 +6,5 @@ extends Node2D
 
 
 func bgm_play():
-	audio_stream_player.stream = preload("res://assets/audio/backroundMusic1.mp3")
+	audio_stream_player.stream = preload("res://assets/audio/StaringAtReflections.mp3")
 	audio_stream_player.play()

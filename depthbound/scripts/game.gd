@@ -1,7 +1,7 @@
 extends Node2D
 
 const FILL_PERCENTAGE: float = 0.2
-const LADDER_CHANCE: float = 0.9
+const LADDER_CHANCE: float = 0.03
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const SECRET_ROOM = preload("res://scenes/levels/secret_room.tscn")
@@ -14,6 +14,7 @@ const MAPS = [
 ]
 
 @export var rock_types: Array[RockData] = []
+@onready var audio_stream_player: AudioStreamPlayer = $MusicController/AudioStreamPlayer
 
 
 var current_map: Node2D
@@ -36,6 +37,8 @@ var in_secret_room: bool = false
 var return_map_index: int = 0
 var return_depth: int = 1
 var return_player_position: Vector2 = Vector2.ZERO
+var ladder_map_index: int = -1
+var allow_secret_room_entry: bool = false
 
 signal change_depth
 signal exit_mine
@@ -54,6 +57,7 @@ func reset_depth() -> void:
 	setup_map()
 
 func setup_map() -> void:
+	allow_secret_room_entry = false
 	_clear_map()
 	await get_tree().process_frame
 	if !_generate_map():
@@ -61,6 +65,7 @@ func setup_map() -> void:
 	
 	_position_objects()
 	_generate_rocks()
+	allow_secret_room_entry = !in_secret_room
 
 #-------------------
 # Map navigation
@@ -81,6 +86,8 @@ func change_map_with_fade(direction: String) -> void:
 
 	is_transitioning = true
 	player.can_move = false
+	allow_secret_room_entry = false
+	_clear_down_ladder()
 
 	await fade_out()
 
@@ -134,9 +141,7 @@ func _clear_map() -> void:
 		current_map.queue_free()
 		current_map = null
 
-	if down_ladder:
-		down_ladder.queue_free()
-		down_ladder = null
+	_clear_down_ladder()
 
 	for child in $OreContainer.get_children():
 		child.queue_free()
@@ -300,16 +305,40 @@ func _on_rock_broken(pos: Vector2) -> void:
 func _create_down_ladder(pos: Vector2) -> void:
 	down_ladder = LADDER_SCENE.instantiate()
 	down_ladder.position = pos
-	add_child(down_ladder)
+	current_map.add_child(down_ladder)
+
+	ladder_map_index = current_map_index
 
 	if down_ladder.has_method("set_texture_for_map"):
 		down_ladder.set_texture_for_map(current_map_index)
 
 	down_ladder.ladder_used.connect(_on_down_ladder_used)
-	print("Ladder created and signal connected")
+	print("Ladder created on map: ", ladder_map_index)
+
+func _clear_down_ladder() -> void:
+	if down_ladder:
+		if down_ladder.ladder_used.is_connected(_on_down_ladder_used):
+			down_ladder.ladder_used.disconnect(_on_down_ladder_used)
+		down_ladder.queue_free()
+		down_ladder = null
+	
+	ladder_map_index = -1
 
 func _on_down_ladder_used() -> void:
-	print("_on_down_ladder_used called")
+	if is_transitioning:
+		return
+	if !player.can_move:
+		return
+	if !allow_secret_room_entry:
+		return
+	if down_ladder == null:
+		return
+	if ladder_map_index != current_map_index:
+		print("Ignored stale ladder signal. ladder_map_index=", ladder_map_index, " current_map_index=", current_map_index)
+		return
+
+	print("_on_down_ladder_used called on map: ", current_map_index)
+	allow_secret_room_entry = false
 	enter_secret_room()
 
 func enter_secret_room() -> void:
@@ -318,6 +347,7 @@ func enter_secret_room() -> void:
 
 	is_transitioning = true
 	player.can_move = false
+	allow_secret_room_entry = false
 
 	return_map_index = current_map_index
 	return_depth = current_depth
@@ -326,10 +356,7 @@ func enter_secret_room() -> void:
 	in_secret_room = true
 	transition_direction = "start"
 
-	return_map_index = current_map_index
-	return_depth = current_depth
-	in_secret_room = true
-	transition_direction = "start"
+	_clear_down_ladder()
 
 	await fade_out()
 	await setup_map()
