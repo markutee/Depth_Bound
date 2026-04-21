@@ -1,9 +1,10 @@
-extends Node2D
+extends Node
 
+var audio_stream_player: AudioStreamPlayer
 
-@onready var audio_stream_player: AudioStreamPlayer = $AudioStreamPlayer
-
-
+func _ready():
+	audio_stream_player = AudioStreamPlayer.new()
+	add_child(audio_stream_player)
 
 func bgm_play():
 	audio_stream_player.stream = preload("res://assets/audio/StaringAtReflections.mp3")
