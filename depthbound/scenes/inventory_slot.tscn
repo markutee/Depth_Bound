@@ -11,6 +11,11 @@ region = Rect2(1112, 8, 32, 32)
 atlas = ExtResource("2_hddt5")
 region = Rect2(33, 0, 14, 14)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bxqf6"]
+content_margin_left = 3.0
+bg_color = Color(0, 0, 0, 0.44313726)
+corner_radius_bottom_left = 5
+
 [node name="TextureRect" type="TextureRect" unique_id=2043617680]
 custom_minimum_size = Vector2(16, 16)
 offset_right = 16.0
@@ -21,9 +26,15 @@ stretch_mode = 5
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=293181462]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -8.0
+offset_top = -8.0
+offset_right = 8.0
+offset_bottom = 8.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 1
@@ -37,12 +48,16 @@ texture = SubResource("AtlasTexture_c13kb")
 stretch_mode = 5
 
 [node name="QuantityLabel" type="Label" parent="." unique_id=853457718]
+z_index = 2
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
 offset_left = -9.0
-offset_bottom = 10.0
+offset_bottom = 9.5
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 12
-text = "x0"
+theme_override_styles/normal = SubResource("StyleBoxFlat_bxqf6")
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1

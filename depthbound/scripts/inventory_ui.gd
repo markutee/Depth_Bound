@@ -42,7 +42,7 @@ func create_slot_ui(slot: InventorySlot) -> TextureRect:
 	
 	if slot != null:
 		icon.texture = slot.ore_data.texture
-		quantity_label.text = "x%d" % slot.quantity
+		quantity_label.text = "%d" % slot.quantity
 		quantity_label.visible = true
 	else:
 		icon.texture = null
