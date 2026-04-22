@@ -5,8 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://b1fu52lbjipn" path="res://scenes/torch.tscn" id="2_v7fe1"]
 [ext_resource type="PackedScene" uid="uid://bvqppkj3d2ijq" path="res://scenes/lantern.tscn" id="3_wy4vl"]
 [ext_resource type="PackedScene" uid="uid://cc6loaxnyj7f0" path="res://scenes/exit_rail.tscn" id="5_cn17j"]
-[ext_resource type="PackedScene" uid="uid://bk8tq6qxjag5j" path="res://scenes/shopkeeper.tscn" id="6_yxgn6"]
-[ext_resource type="Script" uid="uid://44a06ulmyo0q" path="res://scripts/exit_rail.gd" id="7_s0lqh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wy4vl"]
 size = Vector2(35, 29)
@@ -99,11 +97,10 @@ position = Vector2(8, 295)
 position = Vector2(376, 534)
 
 [node name="ExitRail" parent="." index="10" unique_id=1695021668 instance=ExtResource("5_cn17j")]
-position = Vector2(-184, -184)
+position = Vector2(-483, -204)
 
-[node name="Shopkeeper" parent="." index="11" unique_id=2142745386 instance=ExtResource("6_yxgn6")]
-position = Vector2(-492, -217)
-script = ExtResource("7_s0lqh")
+[node name="ExitRailSpawn" type="Marker2D" parent="." index="11" unique_id=870925382]
+position = Vector2(-475, -184)
 
 [connection signal="body_entered" from="ExitDown" to="ExitDown" method="_on_body_entered"]
 [connection signal="body_exited" from="ExitDown" to="ExitDown" method="_on_body_exited"]

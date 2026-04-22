@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://bvqppkj3d2ijq" path="res://scenes/lantern.tscn" id="2_rdglw"]
 [ext_resource type="Script" uid="uid://be3wc2h21yqc2" path="res://scripts/level_exit.gd" id="4_4yvg1"]
 [ext_resource type="Texture2D" uid="uid://c6qnyfb8u6fk6" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/Tiles/Water/Water_Foam_Animation.png" id="5_dvea0"]
-[ext_resource type="PackedScene" uid="uid://bk8tq6qxjag5j" path="res://scenes/shopkeeper.tscn" id="6_h46k7"]
+[ext_resource type="PackedScene" uid="uid://cc6loaxnyj7f0" path="res://scenes/exit_rail.tscn" id="6_h46k7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dvea0"]
 size = Vector2(35, 29)
@@ -103,20 +103,20 @@ z_index = 5
 position = Vector2(-518, 119)
 
 [node name="ExitDown" type="Area2D" parent="." index="8" unique_id=707315780]
-position = Vector2(374, 547)
+position = Vector2(380, 549)
 script = ExtResource("4_4yvg1")
 direction = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ExitDown" index="0" unique_id=1387967203]
-position = Vector2(-334, -823)
+position = Vector2(-339, -827)
 shape = SubResource("RectangleShape2D_dvea0")
 
 [node name="ExitUp" type="Area2D" parent="." index="9" unique_id=528154420]
-position = Vector2(374, 547)
+position = Vector2(352, 547)
 script = ExtResource("4_4yvg1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ExitUp" index="0" unique_id=406962960]
-position = Vector2(-1023, -953)
+position = Vector2(-999, -953)
 shape = SubResource("RectangleShape2D_4yvg1")
 
 [node name="SpawnUp" parent="." index="10" unique_id=1548458547]
@@ -127,8 +127,11 @@ texture_filter = 1
 tile_map_data = PackedByteArray("AADp/wgAAQAAAAAAAAD5/wUAAQAAAAAAAADv/wAAAQAAAAAAAAD5//z/AQAAAAAAAADt//b/AQAAAAAAAAD3//T/AQAAAAAAAADs//H/AQAAAAAAAAD3/+n/AQAAAAAAAADr/97/AQAAAAAAAADo/+X/AQAAAAAAAADu/xQAAQAAAAAAAADz/xgAAQAAAAAAAADw/x0AAQAAAAAAAAD2/x4AAQAAAAAAAAA=")
 tile_set = SubResource("TileSet_wxham")
 
-[node name="Shopkeeper" parent="." index="12" unique_id=2142745386 instance=ExtResource("6_h46k7")]
-position = Vector2(-286, -425)
+[node name="ExitRail" parent="." index="12" unique_id=1695021668 instance=ExtResource("6_h46k7")]
+position = Vector2(-279, -411)
+
+[node name="ExitRailSpawn" type="Marker2D" parent="." index="13" unique_id=987635534]
+position = Vector2(-265, -390)
 
 [connection signal="body_entered" from="ExitDown" to="ExitDown" method="_on_body_entered"]
 [connection signal="body_exited" from="ExitDown" to="ExitDown" method="_on_body_exited"]

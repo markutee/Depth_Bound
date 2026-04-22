@@ -16,13 +16,11 @@ const MAPS = [
 @export var rock_types: Array[RockData] = []
 @onready var audio_stream_player: AudioStreamPlayer = $MusicController/AudioStreamPlayer
 
-
 var current_map: Node2D
 @onready var rock_container: Node2D = $RockContainer
 @onready var player: Player = $Player
 @onready var game: Node2D = $"."
 @onready var fade_rect: ColorRect = $FadeLayer/ColorRect
-
 
 var secret_room_found_on_level: Dictionary = {}
 
@@ -40,6 +38,20 @@ var return_player_position: Vector2 = Vector2.ZERO
 var ladder_map_index: int = -1
 var allow_secret_room_entry: bool = false
 
+var level_rock_data: Dictionary = {}
+var rock_instance_to_cell: Dictionary = {}
+
+# UUSI: tallennetaan taso, jolta poistuttiin exit raililla
+var last_exit_rail_map_index: int = 0
+var last_exit_rail_depth: int = 1
+var has_saved_exit_rail_return: bool = false
+
+# UUSI: määrää mitä spawnia käytetään kun kenttä ladataan
+# "start" = normaali aloitus
+# "up" = tullaan alemmasta tasosta takaisin ylöspäin
+# "exit_rail_return" = palataan takaisin kaivokseen exit railin jälkeen
+var spawn_mode: String = "start"
+
 signal change_depth
 signal exit_mine
 
@@ -51,8 +63,27 @@ func reset_depth() -> void:
 	current_map_index = 0
 	current_depth = 1
 	transition_direction = "start"
+	spawn_mode = "start"
 	in_secret_room = false
 	secret_room_found_on_level.clear()
+	level_rock_data.clear()
+	rock_instance_to_cell.clear()
+	change_depth.emit(current_depth)
+	setup_map()
+
+# UUSI:
+# Kutsu tätä silloin, kun pelaaja tulee takaisin kaivokseen ulkomaailmasta
+func return_to_saved_exit_rail_level() -> void:
+	if !has_saved_exit_rail_return:
+		reset_depth()
+		return
+
+	current_map_index = last_exit_rail_map_index
+	current_depth = last_exit_rail_depth
+	transition_direction = "start"
+	spawn_mode = "exit_rail_return"
+	in_secret_room = false
+
 	change_depth.emit(current_depth)
 	setup_map()
 
@@ -62,7 +93,7 @@ func setup_map() -> void:
 	await get_tree().process_frame
 	if !_generate_map():
 		return
-	
+
 	_position_objects()
 	_generate_rocks()
 	allow_secret_room_entry = !in_secret_room
@@ -101,6 +132,7 @@ func change_map_with_fade(direction: String) -> void:
 		current_map_index += 1
 		current_depth = current_map_index + 1
 		transition_direction = "down"
+		spawn_mode = "start"
 
 	elif direction == "up":
 		if current_map_index <= 0:
@@ -112,6 +144,7 @@ func change_map_with_fade(direction: String) -> void:
 		current_map_index -= 1
 		current_depth = current_map_index + 1
 		transition_direction = "up"
+		spawn_mode = "up"
 
 	change_depth.emit(current_depth)
 	await setup_map()
@@ -149,6 +182,8 @@ func _clear_map() -> void:
 	for child in rock_container.get_children():
 		child.queue_free()
 
+	rock_instance_to_cell.clear()
+
 func _generate_map() -> bool:
 	if in_secret_room:
 		current_map = SECRET_ROOM.instantiate()
@@ -157,17 +192,18 @@ func _generate_map() -> bool:
 
 	if current_map_index < 0 or current_map_index >= MAPS.size():
 		return false
-	
+
 	current_map = MAPS[current_map_index].instantiate()
 	game.add_child(current_map)
 	return true
-	
 
 func _position_objects() -> void:
 	var spawn_node: Marker2D
 
 	if in_secret_room:
 		spawn_node = current_map.get_node("PlayerSpawn")
+	elif spawn_mode == "exit_rail_return" and current_map.has_node("ExitRailSpawn"):
+		spawn_node = current_map.get_node("ExitRailSpawn")
 	elif transition_direction == "up" and current_map.has_node("SpawnUp"):
 		spawn_node = current_map.get_node("SpawnUp")
 	else:
@@ -202,6 +238,10 @@ func _generate_rocks() -> void:
 		rocks_remaining = 0
 		return
 
+	if level_rock_data.has(current_map_index):
+		_load_saved_rocks()
+		return
+
 	var ground_layer: TileMapLayer = current_map.get_node("Ground")
 	var props_layer: TileMapLayer = current_map.get_node("Props")
 	var support_layer: TileMapLayer = current_map.get_node("Support")
@@ -224,22 +264,49 @@ func _generate_rocks() -> void:
 	available_cells.shuffle()
 
 	var num_rocks: int = int(available_cells.size() * FILL_PERCENTAGE)
-	rocks_remaining = num_rocks
-	
+
 	var valid_rocks: Array[RockData] = []
 	for rock in rock_types:
 		if current_depth >= rock.min_depth:
 			valid_rocks.append(rock)
 
-	for i in range(min(num_rocks, available_cells.size())):
-		var rock = ROCK_SCENE.instantiate()
-		var cell = available_cells[i]
+	var saved_rocks: Array = []
 
-		rock.data = get_random_rock(valid_rocks)
+	for i in range(min(num_rocks, available_cells.size())):
+		var cell = available_cells[i]
+		var rock_data: RockData = get_random_rock(valid_rocks)
+
+		saved_rocks.append({
+	"cell": cell,
+	"rock_data": rock_data,
+	"health": rock_data.max_health
+})
+
+	level_rock_data[current_map_index] = saved_rocks
+	_load_saved_rocks()
+
+func _load_saved_rocks() -> void:
+	var ground_layer: TileMapLayer = current_map.get_node("Ground")
+	var saved_rocks: Array = level_rock_data.get(current_map_index, [])
+
+	rocks_remaining = saved_rocks.size()
+	rock_instance_to_cell.clear()
+
+	for rock_entry in saved_rocks:
+		var rock: Rock = ROCK_SCENE.instantiate() as Rock
+		var cell: Vector2i = rock_entry["cell"]
+		var rock_data: RockData = rock_entry["rock_data"]
+		var saved_health: int = rock_entry["health"]
+
+		rock.data = rock_data
+		rock.health = saved_health
 		rock.global_position = ground_layer.map_to_local(cell)
 
 		rock_container.add_child(rock)
-		rock.broken.connect(_on_rock_broken)
+		rock_instance_to_cell[rock] = cell
+		rock.connect("broken", Callable(self, "_on_rock_broken").bind(rock))
+		rock.connect("damaged", Callable(self, "_on_rock_damaged").bind(rock))
+
 
 func get_random_rock(options: Array[RockData]) -> RockData:
 	var total_weight := 0
@@ -281,14 +348,31 @@ func _on_exit_rail_exit_used() -> void:
 		return_from_secret_room()
 		return
 
+	# UUSI: tallennetaan taso, jolta poistuttiin
+	last_exit_rail_map_index = current_map_index
+	last_exit_rail_depth = current_depth
+	has_saved_exit_rail_return = true
+
 	player.can_move = false
 	exit_mine.emit()
 
 #-------------------
 # Ladder → Secret room
 #-------------------
-func _on_rock_broken(pos: Vector2) -> void:
+func _on_rock_broken(pos: Vector2, rock: Rock) -> void:
 	rocks_remaining -= 1
+
+	if !in_secret_room and rock_instance_to_cell.has(rock):
+		var broken_cell: Vector2i = rock_instance_to_cell[rock]
+		var saved_rocks: Array = level_rock_data.get(current_map_index, [])
+
+		for i in range(saved_rocks.size() - 1, -1, -1):
+			if saved_rocks[i]["cell"] == broken_cell:
+				saved_rocks.remove_at(i)
+				break
+
+		level_rock_data[current_map_index] = saved_rocks
+		rock_instance_to_cell.erase(rock)
 
 	if in_secret_room:
 		return
@@ -298,9 +382,26 @@ func _on_rock_broken(pos: Vector2) -> void:
 
 	if down_ladder != null:
 		return
-	
+
 	if randf() < LADDER_CHANCE:
 		_create_down_ladder(pos)
+
+func _on_rock_damaged(new_health: int, rock: Rock) -> void:
+	if in_secret_room:
+		return
+
+	if !rock_instance_to_cell.has(rock):
+		return
+
+	var damaged_cell: Vector2i = rock_instance_to_cell[rock]
+	var saved_rocks: Array = level_rock_data.get(current_map_index, [])
+
+	for i in range(saved_rocks.size()):
+		if saved_rocks[i]["cell"] == damaged_cell:
+			saved_rocks[i]["health"] = new_health
+			break
+
+	level_rock_data[current_map_index] = saved_rocks
 
 func _create_down_ladder(pos: Vector2) -> void:
 	down_ladder = LADDER_SCENE.instantiate()
@@ -321,7 +422,7 @@ func _clear_down_ladder() -> void:
 			down_ladder.ladder_used.disconnect(_on_down_ladder_used)
 		down_ladder.queue_free()
 		down_ladder = null
-	
+
 	ladder_map_index = -1
 
 func _on_down_ladder_used() -> void:
@@ -355,6 +456,7 @@ func enter_secret_room() -> void:
 	secret_room_found_on_level[current_map_index] = true
 	in_secret_room = true
 	transition_direction = "start"
+	spawn_mode = "start"
 
 	_clear_down_ladder()
 
@@ -377,6 +479,7 @@ func return_from_secret_room() -> void:
 	current_map_index = return_map_index
 	current_depth = return_depth
 	transition_direction = "start"
+	spawn_mode = "start"
 	change_depth.emit(current_depth)
 
 	await fade_out()

@@ -4,7 +4,7 @@ class_name Rock
 const ORE_SCENE := preload("res://scenes/ore.tscn")
 const FLASH_COLOR := Color(2.454, 2.454, 2.454, 1.0)
 
-var health: int
+var health: int = -1
 
 signal broken(pos: Vector2)
 
@@ -16,7 +16,8 @@ signal broken(pos: Vector2)
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	health = data.max_health
+	if health < 0:
+		health = data.max_health
 	sprite_2d.texture = data.texture
 
 func take_damage(amount: int) -> void:

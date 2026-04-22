@@ -1,7 +1,10 @@
 [gd_scene format=3 uid="uid://bk8tq6qxjag5j"]
 
 [ext_resource type="Texture2D" uid="uid://b3yfiywdcyya8" path="res://assets/Cute_Fantasy_Assets/Cute_Fantasy/NPCs (Premade)/Bartender_Bruno.png" id="1_gbpxa"]
-[ext_resource type="Script" uid="uid://1bvx3kv5t28o" path="res://scripts/shopkeeper.gd" id="1_y54bd"]
+[ext_resource type="Script" uid="uid://44a06ulmyo0q" path="res://scripts/exit_rail.gd" id="2_y54bd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kpg71"]
+size = Vector2(37.75, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y54bd"]
 atlas = ExtResource("1_gbpxa")
@@ -46,21 +49,19 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_kpg71"]
-size = Vector2(37.75, 32)
+[node name="Area2D" type="Area2D" unique_id=1348298848]
+position = Vector2(26, -6.5)
+scale = Vector2(1.34375, 1.390625)
+script = ExtResource("2_y54bd")
 
-[node name="Shopkeeper" type="Node2D" unique_id=2142745386]
-script = ExtResource("1_y54bd")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=485977901]
+position = Vector2(0, 3)
+scale = Vector2(1.0000001, 1)
+shape = SubResource("RectangleShape2D_kpg71")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=503532575]
-position = Vector2(15, 6)
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=975252297]
+scale = Vector2(1.0000001, 1)
 sprite_frames = SubResource("SpriteFrames_syiwf")
 animation = &"idle"
 autoplay = "idle"
 frame_progress = 0.03437523
-
-[node name="Area2D" type="Area2D" parent="AnimatedSprite2D" unique_id=2041867519]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D" unique_id=1677416373]
-position = Vector2(0, 3)
-shape = SubResource("RectangleShape2D_kpg71")

@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bdna65ae0y12j" path="res://assets/ImagesDepthbound/Light/smooth_square_light_texture.png" id="2_0jawo"]
 [ext_resource type="PackedScene" uid="uid://b1fu52lbjipn" path="res://scenes/torch.tscn" id="3_ykpwc"]
 [ext_resource type="Script" uid="uid://be3wc2h21yqc2" path="res://scripts/level_exit.gd" id="4_u216h"]
-[ext_resource type="PackedScene" uid="uid://bk8tq6qxjag5j" path="res://scenes/shopkeeper.tscn" id="5_deelu"]
+[ext_resource type="PackedScene" uid="uid://cc6loaxnyj7f0" path="res://scenes/exit_rail.tscn" id="5_deelu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_deelu"]
 size = Vector2(35, 29)
@@ -108,8 +108,11 @@ shape = SubResource("RectangleShape2D_deelu")
 visible = false
 position = Vector2(-86, -239)
 
-[node name="Shopkeeper" parent="." index="10" unique_id=2142745386 instance=ExtResource("5_deelu")]
-position = Vector2(531, 359)
+[node name="ExitRail" parent="." index="10" unique_id=1695021668 instance=ExtResource("5_deelu")]
+position = Vector2(536, 372)
+
+[node name="ExitRailSpawn" type="Marker2D" parent="." index="11" unique_id=2124259567]
+position = Vector2(548, 392)
 
 [connection signal="body_entered" from="ExitUp" to="ExitUp" method="_on_body_entered"]
 [connection signal="body_exited" from="ExitUp" to="ExitUp" method="_on_body_exited"]

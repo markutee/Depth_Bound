@@ -26,7 +26,7 @@ func _on_hud_go_to_shop() -> void:
 func _reset_run(do_fade: bool) -> void:
 	hud.get_node("DeathLabel").visible = false
 	game.player.inventory.clear()
-	game.reset_depth()
+	game.return_to_saved_exit_rail_level()
 	
 	
 	hud.hide_shop()
