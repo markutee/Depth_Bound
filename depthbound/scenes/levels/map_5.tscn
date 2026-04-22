@@ -95,6 +95,9 @@ position = Vector2(-239, -196)
 [node name="Torch6" parent="Torches" index="5" unique_id=677055113 instance=ExtResource("3_ykpwc")]
 position = Vector2(-178, -196)
 
+[node name="Torch7" parent="Torches" index="6" unique_id=1917065823 instance=ExtResource("3_ykpwc")]
+position = Vector2(507, 369)
+
 [node name="ExitUp" type="Area2D" parent="." index="8" unique_id=2056136237]
 position = Vector2(374, 547)
 script = ExtResource("4_u216h")
@@ -108,7 +111,7 @@ visible = false
 position = Vector2(-86, -239)
 
 [node name="ExitRail" parent="." index="10" unique_id=1695021668 instance=ExtResource("5_deelu")]
-position = Vector2(536, 372)
+position = Vector2(535, 369)
 
 [node name="ExitRailSpawn" type="Marker2D" parent="." index="11" unique_id=2124259567]
 position = Vector2(548, 392)

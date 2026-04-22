@@ -83,7 +83,7 @@ position = Vector2(338, 348)
 position = Vector2(449, 49)
 
 [node name="Torch10" parent="Torches" index="9" unique_id=144135953 instance=ExtResource("3_ii3rk")]
-position = Vector2(472, -202)
+position = Vector2(347, -238)
 
 [node name="Torch11" parent="Torches" index="10" unique_id=192501730 instance=ExtResource("3_ii3rk")]
 position = Vector2(-689, 623)

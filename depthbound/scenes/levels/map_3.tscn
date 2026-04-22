@@ -85,7 +85,7 @@ position = Vector2(117, 55)
 position = Vector2(-249, -58)
 
 [node name="Torch12" parent="Torches" index="11" unique_id=731134590 instance=ExtResource("2_ff0e0")]
-position = Vector2(-213, -403)
+position = Vector2(-246, -412)
 
 [node name="Lanterns" type="Node2D" parent="." index="7" unique_id=102484769]
 
