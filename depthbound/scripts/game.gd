@@ -1,10 +1,11 @@
 extends Node2D
 
 const FILL_PERCENTAGE: float = 0.2
-const LADDER_CHANCE: float = 0.03
+const LADDER_CHANCE: float = 1
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const SECRET_ROOM = preload("res://scenes/levels/secret_room.tscn")
+const LADDER_USE_DISTANCE: float = 24.0
 const MAPS = [
 	preload("res://scenes/levels/map_1.tscn"),
 	preload("res://scenes/levels/map_2.tscn"),
@@ -23,6 +24,10 @@ var current_map: Node2D
 @onready var fade_rect: ColorRect = $FadeLayer/ColorRect
 
 var secret_room_found_on_level: Dictionary = {}
+var secret_room_looted_on_level: Dictionary = {}
+var secret_room_artifact_index_on_level: Dictionary = {}
+var block_secret_room_entry: bool = false
+var secret_room_entry_cooldown: bool = false
 
 var current_map_index: int = 0
 var current_depth: int = 1
@@ -37,7 +42,8 @@ var return_depth: int = 1
 var return_player_position: Vector2 = Vector2.ZERO
 var ladder_map_index: int = -1
 var allow_secret_room_entry: bool = false
-
+var spawned_ladders: Dictionary = {}
+var down_ladder_spawn_map_index: int = -1
 var level_rock_data: Dictionary = {}
 var rock_instance_to_cell: Dictionary = {}
 
@@ -65,9 +71,15 @@ func reset_depth() -> void:
 	transition_direction = "start"
 	spawn_mode = "start"
 	in_secret_room = false
+	block_secret_room_entry = false
 	secret_room_found_on_level.clear()
+	secret_room_looted_on_level.clear()
+	secret_room_artifact_index_on_level.clear()
+	secret_room_entry_cooldown = false
 	level_rock_data.clear()
 	rock_instance_to_cell.clear()
+	spawned_ladders.clear()
+	down_ladder_spawn_map_index = -1
 	change_depth.emit(current_depth)
 	setup_map()
 
@@ -96,7 +108,11 @@ func setup_map() -> void:
 
 	_position_objects()
 	_generate_rocks()
+	_restore_ladder_for_current_map()
 	allow_secret_room_entry = !in_secret_room
+
+	if !in_secret_room:
+		_start_secret_room_entry_cooldown()
 
 #-------------------
 # Map navigation
@@ -146,12 +162,17 @@ func change_map_with_fade(direction: String) -> void:
 		transition_direction = "up"
 		spawn_mode = "up"
 
-	change_depth.emit(current_depth)
+		change_depth.emit(current_depth)
 	await setup_map()
 	await fade_in()
 
 	player.can_move = true
 	is_transitioning = false
+
+	# Odota yksi frame ennen kuin ladderiin saa taas mennä,
+	# jotta transitionin aikana tulevat overlap/signaalit eivät vedä secret roomiin.
+	await get_tree().process_frame
+	block_secret_room_entry = false
 
 #-------------------
 # Fade
@@ -305,7 +326,11 @@ func _load_saved_rocks() -> void:
 		rock_container.add_child(rock)
 		rock_instance_to_cell[rock] = cell
 		rock.connect("broken", Callable(self, "_on_rock_broken").bind(rock))
-		rock.connect("damaged", Callable(self, "_on_rock_damaged").bind(rock))
+
+		if rock.has_signal("damaged"):
+			rock.connect("damaged", Callable(self, "_on_rock_damaged").bind(rock))
+		else:
+			push_warning("Rock is missing 'damaged' signal: " + str(rock.name))
 
 
 func get_random_rock(options: Array[RockData]) -> RockData:
@@ -333,6 +358,8 @@ func _on_level_exit_used(direction: int) -> void:
 	if in_secret_room and direction == LevelExit.Direction.UP:
 		return_from_secret_room()
 		return
+
+	block_secret_room_entry = true
 
 	match direction:
 		LevelExit.Direction.UP:
@@ -383,8 +410,35 @@ func _on_rock_broken(pos: Vector2, rock: Rock) -> void:
 	if down_ladder != null:
 		return
 
+	if spawned_ladders.has(current_map_index):
+		return
+
 	if randf() < LADDER_CHANCE:
 		_create_down_ladder(pos)
+
+func _restore_ladder_for_current_map() -> void:
+	if in_secret_room:
+		return
+
+	if !spawned_ladders.has(current_map_index):
+		return
+
+	if down_ladder != null:
+		return
+
+	var ladder_pos: Vector2 = spawned_ladders[current_map_index]
+	down_ladder = LADDER_SCENE.instantiate()
+	down_ladder.position = ladder_pos
+	current_map.add_child(down_ladder)
+
+	ladder_map_index = current_map_index
+	down_ladder_spawn_map_index = current_map_index
+
+	if down_ladder.has_method("set_texture_for_map"):
+		down_ladder.set_texture_for_map(current_map_index)
+
+	down_ladder.ladder_used.connect(_on_down_ladder_used)
+
 
 func _on_rock_damaged(new_health: int, rock: Rock) -> void:
 	if in_secret_room:
@@ -409,12 +463,20 @@ func _create_down_ladder(pos: Vector2) -> void:
 	current_map.add_child(down_ladder)
 
 	ladder_map_index = current_map_index
+	down_ladder_spawn_map_index = current_map_index
+	spawned_ladders[current_map_index] = pos
 
 	if down_ladder.has_method("set_texture_for_map"):
 		down_ladder.set_texture_for_map(current_map_index)
 
 	down_ladder.ladder_used.connect(_on_down_ladder_used)
 	print("Ladder created on map: ", ladder_map_index)
+
+func _is_player_close_enough_to_ladder() -> bool:
+	if down_ladder == null:
+		return false
+
+	return player.global_position.distance_to(down_ladder.global_position) <= LADDER_USE_DISTANCE
 
 func _clear_down_ladder() -> void:
 	if down_ladder:
@@ -423,10 +485,12 @@ func _clear_down_ladder() -> void:
 		down_ladder.queue_free()
 		down_ladder = null
 
-	ladder_map_index = -1
-
 func _on_down_ladder_used() -> void:
 	if is_transitioning:
+		return
+	if block_secret_room_entry:
+		return
+	if secret_room_entry_cooldown:
 		return
 	if !player.can_move:
 		return
@@ -434,8 +498,11 @@ func _on_down_ladder_used() -> void:
 		return
 	if down_ladder == null:
 		return
-	if ladder_map_index != current_map_index:
-		print("Ignored stale ladder signal. ladder_map_index=", ladder_map_index, " current_map_index=", current_map_index)
+	if down_ladder_spawn_map_index != current_map_index:
+		print("Ignored stale ladder signal. down_ladder_spawn_map_index=", down_ladder_spawn_map_index, " current_map_index=", current_map_index)
+		return
+	if !_is_player_close_enough_to_ladder():
+		print("Ignored ladder use because player is too far from ladder")
 		return
 
 	print("_on_down_ladder_used called on map: ", current_map_index)
@@ -494,3 +561,12 @@ func return_from_secret_room() -> void:
 
 	player.can_move = true
 	is_transitioning = false
+
+	await get_tree().process_frame
+	block_secret_room_entry = false
+
+func _start_secret_room_entry_cooldown(duration: float = 0.25) -> void:
+	secret_room_entry_cooldown = true
+	var timer := get_tree().create_timer(duration)
+	await timer.timeout
+	secret_room_entry_cooldown = false

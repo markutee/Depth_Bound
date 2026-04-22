@@ -1,5 +1,7 @@
 extends Area2D
 
+signal collected
+
 @export var artefact_data: ArtefactData
 
 @onready var sprite_2d: Sprite2D = $Sprite2D
@@ -18,14 +20,12 @@ func _ready() -> void:
 
 	sprite_2d.texture = artefact_data.texture
 	
-# varmistetaan että rays pyörii keskeltä
 	rays.centered = true
 	rays.offset = Vector2.ZERO
 	rays.position = Vector2.ZERO
 	
 func _process(delta: float) -> void:
 	glow_pivot.rotation += delta * 0.8
-	# Sykkiminen
 	pulse_time += delta
 	var pulse := 1.0 + sin(pulse_time * pulse_speed) * pulse_amount
 	rays.scale = Vector2.ONE * (base_scale * pulse)
@@ -37,4 +37,5 @@ func _on_body_entered(body: Node2D) -> void:
 
 	if body is Player:
 		if body.add_ore(artefact_data):
+			collected.emit()
 			queue_free()
