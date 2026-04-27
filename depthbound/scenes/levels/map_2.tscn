@@ -90,41 +90,51 @@ position = Vector2(-689, 623)
 
 [node name="Lanterns" type="Node2D" parent="." index="8" unique_id=370408356]
 z_index = 5
+z_as_relative = false
 
 [node name="Lantern" parent="Lanterns" index="0" unique_id=1167479074 instance=ExtResource("4_fbis7")]
 z_index = 5
+z_as_relative = false
 position = Vector2(-751, 311)
 
 [node name="Lantern2" parent="Lanterns" index="1" unique_id=1808467623 instance=ExtResource("4_fbis7")]
 z_index = 5
-position = Vector2(-657, 311)
+z_as_relative = false
+position = Vector2(-660, 311)
 
 [node name="Lantern3" parent="Lanterns" index="2" unique_id=1672438866 instance=ExtResource("4_fbis7")]
 z_index = 5
+z_as_relative = false
 position = Vector2(-247, 55)
 
 [node name="Lantern4" parent="Lanterns" index="3" unique_id=52560485 instance=ExtResource("4_fbis7")]
 z_index = 5
-position = Vector2(-402, 695)
+z_as_relative = false
+position = Vector2(-401, 695)
 
 [node name="Lantern5" parent="Lanterns" index="4" unique_id=935935351 instance=ExtResource("4_fbis7")]
 z_index = 5
+z_as_relative = false
 position = Vector2(-67, 663)
 
 [node name="Lantern6" parent="Lanterns" index="5" unique_id=1653558488 instance=ExtResource("4_fbis7")]
 z_index = 5
+z_as_relative = false
 position = Vector2(31, 663)
 
 [node name="Lantern7" parent="Lanterns" index="6" unique_id=343025804 instance=ExtResource("4_fbis7")]
 z_index = 5
+z_as_relative = false
 position = Vector2(392, 7)
 
 [node name="Lantern8" parent="Lanterns" index="7" unique_id=1065224537 instance=ExtResource("4_fbis7")]
 z_index = 5
+z_as_relative = false
 position = Vector2(-873, -25)
 
 [node name="Lantern9" parent="Lanterns" index="8" unique_id=36556222 instance=ExtResource("4_fbis7")]
 z_index = 5
+z_as_relative = false
 position = Vector2(-952, 167)
 
 [node name="ExitDown" type="Area2D" parent="." index="9" unique_id=625278382]
