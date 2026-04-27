@@ -1,7 +1,7 @@
 extends Node2D
 
 const FILL_PERCENTAGE: float = 0.2
-const LADDER_CHANCE: float = 1
+const LADDER_CHANCE: float = 0.2
 const ROCK_SCENE = preload("res://scenes/rock.tscn")
 const LADDER_SCENE = preload("res://scenes/ladder.tscn")
 const SECRET_ROOM = preload("res://scenes/levels/secret_room.tscn")

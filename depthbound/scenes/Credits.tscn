@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://chg3m5hbl5lcd"]
+
+[ext_resource type="Script" uid="uid://dwmariymq4ym0" path="res://scripts/credits.gd" id="1_gw1d4"]
+[ext_resource type="Texture2D" uid="uid://cdvx84ew5gcc0" path="res://assets/ImagesDepthbound/UI/UI_Frames.png" id="1_hi4w3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_spvsy"]
+atlas = ExtResource("1_hi4w3")
+region = Rect2(1112, 8, 32, 32)
+
+[node name="Control" type="Control" unique_id=1870468684]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gw1d4")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=831438423]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.7490196, 0.43529412, 0.2901961, 1)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1567147879]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("AtlasTexture_spvsy")
+
+[node name="ColorRect" type="ColorRect" parent="TextureRect" unique_id=2081862566]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -76.0
+offset_right = 88.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.22745098)
+
+[node name="CreditsText" type="RichTextLabel" parent="TextureRect/ColorRect" unique_id=754634632]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -80.0
+offset_top = -42.0
+offset_right = 80.0
+offset_bottom = 42.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "[center]
+[b]Credits[/b]
+
+Game Design
+Eemeli Lehessalo & Teemu Markus
+
+Programming
+Eemeli Lehessalo & Teemu Markus
+
+Game UI
+Eemeli Lehessalo
+
+Level Design
+Teemu Markus
+
+Art / Tileset
+KenmiPixelArt
+
+Music
+Cosmo Myzrail Gorynych (Comigo)
+
+Special Thanks
+Teacher, Friends, Players
+
+
+
+
+
+
+
+Thank you for playing!
+[/center]"
+fit_content = true
+scroll_active = false
