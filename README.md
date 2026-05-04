@@ -2,7 +2,7 @@
 
 This game is made for study purposes.
 
-##
+## Description
 This project is a 2D mining game developed using the Godot game engine as part of a thesis project. The goal of the project was to design and implement a playable prototype while exploring the game development process, including agile methods and iterative prototyping.
 
 ## Features
